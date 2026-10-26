@@ -102,8 +102,7 @@ a:hover {
   gap: 0.25rem;
 }
 
-.topnav a,
-.topbar__github {
+.topnav a {
   color: rgba(255, 255, 255, 0.82);
   padding: 0.4rem 0.75rem;
   border-radius: 8px;
@@ -111,8 +110,7 @@ a:hover {
 }
 
 .topnav a:hover,
-.topnav a[aria-current="page"],
-.topbar__github:hover {
+.topnav a[aria-current="page"] {
   color: #fff;
   background: rgba(255, 255, 255, 0.08);
   text-decoration: none;
@@ -668,15 +666,14 @@ a.chip {
   padding: 1.5rem 1.75rem 1.6rem;
 }
 
-.footer-card h2 {
-  margin: 0 0 0.45rem;
-  font-size: 1.7rem;
-}
-
 .footer-card p {
   margin: 0;
-  max-width: 68ch;
   color: var(--text-muted);
+}
+
+.footer-line {
+  white-space: nowrap;
+  overflow-x: auto;
 }
 
 .socials {
@@ -712,10 +709,6 @@ a.chip {
 }
 
 @media (max-width: 980px) {
-  .topnav {
-    display: none;
-  }
-
   .workspace {
     flex-direction: column;
   }

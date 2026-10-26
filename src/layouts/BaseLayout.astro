@@ -52,13 +52,9 @@ const pills = [
             <span class="brand__title">Eidos</span>
           </a>
           <nav class="topnav" aria-label="Primary">
-            <a href={base} aria-current={pills[0].current ? "page" : undefined}>Home</a>
-            <a href={`${base}basic/`} aria-current={path.includes("/basic") ? "page" : undefined}>Basic</a>
-            <a href={`${base}intermediate/`} aria-current={path.includes("/intermediate") ? "page" : undefined}>Intermediate</a>
-            <a href={`${base}advanced/`} aria-current={path.includes("/advanced") ? "page" : undefined}>Advanced</a>
+            <a href={`${base}about/`} aria-current={path.includes("/about") ? "page" : undefined}>About me</a>
             <a href={`${base}#contact`}>Contact</a>
           </nav>
-          <a class="topbar__github" href="https://github.com/search4soumya/Eidos-Design-Pattern">GitHub</a>
         </div>
       </header>
 
@@ -88,8 +84,7 @@ const pills = [
       <footer class="site-footer" id="contact">
         <div class="footer-card">
           <p class="eyebrow">Let's Connect</p>
-          <h2>Get In Touch</h2>
-          <p>
+          <p class="footer-line">
             Whether you're interested in collaboration, consulting, or just want to discuss architecture and technology, I'd love to hear from you.
           </p>
           <div class="socials">
