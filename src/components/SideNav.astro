@@ -24,8 +24,11 @@ function isTierActive(tier: Tier) {
 
 <aside class="sidenav" aria-label="Library">
   <div class="sidenav__group">
-    <p class="sidenav__label">Skill Tier</p>
-    <nav>
+    <button type="button" class="sidenav__label" aria-expanded="false" aria-controls="sidenav-tiers">
+      Skill Tier
+      <span class="sidenav__chevron" aria-hidden="true"></span>
+    </button>
+    <nav id="sidenav-tiers" hidden>
       {
         tiers.map((tier) => {
           const meta = tierLabels[tier];
@@ -42,8 +45,11 @@ function isTierActive(tier: Tier) {
   </div>
 
   <div class="sidenav__group">
-    <p class="sidenav__label">Category</p>
-    <nav>
+    <button type="button" class="sidenav__label" aria-expanded="false" aria-controls="sidenav-categories">
+      Category
+      <span class="sidenav__chevron" aria-hidden="true"></span>
+    </button>
+    <nav id="sidenav-categories" hidden>
       {
         categories.map((category) => {
           const active = activeCategory === category.name;
@@ -62,3 +68,22 @@ function isTierActive(tier: Tier) {
     </nav>
   </div>
 </aside>
+
+<script>
+  const groups = document.querySelectorAll<HTMLElement>(".sidenav__group");
+
+  function setOpen(group: Element, open: boolean) {
+    const button = group.querySelector<HTMLButtonElement>(".sidenav__label");
+    const panel = group.querySelector("nav");
+    button?.setAttribute("aria-expanded", open ? "true" : "false");
+    if (panel) panel.hidden = !open;
+  }
+
+  for (const group of groups) {
+    const button = group.querySelector(".sidenav__label");
+    button?.addEventListener("click", () => {
+      const willOpen = button.getAttribute("aria-expanded") !== "true";
+      for (const other of groups) setOpen(other, other === group && willOpen);
+    });
+  }
+</script>
