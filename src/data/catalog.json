@@ -2330,7 +2330,7 @@
       "slug": "a01-paxos-explained",
       "series": [],
       "publishOrder": 201,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a01-paxos-explained/"
     },
     {
@@ -2341,7 +2341,7 @@
       "slug": "a02-raft-in-depth",
       "series": [],
       "publishOrder": 202,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a02-raft-in-depth/"
     },
     {
@@ -2352,7 +2352,7 @@
       "slug": "a03-byzantine-fault-tolerance-and-pbft",
       "series": [],
       "publishOrder": 203,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a03-byzantine-fault-tolerance-and-pbft/"
     },
     {
@@ -2363,7 +2363,7 @@
       "slug": "a04-linearizability-vs-serializability",
       "series": [],
       "publishOrder": 204,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a04-linearizability-vs-serializability/"
     },
     {
@@ -2374,7 +2374,7 @@
       "slug": "a05-snapshot-isolation-and-write-skew",
       "series": [],
       "publishOrder": 205,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a05-snapshot-isolation-and-write-skew/"
     },
     {
@@ -2385,7 +2385,7 @@
       "slug": "a06-crdts",
       "series": [],
       "publishOrder": 206,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a06-crdts/"
     },
     {
@@ -2396,7 +2396,7 @@
       "slug": "a07-operational-transformation-vs-crdts-for-collaboration",
       "series": [],
       "publishOrder": 207,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a07-operational-transformation-vs-crdts-for-collaboration/"
     },
     {
@@ -2407,7 +2407,7 @@
       "slug": "a08-hybrid-logical-clocks-and-truetime",
       "series": [],
       "publishOrder": 208,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a08-hybrid-logical-clocks-and-truetime/"
     },
     {
@@ -2418,7 +2418,7 @@
       "slug": "a09-spanner-style-globally-distributed-databases",
       "series": [],
       "publishOrder": 209,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a09-spanner-style-globally-distributed-databases/"
     },
     {
@@ -2429,7 +2429,7 @@
       "slug": "a10-calvin-and-deterministic-databases",
       "series": [],
       "publishOrder": 210,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a10-calvin-and-deterministic-databases/"
     },
     {
@@ -2440,7 +2440,7 @@
       "slug": "a11-percolator-and-distributed-transactions-at-scale",
       "series": [],
       "publishOrder": 211,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a11-percolator-and-distributed-transactions-at-scale/"
     },
     {
@@ -2451,7 +2451,7 @@
       "slug": "a12-jepsen-testing-and-consistency-verification",
       "series": [],
       "publishOrder": 212,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a12-jepsen-testing-and-consistency-verification/"
     },
     {
@@ -2462,7 +2462,7 @@
       "slug": "a13-lsm-trees-vs-b-trees",
       "series": [],
       "publishOrder": 213,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a13-lsm-trees-vs-b-trees/"
     },
     {
@@ -2473,7 +2473,7 @@
       "slug": "a14-write-ahead-logging-and-crash-recovery",
       "series": [],
       "publishOrder": 214,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a14-write-ahead-logging-and-crash-recovery/"
     },
     {
@@ -2484,7 +2484,7 @@
       "slug": "a15-compaction-strategies",
       "series": [],
       "publishOrder": 215,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a15-compaction-strategies/"
     },
     {
@@ -2495,7 +2495,7 @@
       "slug": "a16-columnar-storage-and-vectorized-execution",
       "series": [],
       "publishOrder": 216,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a16-columnar-storage-and-vectorized-execution/"
     },
     {
@@ -2506,7 +2506,7 @@
       "slug": "a17-query-planning-and-optimization-internals",
       "series": [],
       "publishOrder": 217,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a17-query-planning-and-optimization-internals/"
     },
     {
@@ -2517,7 +2517,7 @@
       "slug": "a18-distributed-sql-cockroachdb-tidb-yugabytedb",
       "series": [],
       "publishOrder": 218,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a18-distributed-sql-cockroachdb-tidb-yugabytedb/"
     },
     {
@@ -2528,7 +2528,7 @@
       "slug": "a19-dynamo-style-systems-cassandra-and-riak-design",
       "series": [],
       "publishOrder": 219,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a19-dynamo-style-systems-cassandra-and-riak-design/"
     },
     {
@@ -2539,7 +2539,7 @@
       "slug": "a20-merkle-trees-and-anti-entropy",
       "series": [],
       "publishOrder": 220,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a20-merkle-trees-and-anti-entropy/"
     },
     {
@@ -2550,7 +2550,7 @@
       "slug": "a21-hinted-handoff-and-sloppy-quorums",
       "series": [],
       "publishOrder": 221,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a21-hinted-handoff-and-sloppy-quorums/"
     },
     {
@@ -2561,7 +2561,7 @@
       "slug": "a22-cross-region-replication-topologies",
       "series": [],
       "publishOrder": 222,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a22-cross-region-replication-topologies/"
     },
     {
@@ -2572,7 +2572,7 @@
       "slug": "a23-online-schema-changes-at-scale",
       "series": [],
       "publishOrder": 223,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a23-online-schema-changes-at-scale/"
     },
     {
@@ -2583,7 +2583,7 @@
       "slug": "a24-storage-tiering-hot-warm-cold-data",
       "series": [],
       "publishOrder": 224,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a24-storage-tiering-hot-warm-cold-data/"
     },
     {
@@ -2594,7 +2594,7 @@
       "slug": "a25-erasure-coding-vs-replication",
       "series": [],
       "publishOrder": 225,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a25-erasure-coding-vs-replication/"
     },
     {
@@ -2605,7 +2605,7 @@
       "slug": "a26-distributed-file-systems-gfs-hdfs-ceph",
       "series": [],
       "publishOrder": 226,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a26-distributed-file-systems-gfs-hdfs-ceph/"
     },
     {
@@ -2616,7 +2616,7 @@
       "slug": "a27-object-store-internals-s3-like-design",
       "series": [],
       "publishOrder": 227,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a27-object-store-internals-s3-like-design/"
     },
     {
@@ -2627,7 +2627,7 @@
       "slug": "a28-vector-databases-and-ann-indexes-hnsw-and-ivf",
       "series": [],
       "publishOrder": 228,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a28-vector-databases-and-ann-indexes-hnsw-and-ivf/"
     },
     {
@@ -2638,7 +2638,7 @@
       "slug": "a29-cell-based-architecture",
       "series": [],
       "publishOrder": 229,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a29-cell-based-architecture/"
     },
     {
@@ -2649,7 +2649,7 @@
       "slug": "a30-shuffle-sharding",
       "series": [],
       "publishOrder": 230,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a30-shuffle-sharding/"
     },
     {
@@ -2660,7 +2660,7 @@
       "slug": "a31-multi-region-active-active-design",
       "series": [],
       "publishOrder": 231,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a31-multi-region-active-active-design/"
     },
     {
@@ -2671,7 +2671,7 @@
       "slug": "a32-global-traffic-management-anycast-and-geodns",
       "series": [],
       "publishOrder": 232,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a32-global-traffic-management-anycast-and-geodns/"
     },
     {
@@ -2682,7 +2682,7 @@
       "slug": "a33-edge-computing-architectures",
       "series": [],
       "publishOrder": 233,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a33-edge-computing-architectures/"
     },
     {
@@ -2693,7 +2693,7 @@
       "slug": "a34-data-mesh",
       "series": [],
       "publishOrder": 234,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a34-data-mesh/"
     },
     {
@@ -2704,7 +2704,7 @@
       "slug": "a35-event-driven-architecture-at-enterprise-scale",
       "series": [],
       "publishOrder": 235,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a35-event-driven-architecture-at-enterprise-scale/"
     },
     {
@@ -2715,7 +2715,7 @@
       "slug": "a36-avoiding-event-spaghetti-in-choreography",
       "series": [],
       "publishOrder": 236,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a36-avoiding-event-spaghetti-in-choreography/"
     },
     {
@@ -2726,7 +2726,7 @@
       "slug": "a37-platform-engineering-and-internal-developer-platforms",
       "series": [],
       "publishOrder": 237,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a37-platform-engineering-and-internal-developer-platforms/"
     },
     {
@@ -2737,7 +2737,7 @@
       "slug": "a38-monorepo-vs-polyrepo-architectural-implications",
       "series": [],
       "publishOrder": 238,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a38-monorepo-vs-polyrepo-architectural-implications/"
     },
     {
@@ -2748,7 +2748,7 @@
       "slug": "a39-modular-monolith-migration-strategies",
       "series": [],
       "publishOrder": 239,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a39-modular-monolith-migration-strategies/"
     },
     {
@@ -2759,7 +2759,7 @@
       "slug": "a40-evolutionary-architecture-and-fitness-functions",
       "series": [],
       "publishOrder": 240,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a40-evolutionary-architecture-and-fitness-functions/"
     },
     {
@@ -2770,7 +2770,7 @@
       "slug": "a41-architecture-decision-records-and-governance",
       "series": [],
       "publishOrder": 241,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a41-architecture-decision-records-and-governance/"
     },
     {
@@ -2781,7 +2781,7 @@
       "slug": "a42-conway-s-law-and-team-topologies",
       "series": [],
       "publishOrder": 242,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a42-conway-s-law-and-team-topologies/"
     },
     {
@@ -2792,7 +2792,7 @@
       "slug": "a43-multi-tenancy-at-scale-noisy-neighbors-and-isolation",
       "series": [],
       "publishOrder": 243,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a43-multi-tenancy-at-scale-noisy-neighbors-and-isolation/"
     },
     {
@@ -2803,7 +2803,7 @@
       "slug": "a44-control-plane-vs-data-plane-in-saas",
       "series": [],
       "publishOrder": 244,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a44-control-plane-vs-data-plane-in-saas/"
     },
     {
@@ -2814,7 +2814,7 @@
       "slug": "a45-clean-and-onion-architecture-in-large-systems",
       "series": [],
       "publishOrder": 245,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a45-clean-and-onion-architecture-in-large-systems/"
     },
     {
@@ -2825,7 +2825,7 @@
       "slug": "a46-micro-frontends-and-bff-at-scale",
       "series": [],
       "publishOrder": 246,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a46-micro-frontends-and-bff-at-scale/"
     },
     {
@@ -2836,7 +2836,7 @@
       "slug": "a47-capacity-planning-and-cost-modeling-finops",
       "series": [],
       "publishOrder": 247,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a47-capacity-planning-and-cost-modeling-finops/"
     },
     {
@@ -2847,7 +2847,7 @@
       "slug": "a48-architecture-for-compliance-gdpr-and-data-residency",
       "series": [],
       "publishOrder": 248,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a48-architecture-for-compliance-gdpr-and-data-residency/"
     },
     {
@@ -2860,7 +2860,7 @@
         "resilience"
       ],
       "publishOrder": 249,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a49-metastable-failures/"
     },
     {
@@ -2873,7 +2873,7 @@
         "resilience"
       ],
       "publishOrder": 250,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a50-retry-storms-and-load-shedding/"
     },
     {
@@ -2886,7 +2886,7 @@
         "resilience"
       ],
       "publishOrder": 251,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a51-adaptive-concurrency-limits/"
     },
     {
@@ -2899,7 +2899,7 @@
         "resilience"
       ],
       "publishOrder": 252,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a52-tail-latency-and-hedged-requests/"
     },
     {
@@ -2912,7 +2912,7 @@
         "resilience"
       ],
       "publishOrder": 253,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a53-cascading-failures-case-studies/"
     },
     {
@@ -2925,7 +2925,7 @@
         "resilience"
       ],
       "publishOrder": 254,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a54-backpressure-across-service-boundaries/"
     },
     {
@@ -2938,7 +2938,7 @@
         "resilience"
       ],
       "publishOrder": 255,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a55-static-stability/"
     },
     {
@@ -2951,7 +2951,7 @@
         "resilience"
       ],
       "publishOrder": 256,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a56-control-loops-and-autoscaler-instability/"
     },
     {
@@ -2962,7 +2962,7 @@
       "slug": "a57-deterministic-simulation-testing",
       "series": [],
       "publishOrder": 257,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a57-deterministic-simulation-testing/"
     },
     {
@@ -2973,7 +2973,7 @@
       "slug": "a58-formal-methods-for-architects-tla",
       "series": [],
       "publishOrder": 258,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a58-formal-methods-for-architects-tla/"
     },
     {
@@ -2984,7 +2984,7 @@
       "slug": "a59-fault-injection-at-scale",
       "series": [],
       "publishOrder": 259,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a59-fault-injection-at-scale/"
     },
     {
@@ -2995,7 +2995,7 @@
       "slug": "a60-observability-at-scale-cardinality-sampling-cost",
       "series": [],
       "publishOrder": 260,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a60-observability-at-scale-cardinality-sampling-cost/"
     },
     {
@@ -3006,7 +3006,7 @@
       "slug": "a61-continuous-profiling-and-ebpf",
       "series": [],
       "publishOrder": 261,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a61-continuous-profiling-and-ebpf/"
     },
     {
@@ -3017,7 +3017,7 @@
       "slug": "a62-concurrency-models-actors-csp-reactive",
       "series": [],
       "publishOrder": 262,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a62-concurrency-models-actors-csp-reactive/"
     },
     {
@@ -3028,7 +3028,7 @@
       "slug": "a63-zero-copy-and-kernel-bypass-networking",
       "series": [],
       "publishOrder": 263,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a63-zero-copy-and-kernel-bypass-networking/"
     },
     {
@@ -3039,7 +3039,7 @@
       "slug": "a64-consistent-hashing-variants-jump-rendezvous-maglev",
       "series": [],
       "publishOrder": 264,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a64-consistent-hashing-variants-jump-rendezvous-maglev/"
     },
     {
@@ -3050,7 +3050,7 @@
       "slug": "a65-high-performance-load-balancing-maglev-and-envoy",
       "series": [],
       "publishOrder": 265,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a65-high-performance-load-balancing-maglev-and-envoy/"
     },
     {
@@ -3061,7 +3061,7 @@
       "slug": "a66-tcp-congestion-control-and-bbr-for-architects",
       "series": [],
       "publishOrder": 266,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a66-tcp-congestion-control-and-bbr-for-architects/"
     },
     {
@@ -3072,7 +3072,7 @@
       "slug": "a67-designing-for-ultra-low-latency-trading-systems",
       "series": [],
       "publishOrder": 267,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a67-designing-for-ultra-low-latency-trading-systems/"
     },
     {
@@ -3083,7 +3083,7 @@
       "slug": "a68-memory-management-and-gc-tuning-at-scale",
       "series": [],
       "publishOrder": 268,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a68-memory-management-and-gc-tuning-at-scale/"
     },
     {
@@ -3094,7 +3094,7 @@
       "slug": "a69-exactly-once-semantics-in-kafka-transactions",
       "series": [],
       "publishOrder": 269,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a69-exactly-once-semantics-in-kafka-transactions/"
     },
     {
@@ -3105,7 +3105,7 @@
       "slug": "a70-stream-processing-state-and-checkpointing",
       "series": [],
       "publishOrder": 270,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a70-stream-processing-state-and-checkpointing/"
     },
     {
@@ -3116,7 +3116,7 @@
       "slug": "a71-watermarks-and-event-time-processing",
       "series": [],
       "publishOrder": 271,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a71-watermarks-and-event-time-processing/"
     },
     {
@@ -3127,7 +3127,7 @@
       "slug": "a72-real-time-olap-druid-pinot-clickhouse",
       "series": [],
       "publishOrder": 272,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a72-real-time-olap-druid-pinot-clickhouse/"
     },
     {
@@ -3138,7 +3138,7 @@
       "slug": "a73-feature-stores-and-ml-data-pipelines",
       "series": [],
       "publishOrder": 273,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a73-feature-stores-and-ml-data-pipelines/"
     },
     {
@@ -3149,7 +3149,7 @@
       "slug": "a74-designing-ml-serving-infrastructure",
       "series": [],
       "publishOrder": 274,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a74-designing-ml-serving-infrastructure/"
     },
     {
@@ -3160,7 +3160,7 @@
       "slug": "a75-llm-application-architecture-rag-caching-guardrails",
       "series": [],
       "publishOrder": 275,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a75-llm-application-architecture-rag-caching-guardrails/"
     },
     {
@@ -3171,7 +3171,7 @@
       "slug": "a76-agentic-system-architectures",
       "series": [],
       "publishOrder": 276,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a76-agentic-system-architectures/"
     },
     {
@@ -3182,7 +3182,7 @@
       "slug": "a77-vector-search-at-scale",
       "series": [],
       "publishOrder": 277,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a77-vector-search-at-scale/"
     },
     {
@@ -3193,7 +3193,7 @@
       "slug": "a78-data-lineage-and-governance-architecture",
       "series": [],
       "publishOrder": 278,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a78-data-lineage-and-governance-architecture/"
     },
     {
@@ -3204,7 +3204,7 @@
       "slug": "a79-change-data-capture-pipelines-at-scale",
       "series": [],
       "publishOrder": 279,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a79-change-data-capture-pipelines-at-scale/"
     },
     {
@@ -3215,7 +3215,7 @@
       "slug": "a80-lakehouse-table-formats-iceberg-delta-hudi",
       "series": [],
       "publishOrder": 280,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a80-lakehouse-table-formats-iceberg-delta-hudi/"
     },
     {
@@ -3226,7 +3226,7 @@
       "slug": "a81-zero-trust-at-scale",
       "series": [],
       "publishOrder": 281,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a81-zero-trust-at-scale/"
     },
     {
@@ -3237,7 +3237,7 @@
       "slug": "a82-confidential-computing-and-enclaves",
       "series": [],
       "publishOrder": 282,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a82-confidential-computing-and-enclaves/"
     },
     {
@@ -3248,7 +3248,7 @@
       "slug": "a83-key-management-and-envelope-encryption",
       "series": [],
       "publishOrder": 283,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a83-key-management-and-envelope-encryption/"
     },
     {
@@ -3259,7 +3259,7 @@
       "slug": "a84-supply-chain-security-sbom-and-slsa",
       "series": [],
       "publishOrder": 284,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a84-supply-chain-security-sbom-and-slsa/"
     },
     {
@@ -3270,7 +3270,7 @@
       "slug": "a85-designing-authorization-systems-zanzibar-and-rebac",
       "series": [],
       "publishOrder": 285,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a85-designing-authorization-systems-zanzibar-and-rebac/"
     },
     {
@@ -3281,7 +3281,7 @@
       "slug": "a86-fraud-detection-architecture",
       "series": [],
       "publishOrder": 286,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a86-fraud-detection-architecture/"
     },
     {
@@ -3292,7 +3292,7 @@
       "slug": "a87-secure-multi-tenant-isolation-gvisor-and-firecracker",
       "series": [],
       "publishOrder": 287,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a87-secure-multi-tenant-isolation-gvisor-and-firecracker/"
     },
     {
@@ -3303,7 +3303,7 @@
       "slug": "a88-immutable-ledger-and-audit-architectures",
       "series": [],
       "publishOrder": 288,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a88-immutable-ledger-and-audit-architectures/"
     },
     {
@@ -3316,7 +3316,7 @@
         "case-studies"
       ],
       "publishOrder": 289,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a89-design-a-spanner-like-database/"
     },
     {
@@ -3329,7 +3329,7 @@
         "case-studies"
       ],
       "publishOrder": 290,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a90-design-a-global-payment-system/"
     },
     {
@@ -3342,7 +3342,7 @@
         "case-studies"
       ],
       "publishOrder": 291,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a91-design-uber-scale-dispatch-and-geospatial-systems/"
     },
     {
@@ -3355,7 +3355,7 @@
         "case-studies"
       ],
       "publishOrder": 292,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a92-design-a-distributed-message-queue/"
     },
     {
@@ -3368,7 +3368,7 @@
         "case-studies"
       ],
       "publishOrder": 293,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a93-design-a-metrics-and-monitoring-platform/"
     },
     {
@@ -3381,7 +3381,7 @@
         "case-studies"
       ],
       "publishOrder": 294,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a94-design-a-distributed-tracing-backend/"
     },
     {
@@ -3394,7 +3394,7 @@
         "case-studies"
       ],
       "publishOrder": 295,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a95-design-a-stock-exchange/"
     },
     {
@@ -3407,7 +3407,7 @@
         "case-studies"
       ],
       "publishOrder": 296,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a96-design-a-real-time-collaborative-editor/"
     },
     {
@@ -3420,7 +3420,7 @@
         "case-studies"
       ],
       "publishOrder": 297,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a97-design-a-global-video-streaming-cdn/"
     },
     {
@@ -3433,7 +3433,7 @@
         "case-studies"
       ],
       "publishOrder": 298,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a98-design-a-web-crawler-at-scale/"
     },
     {
@@ -3446,7 +3446,7 @@
         "case-studies"
       ],
       "publishOrder": 299,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a99-design-a-cluster-scheduler-borg-and-kubernetes/"
     },
     {
@@ -3459,7 +3459,7 @@
         "case-studies"
       ],
       "publishOrder": 300,
-      "status": "draft",
+      "status": "published",
       "href": "/advanced/a100-design-a-multi-tenant-serverless-platform/"
     }
   ],
