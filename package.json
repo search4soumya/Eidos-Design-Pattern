@@ -1,0 +1,24 @@
+{
+  "name": "eidos-design-pattern",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portfolio portal: 300 system design patterns from basic to advanced",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "node scripts/generate-stubs.mjs && astro build",
+    "preview": "astro preview",
+    "generate:stubs": "node scripts/generate-stubs.mjs",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.3.0",
+    "@astrojs/sitemap": "^3.4.0",
+    "astro": "^5.7.0",
+    "mermaid": "^11.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "typescript": "^5.8.0"
+  }
+}

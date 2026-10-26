@@ -1,0 +1,3584 @@
+{
+  "topics": [
+    {
+      "id": "B01",
+      "tier": "basic",
+      "category": "Foundations",
+      "title": "What Is System Design? A Roadmap for Engineers",
+      "slug": "b01-what-is-system-design-a-roadmap-for-engineers",
+      "series": [],
+      "publishOrder": 1,
+      "status": "draft",
+      "href": "/basic/b01-what-is-system-design-a-roadmap-for-engineers/"
+    },
+    {
+      "id": "B02",
+      "tier": "basic",
+      "category": "Foundations",
+      "title": "Functional vs Non-Functional Requirements",
+      "slug": "b02-functional-vs-non-functional-requirements",
+      "series": [],
+      "publishOrder": 2,
+      "status": "draft",
+      "href": "/basic/b02-functional-vs-non-functional-requirements/"
+    },
+    {
+      "id": "B03",
+      "tier": "basic",
+      "category": "Foundations",
+      "title": "Client-Server Architecture Explained",
+      "slug": "b03-client-server-architecture-explained",
+      "series": [],
+      "publishOrder": 3,
+      "status": "draft",
+      "href": "/basic/b03-client-server-architecture-explained/"
+    },
+    {
+      "id": "B04",
+      "tier": "basic",
+      "category": "Foundations",
+      "title": "Monolithic Architecture: When It Is Still the Right Choice",
+      "slug": "b04-monolithic-architecture-when-it-is-still-the-right-choice",
+      "series": [],
+      "publishOrder": 4,
+      "status": "draft",
+      "href": "/basic/b04-monolithic-architecture-when-it-is-still-the-right-choice/"
+    },
+    {
+      "id": "B05",
+      "tier": "basic",
+      "category": "Foundations",
+      "title": "Layered (N-Tier) Architecture",
+      "slug": "b05-layered-n-tier-architecture",
+      "series": [],
+      "publishOrder": 5,
+      "status": "draft",
+      "href": "/basic/b05-layered-n-tier-architecture/"
+    },
+    {
+      "id": "B06",
+      "tier": "basic",
+      "category": "Foundations",
+      "title": "Latency vs Throughput vs Bandwidth",
+      "slug": "b06-latency-vs-throughput-vs-bandwidth",
+      "series": [],
+      "publishOrder": 6,
+      "status": "draft",
+      "href": "/basic/b06-latency-vs-throughput-vs-bandwidth/"
+    },
+    {
+      "id": "B07",
+      "tier": "basic",
+      "category": "Foundations",
+      "title": "Vertical vs Horizontal Scaling",
+      "slug": "b07-vertical-vs-horizontal-scaling",
+      "series": [],
+      "publishOrder": 7,
+      "status": "draft",
+      "href": "/basic/b07-vertical-vs-horizontal-scaling/"
+    },
+    {
+      "id": "B08",
+      "tier": "basic",
+      "category": "Foundations",
+      "title": "Availability and the \"Nines\"",
+      "slug": "b08-availability-and-the-nines",
+      "series": [],
+      "publishOrder": 8,
+      "status": "draft",
+      "href": "/basic/b08-availability-and-the-nines/"
+    },
+    {
+      "id": "B09",
+      "tier": "basic",
+      "category": "Foundations",
+      "title": "Reliability vs Resilience vs Fault Tolerance",
+      "slug": "b09-reliability-vs-resilience-vs-fault-tolerance",
+      "series": [],
+      "publishOrder": 9,
+      "status": "draft",
+      "href": "/basic/b09-reliability-vs-resilience-vs-fault-tolerance/"
+    },
+    {
+      "id": "B10",
+      "tier": "basic",
+      "category": "Foundations",
+      "title": "Back-of-the-Envelope Estimation",
+      "slug": "b10-back-of-the-envelope-estimation",
+      "series": [],
+      "publishOrder": 10,
+      "status": "draft",
+      "href": "/basic/b10-back-of-the-envelope-estimation/"
+    },
+    {
+      "id": "B11",
+      "tier": "basic",
+      "category": "Foundations",
+      "title": "CAP Theorem in Plain English",
+      "slug": "b11-cap-theorem-in-plain-english",
+      "series": [],
+      "publishOrder": 11,
+      "status": "draft",
+      "href": "/basic/b11-cap-theorem-in-plain-english/"
+    },
+    {
+      "id": "B12",
+      "tier": "basic",
+      "category": "Foundations",
+      "title": "Strong vs Eventual Consistency",
+      "slug": "b12-strong-vs-eventual-consistency",
+      "series": [],
+      "publishOrder": 12,
+      "status": "draft",
+      "href": "/basic/b12-strong-vs-eventual-consistency/"
+    },
+    {
+      "id": "B13",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "How DNS Works",
+      "slug": "b13-how-dns-works",
+      "series": [],
+      "publishOrder": 13,
+      "status": "draft",
+      "href": "/basic/b13-how-dns-works/"
+    },
+    {
+      "id": "B14",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "The HTTP/HTTPS Request Lifecycle",
+      "slug": "b14-the-http-https-request-lifecycle",
+      "series": [],
+      "publishOrder": 14,
+      "status": "draft",
+      "href": "/basic/b14-the-http-https-request-lifecycle/"
+    },
+    {
+      "id": "B15",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "TCP vs UDP",
+      "slug": "b15-tcp-vs-udp",
+      "series": [],
+      "publishOrder": 15,
+      "status": "draft",
+      "href": "/basic/b15-tcp-vs-udp/"
+    },
+    {
+      "id": "B16",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "REST API Design Basics",
+      "slug": "b16-rest-api-design-basics",
+      "series": [],
+      "publishOrder": 16,
+      "status": "draft",
+      "href": "/basic/b16-rest-api-design-basics/"
+    },
+    {
+      "id": "B17",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "API Versioning Strategies",
+      "slug": "b17-api-versioning-strategies",
+      "series": [],
+      "publishOrder": 17,
+      "status": "draft",
+      "href": "/basic/b17-api-versioning-strategies/"
+    },
+    {
+      "id": "B18",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "Pagination: Offset vs Cursor",
+      "slug": "b18-pagination-offset-vs-cursor",
+      "series": [],
+      "publishOrder": 18,
+      "status": "draft",
+      "href": "/basic/b18-pagination-offset-vs-cursor/"
+    },
+    {
+      "id": "B19",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "Idempotency in APIs",
+      "slug": "b19-idempotency-in-apis",
+      "series": [],
+      "publishOrder": 19,
+      "status": "draft",
+      "href": "/basic/b19-idempotency-in-apis/"
+    },
+    {
+      "id": "B20",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "Rate Limiting Basics",
+      "slug": "b20-rate-limiting-basics",
+      "series": [],
+      "publishOrder": 20,
+      "status": "draft",
+      "href": "/basic/b20-rate-limiting-basics/"
+    },
+    {
+      "id": "B21",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "Authentication vs Authorization",
+      "slug": "b21-authentication-vs-authorization",
+      "series": [],
+      "publishOrder": 21,
+      "status": "draft",
+      "href": "/basic/b21-authentication-vs-authorization/"
+    },
+    {
+      "id": "B22",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "Sessions vs JWT",
+      "slug": "b22-sessions-vs-jwt",
+      "series": [],
+      "publishOrder": 22,
+      "status": "draft",
+      "href": "/basic/b22-sessions-vs-jwt/"
+    },
+    {
+      "id": "B23",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "OAuth 2.0 and OpenID Connect Basics",
+      "slug": "b23-oauth-2-0-and-openid-connect-basics",
+      "series": [],
+      "publishOrder": 23,
+      "status": "draft",
+      "href": "/basic/b23-oauth-2-0-and-openid-connect-basics/"
+    },
+    {
+      "id": "B24",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "CORS Explained",
+      "slug": "b24-cors-explained",
+      "series": [],
+      "publishOrder": 24,
+      "status": "draft",
+      "href": "/basic/b24-cors-explained/"
+    },
+    {
+      "id": "B25",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "Polling, Long Polling, SSE, and WebSockets",
+      "slug": "b25-polling-long-polling-sse-and-websockets",
+      "series": [],
+      "publishOrder": 25,
+      "status": "draft",
+      "href": "/basic/b25-polling-long-polling-sse-and-websockets/"
+    },
+    {
+      "id": "B26",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "REST vs GraphQL vs gRPC",
+      "slug": "b26-rest-vs-graphql-vs-grpc",
+      "series": [],
+      "publishOrder": 26,
+      "status": "draft",
+      "href": "/basic/b26-rest-vs-graphql-vs-grpc/"
+    },
+    {
+      "id": "B27",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "Webhooks vs Polling",
+      "slug": "b27-webhooks-vs-polling",
+      "series": [],
+      "publishOrder": 27,
+      "status": "draft",
+      "href": "/basic/b27-webhooks-vs-polling/"
+    },
+    {
+      "id": "B28",
+      "tier": "basic",
+      "category": "Networking and APIs",
+      "title": "API Error Handling and Status Codes",
+      "slug": "b28-api-error-handling-and-status-codes",
+      "series": [],
+      "publishOrder": 28,
+      "status": "draft",
+      "href": "/basic/b28-api-error-handling-and-status-codes/"
+    },
+    {
+      "id": "B29",
+      "tier": "basic",
+      "category": "Traffic management",
+      "title": "Load Balancer Basics: L4 vs L7",
+      "slug": "b29-load-balancer-basics-l4-vs-l7",
+      "series": [],
+      "publishOrder": 29,
+      "status": "draft",
+      "href": "/basic/b29-load-balancer-basics-l4-vs-l7/"
+    },
+    {
+      "id": "B30",
+      "tier": "basic",
+      "category": "Traffic management",
+      "title": "Load Balancing Algorithms",
+      "slug": "b30-load-balancing-algorithms",
+      "series": [],
+      "publishOrder": 30,
+      "status": "draft",
+      "href": "/basic/b30-load-balancing-algorithms/"
+    },
+    {
+      "id": "B31",
+      "tier": "basic",
+      "category": "Traffic management",
+      "title": "Reverse Proxy vs Forward Proxy",
+      "slug": "b31-reverse-proxy-vs-forward-proxy",
+      "series": [],
+      "publishOrder": 31,
+      "status": "draft",
+      "href": "/basic/b31-reverse-proxy-vs-forward-proxy/"
+    },
+    {
+      "id": "B32",
+      "tier": "basic",
+      "category": "Traffic management",
+      "title": "API Gateway Basics",
+      "slug": "b32-api-gateway-basics",
+      "series": [],
+      "publishOrder": 32,
+      "status": "draft",
+      "href": "/basic/b32-api-gateway-basics/"
+    },
+    {
+      "id": "B33",
+      "tier": "basic",
+      "category": "Traffic management",
+      "title": "CDN Basics",
+      "slug": "b33-cdn-basics",
+      "series": [],
+      "publishOrder": 33,
+      "status": "draft",
+      "href": "/basic/b33-cdn-basics/"
+    },
+    {
+      "id": "B34",
+      "tier": "basic",
+      "category": "Traffic management",
+      "title": "Health Checks and Heartbeats",
+      "slug": "b34-health-checks-and-heartbeats",
+      "series": [],
+      "publishOrder": 34,
+      "status": "draft",
+      "href": "/basic/b34-health-checks-and-heartbeats/"
+    },
+    {
+      "id": "B35",
+      "tier": "basic",
+      "category": "Traffic management",
+      "title": "Sticky Sessions and Session Affinity",
+      "slug": "b35-sticky-sessions-and-session-affinity",
+      "series": [],
+      "publishOrder": 35,
+      "status": "draft",
+      "href": "/basic/b35-sticky-sessions-and-session-affinity/"
+    },
+    {
+      "id": "B36",
+      "tier": "basic",
+      "category": "Traffic management",
+      "title": "Service Discovery Basics",
+      "slug": "b36-service-discovery-basics",
+      "series": [],
+      "publishOrder": 36,
+      "status": "draft",
+      "href": "/basic/b36-service-discovery-basics/"
+    },
+    {
+      "id": "B37",
+      "tier": "basic",
+      "category": "Traffic management",
+      "title": "Timeouts: Why Every Call Needs One",
+      "slug": "b37-timeouts-why-every-call-needs-one",
+      "series": [
+        "resilience"
+      ],
+      "publishOrder": 37,
+      "status": "draft",
+      "href": "/basic/b37-timeouts-why-every-call-needs-one/"
+    },
+    {
+      "id": "B38",
+      "tier": "basic",
+      "category": "Traffic management",
+      "title": "Retries and Exponential Backoff",
+      "slug": "b38-retries-and-exponential-backoff",
+      "series": [
+        "resilience"
+      ],
+      "publishOrder": 38,
+      "status": "draft",
+      "href": "/basic/b38-retries-and-exponential-backoff/"
+    },
+    {
+      "id": "B39",
+      "tier": "basic",
+      "category": "Caching",
+      "title": "Caching 101: Why and Where",
+      "slug": "b39-caching-101-why-and-where",
+      "series": [
+        "caching"
+      ],
+      "publishOrder": 39,
+      "status": "draft",
+      "href": "/basic/b39-caching-101-why-and-where/"
+    },
+    {
+      "id": "B40",
+      "tier": "basic",
+      "category": "Caching",
+      "title": "Cache-Aside Pattern",
+      "slug": "b40-cache-aside-pattern",
+      "series": [
+        "caching"
+      ],
+      "publishOrder": 40,
+      "status": "draft",
+      "href": "/basic/b40-cache-aside-pattern/"
+    },
+    {
+      "id": "B41",
+      "tier": "basic",
+      "category": "Caching",
+      "title": "Write-Through vs Write-Back vs Write-Around",
+      "slug": "b41-write-through-vs-write-back-vs-write-around",
+      "series": [
+        "caching"
+      ],
+      "publishOrder": 41,
+      "status": "draft",
+      "href": "/basic/b41-write-through-vs-write-back-vs-write-around/"
+    },
+    {
+      "id": "B42",
+      "tier": "basic",
+      "category": "Caching",
+      "title": "Cache Eviction Policies: LRU, LFU, FIFO",
+      "slug": "b42-cache-eviction-policies-lru-lfu-fifo",
+      "series": [
+        "caching"
+      ],
+      "publishOrder": 42,
+      "status": "draft",
+      "href": "/basic/b42-cache-eviction-policies-lru-lfu-fifo/"
+    },
+    {
+      "id": "B43",
+      "tier": "basic",
+      "category": "Caching",
+      "title": "TTL and Cache Invalidation",
+      "slug": "b43-ttl-and-cache-invalidation",
+      "series": [
+        "caching"
+      ],
+      "publishOrder": 43,
+      "status": "draft",
+      "href": "/basic/b43-ttl-and-cache-invalidation/"
+    },
+    {
+      "id": "B44",
+      "tier": "basic",
+      "category": "Caching",
+      "title": "Browser and HTTP Caching Headers",
+      "slug": "b44-browser-and-http-caching-headers",
+      "series": [
+        "caching"
+      ],
+      "publishOrder": 44,
+      "status": "draft",
+      "href": "/basic/b44-browser-and-http-caching-headers/"
+    },
+    {
+      "id": "B45",
+      "tier": "basic",
+      "category": "Caching",
+      "title": "Redis vs Memcached",
+      "slug": "b45-redis-vs-memcached",
+      "series": [
+        "caching"
+      ],
+      "publishOrder": 45,
+      "status": "draft",
+      "href": "/basic/b45-redis-vs-memcached/"
+    },
+    {
+      "id": "B46",
+      "tier": "basic",
+      "category": "Caching",
+      "title": "Cache Stampede (Thundering Herd) Basics",
+      "slug": "b46-cache-stampede-thundering-herd-basics",
+      "series": [
+        "caching"
+      ],
+      "publishOrder": 46,
+      "status": "draft",
+      "href": "/basic/b46-cache-stampede-thundering-herd-basics/"
+    },
+    {
+      "id": "B47",
+      "tier": "basic",
+      "category": "Databases",
+      "title": "SQL vs NoSQL",
+      "slug": "b47-sql-vs-nosql",
+      "series": [],
+      "publishOrder": 47,
+      "status": "draft",
+      "href": "/basic/b47-sql-vs-nosql/"
+    },
+    {
+      "id": "B48",
+      "tier": "basic",
+      "category": "Databases",
+      "title": "ACID Properties",
+      "slug": "b48-acid-properties",
+      "series": [],
+      "publishOrder": 48,
+      "status": "draft",
+      "href": "/basic/b48-acid-properties/"
+    },
+    {
+      "id": "B49",
+      "tier": "basic",
+      "category": "Databases",
+      "title": "Database Indexing Basics",
+      "slug": "b49-database-indexing-basics",
+      "series": [],
+      "publishOrder": 49,
+      "status": "draft",
+      "href": "/basic/b49-database-indexing-basics/"
+    },
+    {
+      "id": "B50",
+      "tier": "basic",
+      "category": "Databases",
+      "title": "Normalization vs Denormalization",
+      "slug": "b50-normalization-vs-denormalization",
+      "series": [],
+      "publishOrder": 50,
+      "status": "draft",
+      "href": "/basic/b50-normalization-vs-denormalization/"
+    },
+    {
+      "id": "B51",
+      "tier": "basic",
+      "category": "Databases",
+      "title": "Keys and Schema Design Basics",
+      "slug": "b51-keys-and-schema-design-basics",
+      "series": [],
+      "publishOrder": 51,
+      "status": "draft",
+      "href": "/basic/b51-keys-and-schema-design-basics/"
+    },
+    {
+      "id": "B52",
+      "tier": "basic",
+      "category": "Databases",
+      "title": "Transactions and Isolation Levels: An Introduction",
+      "slug": "b52-transactions-and-isolation-levels-an-introduction",
+      "series": [],
+      "publishOrder": 52,
+      "status": "draft",
+      "href": "/basic/b52-transactions-and-isolation-levels-an-introduction/"
+    },
+    {
+      "id": "B53",
+      "tier": "basic",
+      "category": "Databases",
+      "title": "Key-Value, Document, Column, and Graph Stores",
+      "slug": "b53-key-value-document-column-and-graph-stores",
+      "series": [],
+      "publishOrder": 53,
+      "status": "draft",
+      "href": "/basic/b53-key-value-document-column-and-graph-stores/"
+    },
+    {
+      "id": "B54",
+      "tier": "basic",
+      "category": "Databases",
+      "title": "Database Replication Basics",
+      "slug": "b54-database-replication-basics",
+      "series": [
+        "data-and-replication"
+      ],
+      "publishOrder": 54,
+      "status": "draft",
+      "href": "/basic/b54-database-replication-basics/"
+    },
+    {
+      "id": "B55",
+      "tier": "basic",
+      "category": "Databases",
+      "title": "Leader-Follower Replication",
+      "slug": "b55-leader-follower-replication",
+      "series": [
+        "data-and-replication"
+      ],
+      "publishOrder": 55,
+      "status": "draft",
+      "href": "/basic/b55-leader-follower-replication/"
+    },
+    {
+      "id": "B56",
+      "tier": "basic",
+      "category": "Databases",
+      "title": "Database Sharding Basics",
+      "slug": "b56-database-sharding-basics",
+      "series": [
+        "data-and-replication"
+      ],
+      "publishOrder": 56,
+      "status": "draft",
+      "href": "/basic/b56-database-sharding-basics/"
+    },
+    {
+      "id": "B57",
+      "tier": "basic",
+      "category": "Databases",
+      "title": "Choosing a Shard Key",
+      "slug": "b57-choosing-a-shard-key",
+      "series": [
+        "data-and-replication"
+      ],
+      "publishOrder": 57,
+      "status": "draft",
+      "href": "/basic/b57-choosing-a-shard-key/"
+    },
+    {
+      "id": "B58",
+      "tier": "basic",
+      "category": "Databases",
+      "title": "Connection Pooling",
+      "slug": "b58-connection-pooling",
+      "series": [],
+      "publishOrder": 58,
+      "status": "draft",
+      "href": "/basic/b58-connection-pooling/"
+    },
+    {
+      "id": "B59",
+      "tier": "basic",
+      "category": "Databases",
+      "title": "Database Migrations Done Safely",
+      "slug": "b59-database-migrations-done-safely",
+      "series": [],
+      "publishOrder": 59,
+      "status": "draft",
+      "href": "/basic/b59-database-migrations-done-safely/"
+    },
+    {
+      "id": "B60",
+      "tier": "basic",
+      "category": "Databases",
+      "title": "Backup and Restore Fundamentals",
+      "slug": "b60-backup-and-restore-fundamentals",
+      "series": [],
+      "publishOrder": 60,
+      "status": "draft",
+      "href": "/basic/b60-backup-and-restore-fundamentals/"
+    },
+    {
+      "id": "B61",
+      "tier": "basic",
+      "category": "Messaging and async",
+      "title": "Synchronous vs Asynchronous Communication",
+      "slug": "b61-synchronous-vs-asynchronous-communication",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 61,
+      "status": "draft",
+      "href": "/basic/b61-synchronous-vs-asynchronous-communication/"
+    },
+    {
+      "id": "B62",
+      "tier": "basic",
+      "category": "Messaging and async",
+      "title": "Message Queues Explained",
+      "slug": "b62-message-queues-explained",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 62,
+      "status": "draft",
+      "href": "/basic/b62-message-queues-explained/"
+    },
+    {
+      "id": "B63",
+      "tier": "basic",
+      "category": "Messaging and async",
+      "title": "Pub/Sub Pattern",
+      "slug": "b63-pub-sub-pattern",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 63,
+      "status": "draft",
+      "href": "/basic/b63-pub-sub-pattern/"
+    },
+    {
+      "id": "B64",
+      "tier": "basic",
+      "category": "Messaging and async",
+      "title": "Producer-Consumer Pattern",
+      "slug": "b64-producer-consumer-pattern",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 64,
+      "status": "draft",
+      "href": "/basic/b64-producer-consumer-pattern/"
+    },
+    {
+      "id": "B65",
+      "tier": "basic",
+      "category": "Messaging and async",
+      "title": "Dead Letter Queues",
+      "slug": "b65-dead-letter-queues",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 65,
+      "status": "draft",
+      "href": "/basic/b65-dead-letter-queues/"
+    },
+    {
+      "id": "B66",
+      "tier": "basic",
+      "category": "Messaging and async",
+      "title": "Event-Driven Architecture: An Introduction",
+      "slug": "b66-event-driven-architecture-an-introduction",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 66,
+      "status": "draft",
+      "href": "/basic/b66-event-driven-architecture-an-introduction/"
+    },
+    {
+      "id": "B67",
+      "tier": "basic",
+      "category": "Messaging and async",
+      "title": "Background Jobs and Workers",
+      "slug": "b67-background-jobs-and-workers",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 67,
+      "status": "draft",
+      "href": "/basic/b67-background-jobs-and-workers/"
+    },
+    {
+      "id": "B68",
+      "tier": "basic",
+      "category": "Messaging and async",
+      "title": "Batch vs Stream Processing",
+      "slug": "b68-batch-vs-stream-processing",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 68,
+      "status": "draft",
+      "href": "/basic/b68-batch-vs-stream-processing/"
+    },
+    {
+      "id": "B69",
+      "tier": "basic",
+      "category": "Architecture styles and patterns",
+      "title": "Microservices vs Monolith",
+      "slug": "b69-microservices-vs-monolith",
+      "series": [],
+      "publishOrder": 69,
+      "status": "draft",
+      "href": "/basic/b69-microservices-vs-monolith/"
+    },
+    {
+      "id": "B70",
+      "tier": "basic",
+      "category": "Architecture styles and patterns",
+      "title": "Service-Oriented Architecture (SOA)",
+      "slug": "b70-service-oriented-architecture-soa",
+      "series": [],
+      "publishOrder": 70,
+      "status": "draft",
+      "href": "/basic/b70-service-oriented-architecture-soa/"
+    },
+    {
+      "id": "B71",
+      "tier": "basic",
+      "category": "Architecture styles and patterns",
+      "title": "Client-Side vs Server-Side Rendering",
+      "slug": "b71-client-side-vs-server-side-rendering",
+      "series": [],
+      "publishOrder": 71,
+      "status": "draft",
+      "href": "/basic/b71-client-side-vs-server-side-rendering/"
+    },
+    {
+      "id": "B72",
+      "tier": "basic",
+      "category": "Architecture styles and patterns",
+      "title": "Serverless Basics",
+      "slug": "b72-serverless-basics",
+      "series": [],
+      "publishOrder": 72,
+      "status": "draft",
+      "href": "/basic/b72-serverless-basics/"
+    },
+    {
+      "id": "B73",
+      "tier": "basic",
+      "category": "Architecture styles and patterns",
+      "title": "Gang of Four Patterns Every Architect Should Know",
+      "slug": "b73-gang-of-four-patterns-every-architect-should-know",
+      "series": [],
+      "publishOrder": 73,
+      "status": "draft",
+      "href": "/basic/b73-gang-of-four-patterns-every-architect-should-know/"
+    },
+    {
+      "id": "B74",
+      "tier": "basic",
+      "category": "Architecture styles and patterns",
+      "title": "Dependency Injection and Inversion of Control",
+      "slug": "b74-dependency-injection-and-inversion-of-control",
+      "series": [],
+      "publishOrder": 74,
+      "status": "draft",
+      "href": "/basic/b74-dependency-injection-and-inversion-of-control/"
+    },
+    {
+      "id": "B75",
+      "tier": "basic",
+      "category": "Architecture styles and patterns",
+      "title": "SOLID Principles at the Architecture Level",
+      "slug": "b75-solid-principles-at-the-architecture-level",
+      "series": [],
+      "publishOrder": 75,
+      "status": "draft",
+      "href": "/basic/b75-solid-principles-at-the-architecture-level/"
+    },
+    {
+      "id": "B76",
+      "tier": "basic",
+      "category": "Architecture styles and patterns",
+      "title": "Separation of Concerns and Modularity",
+      "slug": "b76-separation-of-concerns-and-modularity",
+      "series": [],
+      "publishOrder": 76,
+      "status": "draft",
+      "href": "/basic/b76-separation-of-concerns-and-modularity/"
+    },
+    {
+      "id": "B77",
+      "tier": "basic",
+      "category": "Architecture styles and patterns",
+      "title": "Hexagonal Architecture (Ports and Adapters): An Introduction",
+      "slug": "b77-hexagonal-architecture-ports-and-adapters-an-introduction",
+      "series": [],
+      "publishOrder": 77,
+      "status": "draft",
+      "href": "/basic/b77-hexagonal-architecture-ports-and-adapters-an-introduction/"
+    },
+    {
+      "id": "B78",
+      "tier": "basic",
+      "category": "Architecture styles and patterns",
+      "title": "MVC, MVP, and MVVM",
+      "slug": "b78-mvc-mvp-and-mvvm",
+      "series": [],
+      "publishOrder": 78,
+      "status": "draft",
+      "href": "/basic/b78-mvc-mvp-and-mvvm/"
+    },
+    {
+      "id": "B79",
+      "tier": "basic",
+      "category": "Architecture styles and patterns",
+      "title": "The Twelve-Factor App",
+      "slug": "b79-the-twelve-factor-app",
+      "series": [],
+      "publishOrder": 79,
+      "status": "draft",
+      "href": "/basic/b79-the-twelve-factor-app/"
+    },
+    {
+      "id": "B80",
+      "tier": "basic",
+      "category": "Architecture styles and patterns",
+      "title": "Stateless vs Stateful Services",
+      "slug": "b80-stateless-vs-stateful-services",
+      "series": [],
+      "publishOrder": 80,
+      "status": "draft",
+      "href": "/basic/b80-stateless-vs-stateful-services/"
+    },
+    {
+      "id": "B81",
+      "tier": "basic",
+      "category": "Storage and data formats",
+      "title": "Block, File, and Object Storage",
+      "slug": "b81-block-file-and-object-storage",
+      "series": [],
+      "publishOrder": 81,
+      "status": "draft",
+      "href": "/basic/b81-block-file-and-object-storage/"
+    },
+    {
+      "id": "B82",
+      "tier": "basic",
+      "category": "Storage and data formats",
+      "title": "Blob Storage and Pre-Signed URLs",
+      "slug": "b82-blob-storage-and-pre-signed-urls",
+      "series": [],
+      "publishOrder": 82,
+      "status": "draft",
+      "href": "/basic/b82-blob-storage-and-pre-signed-urls/"
+    },
+    {
+      "id": "B83",
+      "tier": "basic",
+      "category": "Storage and data formats",
+      "title": "Serialization: JSON, Protobuf, Avro",
+      "slug": "b83-serialization-json-protobuf-avro",
+      "series": [],
+      "publishOrder": 83,
+      "status": "draft",
+      "href": "/basic/b83-serialization-json-protobuf-avro/"
+    },
+    {
+      "id": "B84",
+      "tier": "basic",
+      "category": "Storage and data formats",
+      "title": "Compression Basics",
+      "slug": "b84-compression-basics",
+      "series": [],
+      "publishOrder": 84,
+      "status": "draft",
+      "href": "/basic/b84-compression-basics/"
+    },
+    {
+      "id": "B85",
+      "tier": "basic",
+      "category": "Security",
+      "title": "TLS Handshake Explained",
+      "slug": "b85-tls-handshake-explained",
+      "series": [],
+      "publishOrder": 85,
+      "status": "draft",
+      "href": "/basic/b85-tls-handshake-explained/"
+    },
+    {
+      "id": "B86",
+      "tier": "basic",
+      "category": "Security",
+      "title": "OWASP Top 10 for Architects",
+      "slug": "b86-owasp-top-10-for-architects",
+      "series": [],
+      "publishOrder": 86,
+      "status": "draft",
+      "href": "/basic/b86-owasp-top-10-for-architects/"
+    },
+    {
+      "id": "B87",
+      "tier": "basic",
+      "category": "Security",
+      "title": "Secrets Management Basics",
+      "slug": "b87-secrets-management-basics",
+      "series": [],
+      "publishOrder": 87,
+      "status": "draft",
+      "href": "/basic/b87-secrets-management-basics/"
+    },
+    {
+      "id": "B88",
+      "tier": "basic",
+      "category": "Security",
+      "title": "Encryption at Rest vs in Transit",
+      "slug": "b88-encryption-at-rest-vs-in-transit",
+      "series": [],
+      "publishOrder": 88,
+      "status": "draft",
+      "href": "/basic/b88-encryption-at-rest-vs-in-transit/"
+    },
+    {
+      "id": "B89",
+      "tier": "basic",
+      "category": "Operations and delivery",
+      "title": "Logging Best Practices",
+      "slug": "b89-logging-best-practices",
+      "series": [],
+      "publishOrder": 89,
+      "status": "draft",
+      "href": "/basic/b89-logging-best-practices/"
+    },
+    {
+      "id": "B90",
+      "tier": "basic",
+      "category": "Operations and delivery",
+      "title": "Metrics, Traces, and Logs: The Three Pillars",
+      "slug": "b90-metrics-traces-and-logs-the-three-pillars",
+      "series": [],
+      "publishOrder": 90,
+      "status": "draft",
+      "href": "/basic/b90-metrics-traces-and-logs-the-three-pillars/"
+    },
+    {
+      "id": "B91",
+      "tier": "basic",
+      "category": "Operations and delivery",
+      "title": "Monitoring vs Observability",
+      "slug": "b91-monitoring-vs-observability",
+      "series": [],
+      "publishOrder": 91,
+      "status": "draft",
+      "href": "/basic/b91-monitoring-vs-observability/"
+    },
+    {
+      "id": "B92",
+      "tier": "basic",
+      "category": "Operations and delivery",
+      "title": "SLI, SLO, and SLA",
+      "slug": "b92-sli-slo-and-sla",
+      "series": [],
+      "publishOrder": 92,
+      "status": "draft",
+      "href": "/basic/b92-sli-slo-and-sla/"
+    },
+    {
+      "id": "B93",
+      "tier": "basic",
+      "category": "Operations and delivery",
+      "title": "CI/CD Pipeline Basics",
+      "slug": "b93-ci-cd-pipeline-basics",
+      "series": [],
+      "publishOrder": 93,
+      "status": "draft",
+      "href": "/basic/b93-ci-cd-pipeline-basics/"
+    },
+    {
+      "id": "B94",
+      "tier": "basic",
+      "category": "Operations and delivery",
+      "title": "Containers and Docker for Architects",
+      "slug": "b94-containers-and-docker-for-architects",
+      "series": [],
+      "publishOrder": 94,
+      "status": "draft",
+      "href": "/basic/b94-containers-and-docker-for-architects/"
+    },
+    {
+      "id": "B95",
+      "tier": "basic",
+      "category": "Operations and delivery",
+      "title": "Kubernetes Basics for Architects",
+      "slug": "b95-kubernetes-basics-for-architects",
+      "series": [],
+      "publishOrder": 95,
+      "status": "draft",
+      "href": "/basic/b95-kubernetes-basics-for-architects/"
+    },
+    {
+      "id": "B96",
+      "tier": "basic",
+      "category": "Operations and delivery",
+      "title": "Infrastructure as Code Basics",
+      "slug": "b96-infrastructure-as-code-basics",
+      "series": [],
+      "publishOrder": 96,
+      "status": "draft",
+      "href": "/basic/b96-infrastructure-as-code-basics/"
+    },
+    {
+      "id": "B97",
+      "tier": "basic",
+      "category": "Operations and delivery",
+      "title": "Blue-Green and Rolling Deployments",
+      "slug": "b97-blue-green-and-rolling-deployments",
+      "series": [],
+      "publishOrder": 97,
+      "status": "draft",
+      "href": "/basic/b97-blue-green-and-rolling-deployments/"
+    },
+    {
+      "id": "B98",
+      "tier": "basic",
+      "category": "Operations and delivery",
+      "title": "Feature Flags",
+      "slug": "b98-feature-flags",
+      "series": [],
+      "publishOrder": 98,
+      "status": "draft",
+      "href": "/basic/b98-feature-flags/"
+    },
+    {
+      "id": "B99",
+      "tier": "basic",
+      "category": "Operations and delivery",
+      "title": "Cloud Basics: Regions, Availability Zones, and Failure Domains",
+      "slug": "b99-cloud-basics-regions-availability-zones-and-failure-domains",
+      "series": [],
+      "publishOrder": 99,
+      "status": "draft",
+      "href": "/basic/b99-cloud-basics-regions-availability-zones-and-failure-domains/"
+    },
+    {
+      "id": "B100",
+      "tier": "basic",
+      "category": "Case studies",
+      "title": "Case Study: Designing a URL Shortener",
+      "slug": "b100-case-study-designing-a-url-shortener",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 100,
+      "status": "draft",
+      "href": "/basic/b100-case-study-designing-a-url-shortener/"
+    },
+    {
+      "id": "I01",
+      "tier": "intermediate",
+      "category": "Distributed systems fundamentals",
+      "title": "Consistent Hashing",
+      "slug": "i01-consistent-hashing",
+      "series": [],
+      "publishOrder": 101,
+      "status": "draft",
+      "href": "/intermediate/i01-consistent-hashing/"
+    },
+    {
+      "id": "I02",
+      "tier": "intermediate",
+      "category": "Distributed systems fundamentals",
+      "title": "Quorum Reads and Writes",
+      "slug": "i02-quorum-reads-and-writes",
+      "series": [],
+      "publishOrder": 102,
+      "status": "draft",
+      "href": "/intermediate/i02-quorum-reads-and-writes/"
+    },
+    {
+      "id": "I03",
+      "tier": "intermediate",
+      "category": "Distributed systems fundamentals",
+      "title": "Leader Election",
+      "slug": "i03-leader-election",
+      "series": [],
+      "publishOrder": 103,
+      "status": "draft",
+      "href": "/intermediate/i03-leader-election/"
+    },
+    {
+      "id": "I04",
+      "tier": "intermediate",
+      "category": "Distributed systems fundamentals",
+      "title": "Gossip Protocols",
+      "slug": "i04-gossip-protocols",
+      "series": [],
+      "publishOrder": 104,
+      "status": "draft",
+      "href": "/intermediate/i04-gossip-protocols/"
+    },
+    {
+      "id": "I05",
+      "tier": "intermediate",
+      "category": "Distributed systems fundamentals",
+      "title": "Vector Clocks and Logical Time",
+      "slug": "i05-vector-clocks-and-logical-time",
+      "series": [],
+      "publishOrder": 105,
+      "status": "draft",
+      "href": "/intermediate/i05-vector-clocks-and-logical-time/"
+    },
+    {
+      "id": "I06",
+      "tier": "intermediate",
+      "category": "Distributed systems fundamentals",
+      "title": "Distributed Locks: Redis vs ZooKeeper",
+      "slug": "i06-distributed-locks-redis-vs-zookeeper",
+      "series": [],
+      "publishOrder": 106,
+      "status": "draft",
+      "href": "/intermediate/i06-distributed-locks-redis-vs-zookeeper/"
+    },
+    {
+      "id": "I07",
+      "tier": "intermediate",
+      "category": "Distributed systems fundamentals",
+      "title": "Two-Phase Commit vs Saga",
+      "slug": "i07-two-phase-commit-vs-saga",
+      "series": [],
+      "publishOrder": 107,
+      "status": "draft",
+      "href": "/intermediate/i07-two-phase-commit-vs-saga/"
+    },
+    {
+      "id": "I08",
+      "tier": "intermediate",
+      "category": "Distributed systems fundamentals",
+      "title": "Saga Pattern: Orchestration vs Choreography",
+      "slug": "i08-saga-pattern-orchestration-vs-choreography",
+      "series": [],
+      "publishOrder": 108,
+      "status": "draft",
+      "href": "/intermediate/i08-saga-pattern-orchestration-vs-choreography/"
+    },
+    {
+      "id": "I09",
+      "tier": "intermediate",
+      "category": "Distributed systems fundamentals",
+      "title": "Idempotent Consumers and the Exactly-Once Myth",
+      "slug": "i09-idempotent-consumers-and-the-exactly-once-myth",
+      "series": [],
+      "publishOrder": 109,
+      "status": "draft",
+      "href": "/intermediate/i09-idempotent-consumers-and-the-exactly-once-myth/"
+    },
+    {
+      "id": "I10",
+      "tier": "intermediate",
+      "category": "Distributed systems fundamentals",
+      "title": "Bloom Filters",
+      "slug": "i10-bloom-filters",
+      "series": [],
+      "publishOrder": 110,
+      "status": "draft",
+      "href": "/intermediate/i10-bloom-filters/"
+    },
+    {
+      "id": "I11",
+      "tier": "intermediate",
+      "category": "Distributed systems fundamentals",
+      "title": "Failure Detection in Distributed Systems",
+      "slug": "i11-failure-detection-in-distributed-systems",
+      "series": [],
+      "publishOrder": 111,
+      "status": "draft",
+      "href": "/intermediate/i11-failure-detection-in-distributed-systems/"
+    },
+    {
+      "id": "I12",
+      "tier": "intermediate",
+      "category": "Distributed systems fundamentals",
+      "title": "PACELC Theorem: Beyond CAP",
+      "slug": "i12-pacelc-theorem-beyond-cap",
+      "series": [],
+      "publishOrder": 112,
+      "status": "draft",
+      "href": "/intermediate/i12-pacelc-theorem-beyond-cap/"
+    },
+    {
+      "id": "I13",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "Database per Service",
+      "slug": "i13-database-per-service",
+      "series": [],
+      "publishOrder": 113,
+      "status": "draft",
+      "href": "/intermediate/i13-database-per-service/"
+    },
+    {
+      "id": "I14",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "API Gateway vs Backend for Frontend (BFF)",
+      "slug": "i14-api-gateway-vs-backend-for-frontend-bff",
+      "series": [],
+      "publishOrder": 114,
+      "status": "draft",
+      "href": "/intermediate/i14-api-gateway-vs-backend-for-frontend-bff/"
+    },
+    {
+      "id": "I15",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "Service Mesh: Istio and Linkerd",
+      "slug": "i15-service-mesh-istio-and-linkerd",
+      "series": [],
+      "publishOrder": 115,
+      "status": "draft",
+      "href": "/intermediate/i15-service-mesh-istio-and-linkerd/"
+    },
+    {
+      "id": "I16",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "Sidecar Pattern",
+      "slug": "i16-sidecar-pattern",
+      "series": [],
+      "publishOrder": 116,
+      "status": "draft",
+      "href": "/intermediate/i16-sidecar-pattern/"
+    },
+    {
+      "id": "I17",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "Circuit Breaker",
+      "slug": "i17-circuit-breaker",
+      "series": [
+        "resilience"
+      ],
+      "publishOrder": 117,
+      "status": "draft",
+      "href": "/intermediate/i17-circuit-breaker/"
+    },
+    {
+      "id": "I18",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "Bulkhead Pattern",
+      "slug": "i18-bulkhead-pattern",
+      "series": [
+        "resilience"
+      ],
+      "publishOrder": 118,
+      "status": "draft",
+      "href": "/intermediate/i18-bulkhead-pattern/"
+    },
+    {
+      "id": "I19",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "The Resilience Stack: Retry, Timeout, Fallback",
+      "slug": "i19-the-resilience-stack-retry-timeout-fallback",
+      "series": [
+        "resilience"
+      ],
+      "publishOrder": 119,
+      "status": "draft",
+      "href": "/intermediate/i19-the-resilience-stack-retry-timeout-fallback/"
+    },
+    {
+      "id": "I20",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "Strangler Fig Pattern",
+      "slug": "i20-strangler-fig-pattern",
+      "series": [],
+      "publishOrder": 120,
+      "status": "draft",
+      "href": "/intermediate/i20-strangler-fig-pattern/"
+    },
+    {
+      "id": "I21",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "Anti-Corruption Layer",
+      "slug": "i21-anti-corruption-layer",
+      "series": [],
+      "publishOrder": 121,
+      "status": "draft",
+      "href": "/intermediate/i21-anti-corruption-layer/"
+    },
+    {
+      "id": "I22",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "Domain-Driven Design: Bounded Contexts",
+      "slug": "i22-domain-driven-design-bounded-contexts",
+      "series": [],
+      "publishOrder": 122,
+      "status": "draft",
+      "href": "/intermediate/i22-domain-driven-design-bounded-contexts/"
+    },
+    {
+      "id": "I23",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "Aggregates and Entities in DDD",
+      "slug": "i23-aggregates-and-entities-in-ddd",
+      "series": [],
+      "publishOrder": 123,
+      "status": "draft",
+      "href": "/intermediate/i23-aggregates-and-entities-in-ddd/"
+    },
+    {
+      "id": "I24",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "Event Storming Workshops",
+      "slug": "i24-event-storming-workshops",
+      "series": [],
+      "publishOrder": 124,
+      "status": "draft",
+      "href": "/intermediate/i24-event-storming-workshops/"
+    },
+    {
+      "id": "I25",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "Microservice Decomposition Strategies",
+      "slug": "i25-microservice-decomposition-strategies",
+      "series": [],
+      "publishOrder": 125,
+      "status": "draft",
+      "href": "/intermediate/i25-microservice-decomposition-strategies/"
+    },
+    {
+      "id": "I26",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "Sync vs Async Inter-Service Communication Trade-Offs",
+      "slug": "i26-sync-vs-async-inter-service-communication-trade-offs",
+      "series": [],
+      "publishOrder": 126,
+      "status": "draft",
+      "href": "/intermediate/i26-sync-vs-async-inter-service-communication-trade-offs/"
+    },
+    {
+      "id": "I27",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "The Distributed Monolith Anti-Pattern",
+      "slug": "i27-the-distributed-monolith-anti-pattern",
+      "series": [],
+      "publishOrder": 127,
+      "status": "draft",
+      "href": "/intermediate/i27-the-distributed-monolith-anti-pattern/"
+    },
+    {
+      "id": "I28",
+      "tier": "intermediate",
+      "category": "Microservices patterns",
+      "title": "Shared Libraries vs Shared Services",
+      "slug": "i28-shared-libraries-vs-shared-services",
+      "series": [],
+      "publishOrder": 128,
+      "status": "draft",
+      "href": "/intermediate/i28-shared-libraries-vs-shared-services/"
+    },
+    {
+      "id": "I29",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "CQRS",
+      "slug": "i29-cqrs",
+      "series": [
+        "data-and-replication"
+      ],
+      "publishOrder": 129,
+      "status": "draft",
+      "href": "/intermediate/i29-cqrs/"
+    },
+    {
+      "id": "I30",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Event Sourcing",
+      "slug": "i30-event-sourcing",
+      "series": [
+        "data-and-replication"
+      ],
+      "publishOrder": 130,
+      "status": "draft",
+      "href": "/intermediate/i30-event-sourcing/"
+    },
+    {
+      "id": "I31",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Transactional Outbox Pattern",
+      "slug": "i31-transactional-outbox-pattern",
+      "series": [
+        "data-and-replication"
+      ],
+      "publishOrder": 131,
+      "status": "draft",
+      "href": "/intermediate/i31-transactional-outbox-pattern/"
+    },
+    {
+      "id": "I32",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Change Data Capture with Debezium",
+      "slug": "i32-change-data-capture-with-debezium",
+      "series": [
+        "data-and-replication"
+      ],
+      "publishOrder": 132,
+      "status": "draft",
+      "href": "/intermediate/i32-change-data-capture-with-debezium/"
+    },
+    {
+      "id": "I33",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Materialized Views",
+      "slug": "i33-materialized-views",
+      "series": [
+        "data-and-replication"
+      ],
+      "publishOrder": 133,
+      "status": "draft",
+      "href": "/intermediate/i33-materialized-views/"
+    },
+    {
+      "id": "I34",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Read Replicas and Replication Lag",
+      "slug": "i34-read-replicas-and-replication-lag",
+      "series": [
+        "data-and-replication"
+      ],
+      "publishOrder": 134,
+      "status": "draft",
+      "href": "/intermediate/i34-read-replicas-and-replication-lag/"
+    },
+    {
+      "id": "I35",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Multi-Leader Replication and Conflict Resolution",
+      "slug": "i35-multi-leader-replication-and-conflict-resolution",
+      "series": [
+        "data-and-replication"
+      ],
+      "publishOrder": 135,
+      "status": "draft",
+      "href": "/intermediate/i35-multi-leader-replication-and-conflict-resolution/"
+    },
+    {
+      "id": "I36",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Sharding Strategies: Range, Hash, Directory",
+      "slug": "i36-sharding-strategies-range-hash-directory",
+      "series": [
+        "data-and-replication"
+      ],
+      "publishOrder": 136,
+      "status": "draft",
+      "href": "/intermediate/i36-sharding-strategies-range-hash-directory/"
+    },
+    {
+      "id": "I37",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Resharding Without Downtime",
+      "slug": "i37-resharding-without-downtime",
+      "series": [
+        "data-and-replication"
+      ],
+      "publishOrder": 137,
+      "status": "draft",
+      "href": "/intermediate/i37-resharding-without-downtime/"
+    },
+    {
+      "id": "I38",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Hot Keys and Hot Partitions",
+      "slug": "i38-hot-keys-and-hot-partitions",
+      "series": [
+        "data-and-replication"
+      ],
+      "publishOrder": 138,
+      "status": "draft",
+      "href": "/intermediate/i38-hot-keys-and-hot-partitions/"
+    },
+    {
+      "id": "I39",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Polyglot Persistence",
+      "slug": "i39-polyglot-persistence",
+      "series": [
+        "data-and-replication"
+      ],
+      "publishOrder": 139,
+      "status": "draft",
+      "href": "/intermediate/i39-polyglot-persistence/"
+    },
+    {
+      "id": "I40",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Time-Series Databases",
+      "slug": "i40-time-series-databases",
+      "series": [],
+      "publishOrder": 140,
+      "status": "draft",
+      "href": "/intermediate/i40-time-series-databases/"
+    },
+    {
+      "id": "I41",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Search Systems: Inverted Index and Elasticsearch",
+      "slug": "i41-search-systems-inverted-index-and-elasticsearch",
+      "series": [],
+      "publishOrder": 141,
+      "status": "draft",
+      "href": "/intermediate/i41-search-systems-inverted-index-and-elasticsearch/"
+    },
+    {
+      "id": "I42",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Graph Databases in Practice",
+      "slug": "i42-graph-databases-in-practice",
+      "series": [],
+      "publishOrder": 142,
+      "status": "draft",
+      "href": "/intermediate/i42-graph-databases-in-practice/"
+    },
+    {
+      "id": "I43",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Data Lakes vs Warehouses vs Lakehouses",
+      "slug": "i43-data-lakes-vs-warehouses-vs-lakehouses",
+      "series": [],
+      "publishOrder": 143,
+      "status": "draft",
+      "href": "/intermediate/i43-data-lakes-vs-warehouses-vs-lakehouses/"
+    },
+    {
+      "id": "I44",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Isolation Levels in Depth: MVCC",
+      "slug": "i44-isolation-levels-in-depth-mvcc",
+      "series": [],
+      "publishOrder": 144,
+      "status": "draft",
+      "href": "/intermediate/i44-isolation-levels-in-depth-mvcc/"
+    },
+    {
+      "id": "I45",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Optimistic vs Pessimistic Locking",
+      "slug": "i45-optimistic-vs-pessimistic-locking",
+      "series": [],
+      "publishOrder": 145,
+      "status": "draft",
+      "href": "/intermediate/i45-optimistic-vs-pessimistic-locking/"
+    },
+    {
+      "id": "I46",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Schema Evolution and Backward Compatibility",
+      "slug": "i46-schema-evolution-and-backward-compatibility",
+      "series": [],
+      "publishOrder": 146,
+      "status": "draft",
+      "href": "/intermediate/i46-schema-evolution-and-backward-compatibility/"
+    },
+    {
+      "id": "I47",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Zero-Downtime Migrations: Expand and Contract",
+      "slug": "i47-zero-downtime-migrations-expand-and-contract",
+      "series": [],
+      "publishOrder": 147,
+      "status": "draft",
+      "href": "/intermediate/i47-zero-downtime-migrations-expand-and-contract/"
+    },
+    {
+      "id": "I48",
+      "tier": "intermediate",
+      "category": "Data patterns",
+      "title": "Soft Deletes, Tombstones, and Retention",
+      "slug": "i48-soft-deletes-tombstones-and-retention",
+      "series": [],
+      "publishOrder": 148,
+      "status": "draft",
+      "href": "/intermediate/i48-soft-deletes-tombstones-and-retention/"
+    },
+    {
+      "id": "I49",
+      "tier": "intermediate",
+      "category": "Messaging and streaming",
+      "title": "Kafka Architecture",
+      "slug": "i49-kafka-architecture",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 149,
+      "status": "draft",
+      "href": "/intermediate/i49-kafka-architecture/"
+    },
+    {
+      "id": "I50",
+      "tier": "intermediate",
+      "category": "Messaging and streaming",
+      "title": "Partitioning and Ordering in Kafka",
+      "slug": "i50-partitioning-and-ordering-in-kafka",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 150,
+      "status": "draft",
+      "href": "/intermediate/i50-partitioning-and-ordering-in-kafka/"
+    },
+    {
+      "id": "I51",
+      "tier": "intermediate",
+      "category": "Messaging and streaming",
+      "title": "Consumer Groups and Rebalancing",
+      "slug": "i51-consumer-groups-and-rebalancing",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 151,
+      "status": "draft",
+      "href": "/intermediate/i51-consumer-groups-and-rebalancing/"
+    },
+    {
+      "id": "I52",
+      "tier": "intermediate",
+      "category": "Messaging and streaming",
+      "title": "RabbitMQ vs Kafka vs SQS",
+      "slug": "i52-rabbitmq-vs-kafka-vs-sqs",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 152,
+      "status": "draft",
+      "href": "/intermediate/i52-rabbitmq-vs-kafka-vs-sqs/"
+    },
+    {
+      "id": "I53",
+      "tier": "intermediate",
+      "category": "Messaging and streaming",
+      "title": "Delivery Semantics: At-Least-Once, At-Most-Once, Exactly-Once",
+      "slug": "i53-delivery-semantics-at-least-once-at-most-once-exactly-once",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 153,
+      "status": "draft",
+      "href": "/intermediate/i53-delivery-semantics-at-least-once-at-most-once-exactly-once/"
+    },
+    {
+      "id": "I54",
+      "tier": "intermediate",
+      "category": "Messaging and streaming",
+      "title": "Backpressure",
+      "slug": "i54-backpressure",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 154,
+      "status": "draft",
+      "href": "/intermediate/i54-backpressure/"
+    },
+    {
+      "id": "I55",
+      "tier": "intermediate",
+      "category": "Messaging and streaming",
+      "title": "Stream Processing with Flink and Kafka Streams",
+      "slug": "i55-stream-processing-with-flink-and-kafka-streams",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 155,
+      "status": "draft",
+      "href": "/intermediate/i55-stream-processing-with-flink-and-kafka-streams/"
+    },
+    {
+      "id": "I56",
+      "tier": "intermediate",
+      "category": "Messaging and streaming",
+      "title": "Lambda vs Kappa Architecture",
+      "slug": "i56-lambda-vs-kappa-architecture",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 156,
+      "status": "draft",
+      "href": "/intermediate/i56-lambda-vs-kappa-architecture/"
+    },
+    {
+      "id": "I57",
+      "tier": "intermediate",
+      "category": "Messaging and streaming",
+      "title": "Schema Registries and Event Contracts",
+      "slug": "i57-schema-registries-and-event-contracts",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 157,
+      "status": "draft",
+      "href": "/intermediate/i57-schema-registries-and-event-contracts/"
+    },
+    {
+      "id": "I58",
+      "tier": "intermediate",
+      "category": "Messaging and streaming",
+      "title": "Priority Queues and Delayed Messages",
+      "slug": "i58-priority-queues-and-delayed-messages",
+      "series": [
+        "messaging"
+      ],
+      "publishOrder": 158,
+      "status": "draft",
+      "href": "/intermediate/i58-priority-queues-and-delayed-messages/"
+    },
+    {
+      "id": "I59",
+      "tier": "intermediate",
+      "category": "Caching and performance",
+      "title": "Distributed Caching Patterns",
+      "slug": "i59-distributed-caching-patterns",
+      "series": [
+        "caching"
+      ],
+      "publishOrder": 159,
+      "status": "draft",
+      "href": "/intermediate/i59-distributed-caching-patterns/"
+    },
+    {
+      "id": "I60",
+      "tier": "intermediate",
+      "category": "Caching and performance",
+      "title": "Cache Invalidation Strategies at Scale",
+      "slug": "i60-cache-invalidation-strategies-at-scale",
+      "series": [
+        "caching"
+      ],
+      "publishOrder": 160,
+      "status": "draft",
+      "href": "/intermediate/i60-cache-invalidation-strategies-at-scale/"
+    },
+    {
+      "id": "I61",
+      "tier": "intermediate",
+      "category": "Caching and performance",
+      "title": "Multi-Layer Caching: CDN, App, Database",
+      "slug": "i61-multi-layer-caching-cdn-app-database",
+      "series": [
+        "caching"
+      ],
+      "publishOrder": 161,
+      "status": "draft",
+      "href": "/intermediate/i61-multi-layer-caching-cdn-app-database/"
+    },
+    {
+      "id": "I62",
+      "tier": "intermediate",
+      "category": "Caching and performance",
+      "title": "Request Coalescing",
+      "slug": "i62-request-coalescing",
+      "series": [
+        "caching"
+      ],
+      "publishOrder": 162,
+      "status": "draft",
+      "href": "/intermediate/i62-request-coalescing/"
+    },
+    {
+      "id": "I63",
+      "tier": "intermediate",
+      "category": "Caching and performance",
+      "title": "Connection Management and Keep-Alive",
+      "slug": "i63-connection-management-and-keep-alive",
+      "series": [],
+      "publishOrder": 163,
+      "status": "draft",
+      "href": "/intermediate/i63-connection-management-and-keep-alive/"
+    },
+    {
+      "id": "I64",
+      "tier": "intermediate",
+      "category": "Caching and performance",
+      "title": "HTTP/2 and HTTP/3 (QUIC)",
+      "slug": "i64-http-2-and-http-3-quic",
+      "series": [],
+      "publishOrder": 164,
+      "status": "draft",
+      "href": "/intermediate/i64-http-2-and-http-3-quic/"
+    },
+    {
+      "id": "I65",
+      "tier": "intermediate",
+      "category": "Caching and performance",
+      "title": "Performance Profiling and Bottleneck Hunting",
+      "slug": "i65-performance-profiling-and-bottleneck-hunting",
+      "series": [],
+      "publishOrder": 165,
+      "status": "draft",
+      "href": "/intermediate/i65-performance-profiling-and-bottleneck-hunting/"
+    },
+    {
+      "id": "I66",
+      "tier": "intermediate",
+      "category": "Caching and performance",
+      "title": "Load Testing and Capacity Planning",
+      "slug": "i66-load-testing-and-capacity-planning",
+      "series": [],
+      "publishOrder": 166,
+      "status": "draft",
+      "href": "/intermediate/i66-load-testing-and-capacity-planning/"
+    },
+    {
+      "id": "I67",
+      "tier": "intermediate",
+      "category": "Caching and performance",
+      "title": "Autoscaling Strategies",
+      "slug": "i67-autoscaling-strategies",
+      "series": [],
+      "publishOrder": 167,
+      "status": "draft",
+      "href": "/intermediate/i67-autoscaling-strategies/"
+    },
+    {
+      "id": "I68",
+      "tier": "intermediate",
+      "category": "Caching and performance",
+      "title": "Queue-Based Load Leveling",
+      "slug": "i68-queue-based-load-leveling",
+      "series": [],
+      "publishOrder": 168,
+      "status": "draft",
+      "href": "/intermediate/i68-queue-based-load-leveling/"
+    },
+    {
+      "id": "I69",
+      "tier": "intermediate",
+      "category": "Reliability and operations",
+      "title": "Chaos Engineering",
+      "slug": "i69-chaos-engineering",
+      "series": [],
+      "publishOrder": 169,
+      "status": "draft",
+      "href": "/intermediate/i69-chaos-engineering/"
+    },
+    {
+      "id": "I70",
+      "tier": "intermediate",
+      "category": "Reliability and operations",
+      "title": "Disaster Recovery: RPO, RTO, and Strategies",
+      "slug": "i70-disaster-recovery-rpo-rto-and-strategies",
+      "series": [],
+      "publishOrder": 170,
+      "status": "draft",
+      "href": "/intermediate/i70-disaster-recovery-rpo-rto-and-strategies/"
+    },
+    {
+      "id": "I71",
+      "tier": "intermediate",
+      "category": "Reliability and operations",
+      "title": "Multi-AZ vs Multi-Region Deployment",
+      "slug": "i71-multi-az-vs-multi-region-deployment",
+      "series": [],
+      "publishOrder": 171,
+      "status": "draft",
+      "href": "/intermediate/i71-multi-az-vs-multi-region-deployment/"
+    },
+    {
+      "id": "I72",
+      "tier": "intermediate",
+      "category": "Reliability and operations",
+      "title": "Graceful Degradation",
+      "slug": "i72-graceful-degradation",
+      "series": [],
+      "publishOrder": 172,
+      "status": "draft",
+      "href": "/intermediate/i72-graceful-degradation/"
+    },
+    {
+      "id": "I73",
+      "tier": "intermediate",
+      "category": "Reliability and operations",
+      "title": "Canary Releases and Progressive Delivery",
+      "slug": "i73-canary-releases-and-progressive-delivery",
+      "series": [],
+      "publishOrder": 173,
+      "status": "draft",
+      "href": "/intermediate/i73-canary-releases-and-progressive-delivery/"
+    },
+    {
+      "id": "I74",
+      "tier": "intermediate",
+      "category": "Reliability and operations",
+      "title": "Distributed Tracing with OpenTelemetry",
+      "slug": "i74-distributed-tracing-with-opentelemetry",
+      "series": [],
+      "publishOrder": 174,
+      "status": "draft",
+      "href": "/intermediate/i74-distributed-tracing-with-opentelemetry/"
+    },
+    {
+      "id": "I75",
+      "tier": "intermediate",
+      "category": "Reliability and operations",
+      "title": "Alerting Without Fatigue: SLO-Based Alerts",
+      "slug": "i75-alerting-without-fatigue-slo-based-alerts",
+      "series": [],
+      "publishOrder": 175,
+      "status": "draft",
+      "href": "/intermediate/i75-alerting-without-fatigue-slo-based-alerts/"
+    },
+    {
+      "id": "I76",
+      "tier": "intermediate",
+      "category": "Reliability and operations",
+      "title": "Error Budgets",
+      "slug": "i76-error-budgets",
+      "series": [],
+      "publishOrder": 176,
+      "status": "draft",
+      "href": "/intermediate/i76-error-budgets/"
+    },
+    {
+      "id": "I77",
+      "tier": "intermediate",
+      "category": "Reliability and operations",
+      "title": "Incident Management and Blameless Postmortems",
+      "slug": "i77-incident-management-and-blameless-postmortems",
+      "series": [],
+      "publishOrder": 177,
+      "status": "draft",
+      "href": "/intermediate/i77-incident-management-and-blameless-postmortems/"
+    },
+    {
+      "id": "I78",
+      "tier": "intermediate",
+      "category": "Reliability and operations",
+      "title": "GitOps",
+      "slug": "i78-gitops",
+      "series": [],
+      "publishOrder": 178,
+      "status": "draft",
+      "href": "/intermediate/i78-gitops/"
+    },
+    {
+      "id": "I79",
+      "tier": "intermediate",
+      "category": "Reliability and operations",
+      "title": "Kubernetes Deployment Patterns",
+      "slug": "i79-kubernetes-deployment-patterns",
+      "series": [],
+      "publishOrder": 179,
+      "status": "draft",
+      "href": "/intermediate/i79-kubernetes-deployment-patterns/"
+    },
+    {
+      "id": "I80",
+      "tier": "intermediate",
+      "category": "Reliability and operations",
+      "title": "Config and Secrets Management at Scale",
+      "slug": "i80-config-and-secrets-management-at-scale",
+      "series": [],
+      "publishOrder": 180,
+      "status": "draft",
+      "href": "/intermediate/i80-config-and-secrets-management-at-scale/"
+    },
+    {
+      "id": "I81",
+      "tier": "intermediate",
+      "category": "Security and API design",
+      "title": "Zero Trust Architecture",
+      "slug": "i81-zero-trust-architecture",
+      "series": [],
+      "publishOrder": 181,
+      "status": "draft",
+      "href": "/intermediate/i81-zero-trust-architecture/"
+    },
+    {
+      "id": "I82",
+      "tier": "intermediate",
+      "category": "Security and API design",
+      "title": "mTLS and Service Identity",
+      "slug": "i82-mtls-and-service-identity",
+      "series": [],
+      "publishOrder": 182,
+      "status": "draft",
+      "href": "/intermediate/i82-mtls-and-service-identity/"
+    },
+    {
+      "id": "I83",
+      "tier": "intermediate",
+      "category": "Security and API design",
+      "title": "API Security: OAuth Scopes and Token Introspection",
+      "slug": "i83-api-security-oauth-scopes-and-token-introspection",
+      "series": [],
+      "publishOrder": 183,
+      "status": "draft",
+      "href": "/intermediate/i83-api-security-oauth-scopes-and-token-introspection/"
+    },
+    {
+      "id": "I84",
+      "tier": "intermediate",
+      "category": "Security and API design",
+      "title": "Multi-Tenancy Models",
+      "slug": "i84-multi-tenancy-models",
+      "series": [],
+      "publishOrder": 184,
+      "status": "draft",
+      "href": "/intermediate/i84-multi-tenancy-models/"
+    },
+    {
+      "id": "I85",
+      "tier": "intermediate",
+      "category": "Security and API design",
+      "title": "Rate Limiting Algorithms: Token Bucket, Leaky Bucket, Sliding Window",
+      "slug": "i85-rate-limiting-algorithms-token-bucket-leaky-bucket-sliding-window",
+      "series": [],
+      "publishOrder": 185,
+      "status": "draft",
+      "href": "/intermediate/i85-rate-limiting-algorithms-token-bucket-leaky-bucket-sliding-window/"
+    },
+    {
+      "id": "I86",
+      "tier": "intermediate",
+      "category": "Security and API design",
+      "title": "API Design for Evolvability",
+      "slug": "i86-api-design-for-evolvability",
+      "series": [],
+      "publishOrder": 186,
+      "status": "draft",
+      "href": "/intermediate/i86-api-design-for-evolvability/"
+    },
+    {
+      "id": "I87",
+      "tier": "intermediate",
+      "category": "Security and API design",
+      "title": "GraphQL Federation",
+      "slug": "i87-graphql-federation",
+      "series": [],
+      "publishOrder": 187,
+      "status": "draft",
+      "href": "/intermediate/i87-graphql-federation/"
+    },
+    {
+      "id": "I88",
+      "tier": "intermediate",
+      "category": "Security and API design",
+      "title": "Designing Reliable Webhooks",
+      "slug": "i88-designing-reliable-webhooks",
+      "series": [],
+      "publishOrder": 188,
+      "status": "draft",
+      "href": "/intermediate/i88-designing-reliable-webhooks/"
+    },
+    {
+      "id": "I89",
+      "tier": "intermediate",
+      "category": "Security and API design",
+      "title": "Idempotency Keys in Payments",
+      "slug": "i89-idempotency-keys-in-payments",
+      "series": [],
+      "publishOrder": 189,
+      "status": "draft",
+      "href": "/intermediate/i89-idempotency-keys-in-payments/"
+    },
+    {
+      "id": "I90",
+      "tier": "intermediate",
+      "category": "Security and API design",
+      "title": "Audit Logging Architecture",
+      "slug": "i90-audit-logging-architecture",
+      "series": [],
+      "publishOrder": 190,
+      "status": "draft",
+      "href": "/intermediate/i90-audit-logging-architecture/"
+    },
+    {
+      "id": "I91",
+      "tier": "intermediate",
+      "category": "Case studies",
+      "title": "Design a Rate Limiter",
+      "slug": "i91-design-a-rate-limiter",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 191,
+      "status": "draft",
+      "href": "/intermediate/i91-design-a-rate-limiter/"
+    },
+    {
+      "id": "I92",
+      "tier": "intermediate",
+      "category": "Case studies",
+      "title": "Design a Notification System",
+      "slug": "i92-design-a-notification-system",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 192,
+      "status": "draft",
+      "href": "/intermediate/i92-design-a-notification-system/"
+    },
+    {
+      "id": "I93",
+      "tier": "intermediate",
+      "category": "Case studies",
+      "title": "Design a News Feed",
+      "slug": "i93-design-a-news-feed",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 193,
+      "status": "draft",
+      "href": "/intermediate/i93-design-a-news-feed/"
+    },
+    {
+      "id": "I94",
+      "tier": "intermediate",
+      "category": "Case studies",
+      "title": "Design a Chat System",
+      "slug": "i94-design-a-chat-system",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 194,
+      "status": "draft",
+      "href": "/intermediate/i94-design-a-chat-system/"
+    },
+    {
+      "id": "I95",
+      "tier": "intermediate",
+      "category": "Case studies",
+      "title": "Design a Distributed Cache",
+      "slug": "i95-design-a-distributed-cache",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 195,
+      "status": "draft",
+      "href": "/intermediate/i95-design-a-distributed-cache/"
+    },
+    {
+      "id": "I96",
+      "tier": "intermediate",
+      "category": "Case studies",
+      "title": "Design a Job Scheduler",
+      "slug": "i96-design-a-job-scheduler",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 196,
+      "status": "draft",
+      "href": "/intermediate/i96-design-a-job-scheduler/"
+    },
+    {
+      "id": "I97",
+      "tier": "intermediate",
+      "category": "Case studies",
+      "title": "Design a File Storage Service (Dropbox-style)",
+      "slug": "i97-design-a-file-storage-service-dropbox-style",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 197,
+      "status": "draft",
+      "href": "/intermediate/i97-design-a-file-storage-service-dropbox-style/"
+    },
+    {
+      "id": "I98",
+      "tier": "intermediate",
+      "category": "Case studies",
+      "title": "Design Search Autocomplete",
+      "slug": "i98-design-search-autocomplete",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 198,
+      "status": "draft",
+      "href": "/intermediate/i98-design-search-autocomplete/"
+    },
+    {
+      "id": "I99",
+      "tier": "intermediate",
+      "category": "Case studies",
+      "title": "Design a Video Streaming Service",
+      "slug": "i99-design-a-video-streaming-service",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 199,
+      "status": "draft",
+      "href": "/intermediate/i99-design-a-video-streaming-service/"
+    },
+    {
+      "id": "I100",
+      "tier": "intermediate",
+      "category": "Case studies",
+      "title": "Design an E-Commerce Checkout and Inventory System",
+      "slug": "i100-design-an-e-commerce-checkout-and-inventory-system",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 200,
+      "status": "draft",
+      "href": "/intermediate/i100-design-an-e-commerce-checkout-and-inventory-system/"
+    },
+    {
+      "id": "A01",
+      "tier": "advanced",
+      "category": "Consensus and distributed theory",
+      "title": "Paxos Explained",
+      "slug": "a01-paxos-explained",
+      "series": [],
+      "publishOrder": 201,
+      "status": "draft",
+      "href": "/advanced/a01-paxos-explained/"
+    },
+    {
+      "id": "A02",
+      "tier": "advanced",
+      "category": "Consensus and distributed theory",
+      "title": "Raft in Depth",
+      "slug": "a02-raft-in-depth",
+      "series": [],
+      "publishOrder": 202,
+      "status": "draft",
+      "href": "/advanced/a02-raft-in-depth/"
+    },
+    {
+      "id": "A03",
+      "tier": "advanced",
+      "category": "Consensus and distributed theory",
+      "title": "Byzantine Fault Tolerance and PBFT",
+      "slug": "a03-byzantine-fault-tolerance-and-pbft",
+      "series": [],
+      "publishOrder": 203,
+      "status": "draft",
+      "href": "/advanced/a03-byzantine-fault-tolerance-and-pbft/"
+    },
+    {
+      "id": "A04",
+      "tier": "advanced",
+      "category": "Consensus and distributed theory",
+      "title": "Linearizability vs Serializability",
+      "slug": "a04-linearizability-vs-serializability",
+      "series": [],
+      "publishOrder": 204,
+      "status": "draft",
+      "href": "/advanced/a04-linearizability-vs-serializability/"
+    },
+    {
+      "id": "A05",
+      "tier": "advanced",
+      "category": "Consensus and distributed theory",
+      "title": "Snapshot Isolation and Write Skew",
+      "slug": "a05-snapshot-isolation-and-write-skew",
+      "series": [],
+      "publishOrder": 205,
+      "status": "draft",
+      "href": "/advanced/a05-snapshot-isolation-and-write-skew/"
+    },
+    {
+      "id": "A06",
+      "tier": "advanced",
+      "category": "Consensus and distributed theory",
+      "title": "CRDTs",
+      "slug": "a06-crdts",
+      "series": [],
+      "publishOrder": 206,
+      "status": "draft",
+      "href": "/advanced/a06-crdts/"
+    },
+    {
+      "id": "A07",
+      "tier": "advanced",
+      "category": "Consensus and distributed theory",
+      "title": "Operational Transformation vs CRDTs for Collaboration",
+      "slug": "a07-operational-transformation-vs-crdts-for-collaboration",
+      "series": [],
+      "publishOrder": 207,
+      "status": "draft",
+      "href": "/advanced/a07-operational-transformation-vs-crdts-for-collaboration/"
+    },
+    {
+      "id": "A08",
+      "tier": "advanced",
+      "category": "Consensus and distributed theory",
+      "title": "Hybrid Logical Clocks and TrueTime",
+      "slug": "a08-hybrid-logical-clocks-and-truetime",
+      "series": [],
+      "publishOrder": 208,
+      "status": "draft",
+      "href": "/advanced/a08-hybrid-logical-clocks-and-truetime/"
+    },
+    {
+      "id": "A09",
+      "tier": "advanced",
+      "category": "Consensus and distributed theory",
+      "title": "Spanner-Style Globally Distributed Databases",
+      "slug": "a09-spanner-style-globally-distributed-databases",
+      "series": [],
+      "publishOrder": 209,
+      "status": "draft",
+      "href": "/advanced/a09-spanner-style-globally-distributed-databases/"
+    },
+    {
+      "id": "A10",
+      "tier": "advanced",
+      "category": "Consensus and distributed theory",
+      "title": "Calvin and Deterministic Databases",
+      "slug": "a10-calvin-and-deterministic-databases",
+      "series": [],
+      "publishOrder": 210,
+      "status": "draft",
+      "href": "/advanced/a10-calvin-and-deterministic-databases/"
+    },
+    {
+      "id": "A11",
+      "tier": "advanced",
+      "category": "Consensus and distributed theory",
+      "title": "Percolator and Distributed Transactions at Scale",
+      "slug": "a11-percolator-and-distributed-transactions-at-scale",
+      "series": [],
+      "publishOrder": 211,
+      "status": "draft",
+      "href": "/advanced/a11-percolator-and-distributed-transactions-at-scale/"
+    },
+    {
+      "id": "A12",
+      "tier": "advanced",
+      "category": "Consensus and distributed theory",
+      "title": "Jepsen Testing and Consistency Verification",
+      "slug": "a12-jepsen-testing-and-consistency-verification",
+      "series": [],
+      "publishOrder": 212,
+      "status": "draft",
+      "href": "/advanced/a12-jepsen-testing-and-consistency-verification/"
+    },
+    {
+      "id": "A13",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "LSM Trees vs B-Trees",
+      "slug": "a13-lsm-trees-vs-b-trees",
+      "series": [],
+      "publishOrder": 213,
+      "status": "draft",
+      "href": "/advanced/a13-lsm-trees-vs-b-trees/"
+    },
+    {
+      "id": "A14",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "Write-Ahead Logging and Crash Recovery",
+      "slug": "a14-write-ahead-logging-and-crash-recovery",
+      "series": [],
+      "publishOrder": 214,
+      "status": "draft",
+      "href": "/advanced/a14-write-ahead-logging-and-crash-recovery/"
+    },
+    {
+      "id": "A15",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "Compaction Strategies",
+      "slug": "a15-compaction-strategies",
+      "series": [],
+      "publishOrder": 215,
+      "status": "draft",
+      "href": "/advanced/a15-compaction-strategies/"
+    },
+    {
+      "id": "A16",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "Columnar Storage and Vectorized Execution",
+      "slug": "a16-columnar-storage-and-vectorized-execution",
+      "series": [],
+      "publishOrder": 216,
+      "status": "draft",
+      "href": "/advanced/a16-columnar-storage-and-vectorized-execution/"
+    },
+    {
+      "id": "A17",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "Query Planning and Optimization Internals",
+      "slug": "a17-query-planning-and-optimization-internals",
+      "series": [],
+      "publishOrder": 217,
+      "status": "draft",
+      "href": "/advanced/a17-query-planning-and-optimization-internals/"
+    },
+    {
+      "id": "A18",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "Distributed SQL: CockroachDB, TiDB, YugabyteDB",
+      "slug": "a18-distributed-sql-cockroachdb-tidb-yugabytedb",
+      "series": [],
+      "publishOrder": 218,
+      "status": "draft",
+      "href": "/advanced/a18-distributed-sql-cockroachdb-tidb-yugabytedb/"
+    },
+    {
+      "id": "A19",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "Dynamo-Style Systems: Cassandra and Riak Design",
+      "slug": "a19-dynamo-style-systems-cassandra-and-riak-design",
+      "series": [],
+      "publishOrder": 219,
+      "status": "draft",
+      "href": "/advanced/a19-dynamo-style-systems-cassandra-and-riak-design/"
+    },
+    {
+      "id": "A20",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "Merkle Trees and Anti-Entropy",
+      "slug": "a20-merkle-trees-and-anti-entropy",
+      "series": [],
+      "publishOrder": 220,
+      "status": "draft",
+      "href": "/advanced/a20-merkle-trees-and-anti-entropy/"
+    },
+    {
+      "id": "A21",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "Hinted Handoff and Sloppy Quorums",
+      "slug": "a21-hinted-handoff-and-sloppy-quorums",
+      "series": [],
+      "publishOrder": 221,
+      "status": "draft",
+      "href": "/advanced/a21-hinted-handoff-and-sloppy-quorums/"
+    },
+    {
+      "id": "A22",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "Cross-Region Replication Topologies",
+      "slug": "a22-cross-region-replication-topologies",
+      "series": [],
+      "publishOrder": 222,
+      "status": "draft",
+      "href": "/advanced/a22-cross-region-replication-topologies/"
+    },
+    {
+      "id": "A23",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "Online Schema Changes at Scale",
+      "slug": "a23-online-schema-changes-at-scale",
+      "series": [],
+      "publishOrder": 223,
+      "status": "draft",
+      "href": "/advanced/a23-online-schema-changes-at-scale/"
+    },
+    {
+      "id": "A24",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "Storage Tiering: Hot, Warm, Cold Data",
+      "slug": "a24-storage-tiering-hot-warm-cold-data",
+      "series": [],
+      "publishOrder": 224,
+      "status": "draft",
+      "href": "/advanced/a24-storage-tiering-hot-warm-cold-data/"
+    },
+    {
+      "id": "A25",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "Erasure Coding vs Replication",
+      "slug": "a25-erasure-coding-vs-replication",
+      "series": [],
+      "publishOrder": 225,
+      "status": "draft",
+      "href": "/advanced/a25-erasure-coding-vs-replication/"
+    },
+    {
+      "id": "A26",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "Distributed File Systems: GFS, HDFS, Ceph",
+      "slug": "a26-distributed-file-systems-gfs-hdfs-ceph",
+      "series": [],
+      "publishOrder": 226,
+      "status": "draft",
+      "href": "/advanced/a26-distributed-file-systems-gfs-hdfs-ceph/"
+    },
+    {
+      "id": "A27",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "Object Store Internals (S3-Like Design)",
+      "slug": "a27-object-store-internals-s3-like-design",
+      "series": [],
+      "publishOrder": 227,
+      "status": "draft",
+      "href": "/advanced/a27-object-store-internals-s3-like-design/"
+    },
+    {
+      "id": "A28",
+      "tier": "advanced",
+      "category": "Storage engines and database internals",
+      "title": "Vector Databases and ANN Indexes: HNSW and IVF",
+      "slug": "a28-vector-databases-and-ann-indexes-hnsw-and-ivf",
+      "series": [],
+      "publishOrder": 228,
+      "status": "draft",
+      "href": "/advanced/a28-vector-databases-and-ann-indexes-hnsw-and-ivf/"
+    },
+    {
+      "id": "A29",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Cell-Based Architecture",
+      "slug": "a29-cell-based-architecture",
+      "series": [],
+      "publishOrder": 229,
+      "status": "draft",
+      "href": "/advanced/a29-cell-based-architecture/"
+    },
+    {
+      "id": "A30",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Shuffle Sharding",
+      "slug": "a30-shuffle-sharding",
+      "series": [],
+      "publishOrder": 230,
+      "status": "draft",
+      "href": "/advanced/a30-shuffle-sharding/"
+    },
+    {
+      "id": "A31",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Multi-Region Active-Active Design",
+      "slug": "a31-multi-region-active-active-design",
+      "series": [],
+      "publishOrder": 231,
+      "status": "draft",
+      "href": "/advanced/a31-multi-region-active-active-design/"
+    },
+    {
+      "id": "A32",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Global Traffic Management: Anycast and GeoDNS",
+      "slug": "a32-global-traffic-management-anycast-and-geodns",
+      "series": [],
+      "publishOrder": 232,
+      "status": "draft",
+      "href": "/advanced/a32-global-traffic-management-anycast-and-geodns/"
+    },
+    {
+      "id": "A33",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Edge Computing Architectures",
+      "slug": "a33-edge-computing-architectures",
+      "series": [],
+      "publishOrder": 233,
+      "status": "draft",
+      "href": "/advanced/a33-edge-computing-architectures/"
+    },
+    {
+      "id": "A34",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Data Mesh",
+      "slug": "a34-data-mesh",
+      "series": [],
+      "publishOrder": 234,
+      "status": "draft",
+      "href": "/advanced/a34-data-mesh/"
+    },
+    {
+      "id": "A35",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Event-Driven Architecture at Enterprise Scale",
+      "slug": "a35-event-driven-architecture-at-enterprise-scale",
+      "series": [],
+      "publishOrder": 235,
+      "status": "draft",
+      "href": "/advanced/a35-event-driven-architecture-at-enterprise-scale/"
+    },
+    {
+      "id": "A36",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Avoiding Event Spaghetti in Choreography",
+      "slug": "a36-avoiding-event-spaghetti-in-choreography",
+      "series": [],
+      "publishOrder": 236,
+      "status": "draft",
+      "href": "/advanced/a36-avoiding-event-spaghetti-in-choreography/"
+    },
+    {
+      "id": "A37",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Platform Engineering and Internal Developer Platforms",
+      "slug": "a37-platform-engineering-and-internal-developer-platforms",
+      "series": [],
+      "publishOrder": 237,
+      "status": "draft",
+      "href": "/advanced/a37-platform-engineering-and-internal-developer-platforms/"
+    },
+    {
+      "id": "A38",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Monorepo vs Polyrepo: Architectural Implications",
+      "slug": "a38-monorepo-vs-polyrepo-architectural-implications",
+      "series": [],
+      "publishOrder": 238,
+      "status": "draft",
+      "href": "/advanced/a38-monorepo-vs-polyrepo-architectural-implications/"
+    },
+    {
+      "id": "A39",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Modular Monolith Migration Strategies",
+      "slug": "a39-modular-monolith-migration-strategies",
+      "series": [],
+      "publishOrder": 239,
+      "status": "draft",
+      "href": "/advanced/a39-modular-monolith-migration-strategies/"
+    },
+    {
+      "id": "A40",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Evolutionary Architecture and Fitness Functions",
+      "slug": "a40-evolutionary-architecture-and-fitness-functions",
+      "series": [],
+      "publishOrder": 240,
+      "status": "draft",
+      "href": "/advanced/a40-evolutionary-architecture-and-fitness-functions/"
+    },
+    {
+      "id": "A41",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Architecture Decision Records and Governance",
+      "slug": "a41-architecture-decision-records-and-governance",
+      "series": [],
+      "publishOrder": 241,
+      "status": "draft",
+      "href": "/advanced/a41-architecture-decision-records-and-governance/"
+    },
+    {
+      "id": "A42",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Conway's Law and Team Topologies",
+      "slug": "a42-conway-s-law-and-team-topologies",
+      "series": [],
+      "publishOrder": 242,
+      "status": "draft",
+      "href": "/advanced/a42-conway-s-law-and-team-topologies/"
+    },
+    {
+      "id": "A43",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Multi-Tenancy at Scale: Noisy Neighbors and Isolation",
+      "slug": "a43-multi-tenancy-at-scale-noisy-neighbors-and-isolation",
+      "series": [],
+      "publishOrder": 243,
+      "status": "draft",
+      "href": "/advanced/a43-multi-tenancy-at-scale-noisy-neighbors-and-isolation/"
+    },
+    {
+      "id": "A44",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Control Plane vs Data Plane in SaaS",
+      "slug": "a44-control-plane-vs-data-plane-in-saas",
+      "series": [],
+      "publishOrder": 244,
+      "status": "draft",
+      "href": "/advanced/a44-control-plane-vs-data-plane-in-saas/"
+    },
+    {
+      "id": "A45",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Clean and Onion Architecture in Large Systems",
+      "slug": "a45-clean-and-onion-architecture-in-large-systems",
+      "series": [],
+      "publishOrder": 245,
+      "status": "draft",
+      "href": "/advanced/a45-clean-and-onion-architecture-in-large-systems/"
+    },
+    {
+      "id": "A46",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Micro-Frontends and BFF at Scale",
+      "slug": "a46-micro-frontends-and-bff-at-scale",
+      "series": [],
+      "publishOrder": 246,
+      "status": "draft",
+      "href": "/advanced/a46-micro-frontends-and-bff-at-scale/"
+    },
+    {
+      "id": "A47",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Capacity Planning and Cost Modeling (FinOps)",
+      "slug": "a47-capacity-planning-and-cost-modeling-finops",
+      "series": [],
+      "publishOrder": 247,
+      "status": "draft",
+      "href": "/advanced/a47-capacity-planning-and-cost-modeling-finops/"
+    },
+    {
+      "id": "A48",
+      "tier": "advanced",
+      "category": "Architecture at scale",
+      "title": "Architecture for Compliance: GDPR and Data Residency",
+      "slug": "a48-architecture-for-compliance-gdpr-and-data-residency",
+      "series": [],
+      "publishOrder": 248,
+      "status": "draft",
+      "href": "/advanced/a48-architecture-for-compliance-gdpr-and-data-residency/"
+    },
+    {
+      "id": "A49",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Metastable Failures",
+      "slug": "a49-metastable-failures",
+      "series": [
+        "resilience"
+      ],
+      "publishOrder": 249,
+      "status": "draft",
+      "href": "/advanced/a49-metastable-failures/"
+    },
+    {
+      "id": "A50",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Retry Storms and Load Shedding",
+      "slug": "a50-retry-storms-and-load-shedding",
+      "series": [
+        "resilience"
+      ],
+      "publishOrder": 250,
+      "status": "draft",
+      "href": "/advanced/a50-retry-storms-and-load-shedding/"
+    },
+    {
+      "id": "A51",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Adaptive Concurrency Limits",
+      "slug": "a51-adaptive-concurrency-limits",
+      "series": [
+        "resilience"
+      ],
+      "publishOrder": 251,
+      "status": "draft",
+      "href": "/advanced/a51-adaptive-concurrency-limits/"
+    },
+    {
+      "id": "A52",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Tail Latency and Hedged Requests",
+      "slug": "a52-tail-latency-and-hedged-requests",
+      "series": [
+        "resilience"
+      ],
+      "publishOrder": 252,
+      "status": "draft",
+      "href": "/advanced/a52-tail-latency-and-hedged-requests/"
+    },
+    {
+      "id": "A53",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Cascading Failures: Case Studies",
+      "slug": "a53-cascading-failures-case-studies",
+      "series": [
+        "resilience"
+      ],
+      "publishOrder": 253,
+      "status": "draft",
+      "href": "/advanced/a53-cascading-failures-case-studies/"
+    },
+    {
+      "id": "A54",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Backpressure Across Service Boundaries",
+      "slug": "a54-backpressure-across-service-boundaries",
+      "series": [
+        "resilience"
+      ],
+      "publishOrder": 254,
+      "status": "draft",
+      "href": "/advanced/a54-backpressure-across-service-boundaries/"
+    },
+    {
+      "id": "A55",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Static Stability",
+      "slug": "a55-static-stability",
+      "series": [
+        "resilience"
+      ],
+      "publishOrder": 255,
+      "status": "draft",
+      "href": "/advanced/a55-static-stability/"
+    },
+    {
+      "id": "A56",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Control Loops and Autoscaler Instability",
+      "slug": "a56-control-loops-and-autoscaler-instability",
+      "series": [
+        "resilience"
+      ],
+      "publishOrder": 256,
+      "status": "draft",
+      "href": "/advanced/a56-control-loops-and-autoscaler-instability/"
+    },
+    {
+      "id": "A57",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Deterministic Simulation Testing",
+      "slug": "a57-deterministic-simulation-testing",
+      "series": [],
+      "publishOrder": 257,
+      "status": "draft",
+      "href": "/advanced/a57-deterministic-simulation-testing/"
+    },
+    {
+      "id": "A58",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Formal Methods for Architects: TLA+",
+      "slug": "a58-formal-methods-for-architects-tla",
+      "series": [],
+      "publishOrder": 258,
+      "status": "draft",
+      "href": "/advanced/a58-formal-methods-for-architects-tla/"
+    },
+    {
+      "id": "A59",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Fault Injection at Scale",
+      "slug": "a59-fault-injection-at-scale",
+      "series": [],
+      "publishOrder": 259,
+      "status": "draft",
+      "href": "/advanced/a59-fault-injection-at-scale/"
+    },
+    {
+      "id": "A60",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Observability at Scale: Cardinality, Sampling, Cost",
+      "slug": "a60-observability-at-scale-cardinality-sampling-cost",
+      "series": [],
+      "publishOrder": 260,
+      "status": "draft",
+      "href": "/advanced/a60-observability-at-scale-cardinality-sampling-cost/"
+    },
+    {
+      "id": "A61",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Continuous Profiling and eBPF",
+      "slug": "a61-continuous-profiling-and-ebpf",
+      "series": [],
+      "publishOrder": 261,
+      "status": "draft",
+      "href": "/advanced/a61-continuous-profiling-and-ebpf/"
+    },
+    {
+      "id": "A62",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Concurrency Models: Actors, CSP, Reactive",
+      "slug": "a62-concurrency-models-actors-csp-reactive",
+      "series": [],
+      "publishOrder": 262,
+      "status": "draft",
+      "href": "/advanced/a62-concurrency-models-actors-csp-reactive/"
+    },
+    {
+      "id": "A63",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Zero-Copy and Kernel-Bypass Networking",
+      "slug": "a63-zero-copy-and-kernel-bypass-networking",
+      "series": [],
+      "publishOrder": 263,
+      "status": "draft",
+      "href": "/advanced/a63-zero-copy-and-kernel-bypass-networking/"
+    },
+    {
+      "id": "A64",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Consistent Hashing Variants: Jump, Rendezvous, Maglev",
+      "slug": "a64-consistent-hashing-variants-jump-rendezvous-maglev",
+      "series": [],
+      "publishOrder": 264,
+      "status": "draft",
+      "href": "/advanced/a64-consistent-hashing-variants-jump-rendezvous-maglev/"
+    },
+    {
+      "id": "A65",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "High-Performance Load Balancing: Maglev and Envoy",
+      "slug": "a65-high-performance-load-balancing-maglev-and-envoy",
+      "series": [],
+      "publishOrder": 265,
+      "status": "draft",
+      "href": "/advanced/a65-high-performance-load-balancing-maglev-and-envoy/"
+    },
+    {
+      "id": "A66",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "TCP Congestion Control and BBR for Architects",
+      "slug": "a66-tcp-congestion-control-and-bbr-for-architects",
+      "series": [],
+      "publishOrder": 266,
+      "status": "draft",
+      "href": "/advanced/a66-tcp-congestion-control-and-bbr-for-architects/"
+    },
+    {
+      "id": "A67",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Designing for Ultra-Low Latency: Trading Systems",
+      "slug": "a67-designing-for-ultra-low-latency-trading-systems",
+      "series": [],
+      "publishOrder": 267,
+      "status": "draft",
+      "href": "/advanced/a67-designing-for-ultra-low-latency-trading-systems/"
+    },
+    {
+      "id": "A68",
+      "tier": "advanced",
+      "category": "Resilience and performance",
+      "title": "Memory Management and GC Tuning at Scale",
+      "slug": "a68-memory-management-and-gc-tuning-at-scale",
+      "series": [],
+      "publishOrder": 268,
+      "status": "draft",
+      "href": "/advanced/a68-memory-management-and-gc-tuning-at-scale/"
+    },
+    {
+      "id": "A69",
+      "tier": "advanced",
+      "category": "Data, streaming, and AI systems",
+      "title": "Exactly-Once Semantics in Kafka Transactions",
+      "slug": "a69-exactly-once-semantics-in-kafka-transactions",
+      "series": [],
+      "publishOrder": 269,
+      "status": "draft",
+      "href": "/advanced/a69-exactly-once-semantics-in-kafka-transactions/"
+    },
+    {
+      "id": "A70",
+      "tier": "advanced",
+      "category": "Data, streaming, and AI systems",
+      "title": "Stream Processing State and Checkpointing",
+      "slug": "a70-stream-processing-state-and-checkpointing",
+      "series": [],
+      "publishOrder": 270,
+      "status": "draft",
+      "href": "/advanced/a70-stream-processing-state-and-checkpointing/"
+    },
+    {
+      "id": "A71",
+      "tier": "advanced",
+      "category": "Data, streaming, and AI systems",
+      "title": "Watermarks and Event-Time Processing",
+      "slug": "a71-watermarks-and-event-time-processing",
+      "series": [],
+      "publishOrder": 271,
+      "status": "draft",
+      "href": "/advanced/a71-watermarks-and-event-time-processing/"
+    },
+    {
+      "id": "A72",
+      "tier": "advanced",
+      "category": "Data, streaming, and AI systems",
+      "title": "Real-Time OLAP: Druid, Pinot, ClickHouse",
+      "slug": "a72-real-time-olap-druid-pinot-clickhouse",
+      "series": [],
+      "publishOrder": 272,
+      "status": "draft",
+      "href": "/advanced/a72-real-time-olap-druid-pinot-clickhouse/"
+    },
+    {
+      "id": "A73",
+      "tier": "advanced",
+      "category": "Data, streaming, and AI systems",
+      "title": "Feature Stores and ML Data Pipelines",
+      "slug": "a73-feature-stores-and-ml-data-pipelines",
+      "series": [],
+      "publishOrder": 273,
+      "status": "draft",
+      "href": "/advanced/a73-feature-stores-and-ml-data-pipelines/"
+    },
+    {
+      "id": "A74",
+      "tier": "advanced",
+      "category": "Data, streaming, and AI systems",
+      "title": "Designing ML Serving Infrastructure",
+      "slug": "a74-designing-ml-serving-infrastructure",
+      "series": [],
+      "publishOrder": 274,
+      "status": "draft",
+      "href": "/advanced/a74-designing-ml-serving-infrastructure/"
+    },
+    {
+      "id": "A75",
+      "tier": "advanced",
+      "category": "Data, streaming, and AI systems",
+      "title": "LLM Application Architecture: RAG, Caching, Guardrails",
+      "slug": "a75-llm-application-architecture-rag-caching-guardrails",
+      "series": [],
+      "publishOrder": 275,
+      "status": "draft",
+      "href": "/advanced/a75-llm-application-architecture-rag-caching-guardrails/"
+    },
+    {
+      "id": "A76",
+      "tier": "advanced",
+      "category": "Data, streaming, and AI systems",
+      "title": "Agentic System Architectures",
+      "slug": "a76-agentic-system-architectures",
+      "series": [],
+      "publishOrder": 276,
+      "status": "draft",
+      "href": "/advanced/a76-agentic-system-architectures/"
+    },
+    {
+      "id": "A77",
+      "tier": "advanced",
+      "category": "Data, streaming, and AI systems",
+      "title": "Vector Search at Scale",
+      "slug": "a77-vector-search-at-scale",
+      "series": [],
+      "publishOrder": 277,
+      "status": "draft",
+      "href": "/advanced/a77-vector-search-at-scale/"
+    },
+    {
+      "id": "A78",
+      "tier": "advanced",
+      "category": "Data, streaming, and AI systems",
+      "title": "Data Lineage and Governance Architecture",
+      "slug": "a78-data-lineage-and-governance-architecture",
+      "series": [],
+      "publishOrder": 278,
+      "status": "draft",
+      "href": "/advanced/a78-data-lineage-and-governance-architecture/"
+    },
+    {
+      "id": "A79",
+      "tier": "advanced",
+      "category": "Data, streaming, and AI systems",
+      "title": "Change Data Capture Pipelines at Scale",
+      "slug": "a79-change-data-capture-pipelines-at-scale",
+      "series": [],
+      "publishOrder": 279,
+      "status": "draft",
+      "href": "/advanced/a79-change-data-capture-pipelines-at-scale/"
+    },
+    {
+      "id": "A80",
+      "tier": "advanced",
+      "category": "Data, streaming, and AI systems",
+      "title": "Lakehouse Table Formats: Iceberg, Delta, Hudi",
+      "slug": "a80-lakehouse-table-formats-iceberg-delta-hudi",
+      "series": [],
+      "publishOrder": 280,
+      "status": "draft",
+      "href": "/advanced/a80-lakehouse-table-formats-iceberg-delta-hudi/"
+    },
+    {
+      "id": "A81",
+      "tier": "advanced",
+      "category": "Security and trust",
+      "title": "Zero Trust at Scale",
+      "slug": "a81-zero-trust-at-scale",
+      "series": [],
+      "publishOrder": 281,
+      "status": "draft",
+      "href": "/advanced/a81-zero-trust-at-scale/"
+    },
+    {
+      "id": "A82",
+      "tier": "advanced",
+      "category": "Security and trust",
+      "title": "Confidential Computing and Enclaves",
+      "slug": "a82-confidential-computing-and-enclaves",
+      "series": [],
+      "publishOrder": 282,
+      "status": "draft",
+      "href": "/advanced/a82-confidential-computing-and-enclaves/"
+    },
+    {
+      "id": "A83",
+      "tier": "advanced",
+      "category": "Security and trust",
+      "title": "Key Management and Envelope Encryption",
+      "slug": "a83-key-management-and-envelope-encryption",
+      "series": [],
+      "publishOrder": 283,
+      "status": "draft",
+      "href": "/advanced/a83-key-management-and-envelope-encryption/"
+    },
+    {
+      "id": "A84",
+      "tier": "advanced",
+      "category": "Security and trust",
+      "title": "Supply Chain Security: SBOM and SLSA",
+      "slug": "a84-supply-chain-security-sbom-and-slsa",
+      "series": [],
+      "publishOrder": 284,
+      "status": "draft",
+      "href": "/advanced/a84-supply-chain-security-sbom-and-slsa/"
+    },
+    {
+      "id": "A85",
+      "tier": "advanced",
+      "category": "Security and trust",
+      "title": "Designing Authorization Systems: Zanzibar and ReBAC",
+      "slug": "a85-designing-authorization-systems-zanzibar-and-rebac",
+      "series": [],
+      "publishOrder": 285,
+      "status": "draft",
+      "href": "/advanced/a85-designing-authorization-systems-zanzibar-and-rebac/"
+    },
+    {
+      "id": "A86",
+      "tier": "advanced",
+      "category": "Security and trust",
+      "title": "Fraud Detection Architecture",
+      "slug": "a86-fraud-detection-architecture",
+      "series": [],
+      "publishOrder": 286,
+      "status": "draft",
+      "href": "/advanced/a86-fraud-detection-architecture/"
+    },
+    {
+      "id": "A87",
+      "tier": "advanced",
+      "category": "Security and trust",
+      "title": "Secure Multi-Tenant Isolation: gVisor and Firecracker",
+      "slug": "a87-secure-multi-tenant-isolation-gvisor-and-firecracker",
+      "series": [],
+      "publishOrder": 287,
+      "status": "draft",
+      "href": "/advanced/a87-secure-multi-tenant-isolation-gvisor-and-firecracker/"
+    },
+    {
+      "id": "A88",
+      "tier": "advanced",
+      "category": "Security and trust",
+      "title": "Immutable Ledger and Audit Architectures",
+      "slug": "a88-immutable-ledger-and-audit-architectures",
+      "series": [],
+      "publishOrder": 288,
+      "status": "draft",
+      "href": "/advanced/a88-immutable-ledger-and-audit-architectures/"
+    },
+    {
+      "id": "A89",
+      "tier": "advanced",
+      "category": "Large-scale case studies",
+      "title": "Design a Spanner-Like Database",
+      "slug": "a89-design-a-spanner-like-database",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 289,
+      "status": "draft",
+      "href": "/advanced/a89-design-a-spanner-like-database/"
+    },
+    {
+      "id": "A90",
+      "tier": "advanced",
+      "category": "Large-scale case studies",
+      "title": "Design a Global Payment System",
+      "slug": "a90-design-a-global-payment-system",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 290,
+      "status": "draft",
+      "href": "/advanced/a90-design-a-global-payment-system/"
+    },
+    {
+      "id": "A91",
+      "tier": "advanced",
+      "category": "Large-scale case studies",
+      "title": "Design Uber-Scale Dispatch and Geospatial Systems",
+      "slug": "a91-design-uber-scale-dispatch-and-geospatial-systems",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 291,
+      "status": "draft",
+      "href": "/advanced/a91-design-uber-scale-dispatch-and-geospatial-systems/"
+    },
+    {
+      "id": "A92",
+      "tier": "advanced",
+      "category": "Large-scale case studies",
+      "title": "Design a Distributed Message Queue",
+      "slug": "a92-design-a-distributed-message-queue",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 292,
+      "status": "draft",
+      "href": "/advanced/a92-design-a-distributed-message-queue/"
+    },
+    {
+      "id": "A93",
+      "tier": "advanced",
+      "category": "Large-scale case studies",
+      "title": "Design a Metrics and Monitoring Platform",
+      "slug": "a93-design-a-metrics-and-monitoring-platform",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 293,
+      "status": "draft",
+      "href": "/advanced/a93-design-a-metrics-and-monitoring-platform/"
+    },
+    {
+      "id": "A94",
+      "tier": "advanced",
+      "category": "Large-scale case studies",
+      "title": "Design a Distributed Tracing Backend",
+      "slug": "a94-design-a-distributed-tracing-backend",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 294,
+      "status": "draft",
+      "href": "/advanced/a94-design-a-distributed-tracing-backend/"
+    },
+    {
+      "id": "A95",
+      "tier": "advanced",
+      "category": "Large-scale case studies",
+      "title": "Design a Stock Exchange",
+      "slug": "a95-design-a-stock-exchange",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 295,
+      "status": "draft",
+      "href": "/advanced/a95-design-a-stock-exchange/"
+    },
+    {
+      "id": "A96",
+      "tier": "advanced",
+      "category": "Large-scale case studies",
+      "title": "Design a Real-Time Collaborative Editor",
+      "slug": "a96-design-a-real-time-collaborative-editor",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 296,
+      "status": "draft",
+      "href": "/advanced/a96-design-a-real-time-collaborative-editor/"
+    },
+    {
+      "id": "A97",
+      "tier": "advanced",
+      "category": "Large-scale case studies",
+      "title": "Design a Global Video Streaming CDN",
+      "slug": "a97-design-a-global-video-streaming-cdn",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 297,
+      "status": "draft",
+      "href": "/advanced/a97-design-a-global-video-streaming-cdn/"
+    },
+    {
+      "id": "A98",
+      "tier": "advanced",
+      "category": "Large-scale case studies",
+      "title": "Design a Web Crawler at Scale",
+      "slug": "a98-design-a-web-crawler-at-scale",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 298,
+      "status": "draft",
+      "href": "/advanced/a98-design-a-web-crawler-at-scale/"
+    },
+    {
+      "id": "A99",
+      "tier": "advanced",
+      "category": "Large-scale case studies",
+      "title": "Design a Cluster Scheduler: Borg and Kubernetes",
+      "slug": "a99-design-a-cluster-scheduler-borg-and-kubernetes",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 299,
+      "status": "draft",
+      "href": "/advanced/a99-design-a-cluster-scheduler-borg-and-kubernetes/"
+    },
+    {
+      "id": "A100",
+      "tier": "advanced",
+      "category": "Large-scale case studies",
+      "title": "Design a Multi-Tenant Serverless Platform",
+      "slug": "a100-design-a-multi-tenant-serverless-platform",
+      "series": [
+        "case-studies"
+      ],
+      "publishOrder": 300,
+      "status": "draft",
+      "href": "/advanced/a100-design-a-multi-tenant-serverless-platform/"
+    }
+  ],
+  "series": [
+    {
+      "slug": "caching",
+      "title": "Caching",
+      "description": "From local cache-aside to multi-layer invalidation at scale.",
+      "topicIds": [
+        "B39",
+        "B40",
+        "B41",
+        "B42",
+        "B43",
+        "B44",
+        "B45",
+        "B46",
+        "I59",
+        "I60",
+        "I61",
+        "I62"
+      ]
+    },
+    {
+      "slug": "data-and-replication",
+      "title": "Data & Replication",
+      "description": "Replication fundamentals through CQRS, CDC, and polyglot persistence.",
+      "topicIds": [
+        "B54",
+        "B55",
+        "B56",
+        "B57",
+        "I29",
+        "I30",
+        "I31",
+        "I32",
+        "I33",
+        "I34",
+        "I35",
+        "I36",
+        "I37",
+        "I38",
+        "I39"
+      ]
+    },
+    {
+      "slug": "resilience",
+      "title": "Resilience",
+      "description": "Timeouts and retries through metastable failures and load shedding.",
+      "topicIds": [
+        "B37",
+        "B38",
+        "I17",
+        "I18",
+        "I19",
+        "A49",
+        "A50",
+        "A51",
+        "A52",
+        "A53",
+        "A54",
+        "A55",
+        "A56"
+      ]
+    },
+    {
+      "slug": "messaging",
+      "title": "Messaging",
+      "description": "Queues and pub/sub through Kafka, delivery semantics, and stream processing.",
+      "topicIds": [
+        "B61",
+        "B62",
+        "B63",
+        "B64",
+        "B65",
+        "B66",
+        "B67",
+        "B68",
+        "I49",
+        "I50",
+        "I51",
+        "I52",
+        "I53",
+        "I54",
+        "I55",
+        "I56",
+        "I57",
+        "I58"
+      ]
+    },
+    {
+      "slug": "case-studies",
+      "title": "Case Studies",
+      "description": "Classic design exercises from URL shortener to planet-scale platforms.",
+      "topicIds": [
+        "B100",
+        "I91",
+        "I92",
+        "I93",
+        "I94",
+        "I95",
+        "I96",
+        "I97",
+        "I98",
+        "I99",
+        "I100",
+        "A89",
+        "A90",
+        "A91",
+        "A92",
+        "A93",
+        "A94",
+        "A95",
+        "A96",
+        "A97",
+        "A98",
+        "A99",
+        "A100"
+      ]
+    }
+  ]
+}

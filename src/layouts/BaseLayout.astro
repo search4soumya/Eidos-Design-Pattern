@@ -1,0 +1,51 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Eidos Design Pattern — 300 system design essays from basic to advanced." } = Astro.props;
+const fullTitle = title === "Eidos" ? title : `${title} · Eidos`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+    <title>{fullTitle}</title>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="container site-header__inner">
+          <a class="brand" href={`${import.meta.env.BASE_URL}`}>
+            <span class="brand__title">Eidos</span>
+            <span class="brand__tagline">Design patterns for architects</span>
+          </a>
+          <nav class="nav" aria-label="Primary">
+            <a href={`${import.meta.env.BASE_URL}`} aria-current={Astro.url.pathname === import.meta.env.BASE_URL || Astro.url.pathname === `${import.meta.env.BASE_URL}index.html` ? "page" : undefined}>Home</a>
+            <a href={`${import.meta.env.BASE_URL}basic/`} aria-current={Astro.url.pathname.includes("/basic") ? "page" : undefined}>Basic</a>
+            <a href={`${import.meta.env.BASE_URL}intermediate/`} aria-current={Astro.url.pathname.includes("/intermediate") ? "page" : undefined}>Intermediate</a>
+            <a href={`${import.meta.env.BASE_URL}advanced/`} aria-current={Astro.url.pathname.includes("/advanced") ? "page" : undefined}>Advanced</a>
+            <a href={`${import.meta.env.BASE_URL}#series`}>Series</a>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <slot />
+      </main>
+      <footer class="site-footer">
+        <div class="container">
+          <p>
+            Lead architect portfolio · 300 topics (B / I / A) · Published on GitHub Pages
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

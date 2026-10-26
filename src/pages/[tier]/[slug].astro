@@ -1,0 +1,96 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { catalog, tierLabels, seriesWithTopics, type Tier } from "../../lib/catalog";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("topics");
+  return entries.map((entry) => ({
+    params: { tier: entry.data.tier, slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const meta = catalog.topics.find((t) => t.id === entry.data.id);
+const base = import.meta.env.BASE_URL;
+const tier = entry.data.tier as Tier;
+const tierMeta = tierLabels[tier];
+
+const prev = catalog.topics.find((t) => t.publishOrder === entry.data.publishOrder - 1);
+const next = catalog.topics.find((t) => t.publishOrder === entry.data.publishOrder + 1);
+
+const primarySeries = entry.data.series[0] ? seriesWithTopics(entry.data.series[0]) : null;
+---
+
+<BaseLayout title={entry.data.title} description={`${entry.data.id} · ${tierMeta.label} · ${entry.data.category}`}>
+  <article class="container" style="padding: 2rem 0 3rem;">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href={base}>Home</a> / <a href={`${base}${tier}/`}>{tierMeta.label}</a> / {entry.data.id}
+    </nav>
+
+    <header class="article-header">
+      <div class="article-meta">
+        <span class="chip">{entry.data.id}</span>
+        <span class="chip">{tierMeta.label}</span>
+        <span class="chip">{entry.data.category}</span>
+        <span class="chip">{entry.data.status}</span>
+      </div>
+      <h1>{entry.data.title}</h1>
+      {
+        entry.data.series.length > 0 && (
+          <div class="article-meta">
+            {entry.data.series.map((s) => (
+              <a class="chip" href={`${base}series/${s}/`}>
+                Series: {s}
+              </a>
+            ))}
+          </div>
+        )
+      }
+    </header>
+
+    {
+      primarySeries && (
+        <aside class="series-track" aria-label="Series position">
+          <strong>Part of: {primarySeries.title}</strong>
+          <ol>
+            {primarySeries.topics.map((t) => (
+              <li>
+                {t.id === entry.data.id ? (
+                  <span>{t.id} — {t.title}</span>
+                ) : (
+                  <a href={`${base}${t.tier}/${t.slug}/`}>
+                    {t.id} — {t.title}
+                  </a>
+                )}
+              </li>
+            ))}
+          </ol>
+        </aside>
+      )
+    }
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    <nav class="article-meta" style="margin-top: 3rem; justify-content: space-between; width: 100%;">
+      {
+        prev ? (
+          <a href={`${base}${prev.tier}/${prev.slug}/`}>← {prev.id}</a>
+        ) : (
+          <span />
+        )
+      }
+      {
+        next ? (
+          <a href={`${base}${next.tier}/${next.slug}/`}>{next.id} →</a>
+        ) : (
+          <span />
+        )
+      }
+    </nav>
+  </article>
+</BaseLayout>
