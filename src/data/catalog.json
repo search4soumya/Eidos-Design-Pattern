@@ -8,7 +8,7 @@
       "slug": "b01-what-is-system-design-a-roadmap-for-engineers",
       "series": [],
       "publishOrder": 1,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b01-what-is-system-design-a-roadmap-for-engineers/"
     },
     {
@@ -19,7 +19,7 @@
       "slug": "b02-functional-vs-non-functional-requirements",
       "series": [],
       "publishOrder": 2,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b02-functional-vs-non-functional-requirements/"
     },
     {
@@ -30,7 +30,7 @@
       "slug": "b03-client-server-architecture-explained",
       "series": [],
       "publishOrder": 3,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b03-client-server-architecture-explained/"
     },
     {
@@ -41,7 +41,7 @@
       "slug": "b04-monolithic-architecture-when-it-is-still-the-right-choice",
       "series": [],
       "publishOrder": 4,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b04-monolithic-architecture-when-it-is-still-the-right-choice/"
     },
     {
@@ -52,7 +52,7 @@
       "slug": "b05-layered-n-tier-architecture",
       "series": [],
       "publishOrder": 5,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b05-layered-n-tier-architecture/"
     },
     {
@@ -63,7 +63,7 @@
       "slug": "b06-latency-vs-throughput-vs-bandwidth",
       "series": [],
       "publishOrder": 6,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b06-latency-vs-throughput-vs-bandwidth/"
     },
     {
@@ -74,7 +74,7 @@
       "slug": "b07-vertical-vs-horizontal-scaling",
       "series": [],
       "publishOrder": 7,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b07-vertical-vs-horizontal-scaling/"
     },
     {
@@ -85,7 +85,7 @@
       "slug": "b08-availability-and-the-nines",
       "series": [],
       "publishOrder": 8,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b08-availability-and-the-nines/"
     },
     {
@@ -96,7 +96,7 @@
       "slug": "b09-reliability-vs-resilience-vs-fault-tolerance",
       "series": [],
       "publishOrder": 9,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b09-reliability-vs-resilience-vs-fault-tolerance/"
     },
     {
@@ -107,7 +107,7 @@
       "slug": "b10-back-of-the-envelope-estimation",
       "series": [],
       "publishOrder": 10,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b10-back-of-the-envelope-estimation/"
     },
     {
@@ -118,7 +118,7 @@
       "slug": "b11-cap-theorem-in-plain-english",
       "series": [],
       "publishOrder": 11,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b11-cap-theorem-in-plain-english/"
     },
     {
@@ -129,7 +129,7 @@
       "slug": "b12-strong-vs-eventual-consistency",
       "series": [],
       "publishOrder": 12,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b12-strong-vs-eventual-consistency/"
     },
     {
@@ -140,7 +140,7 @@
       "slug": "b13-how-dns-works",
       "series": [],
       "publishOrder": 13,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b13-how-dns-works/"
     },
     {
@@ -151,7 +151,7 @@
       "slug": "b14-the-http-https-request-lifecycle",
       "series": [],
       "publishOrder": 14,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b14-the-http-https-request-lifecycle/"
     },
     {
@@ -162,7 +162,7 @@
       "slug": "b15-tcp-vs-udp",
       "series": [],
       "publishOrder": 15,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b15-tcp-vs-udp/"
     },
     {
@@ -173,7 +173,7 @@
       "slug": "b16-rest-api-design-basics",
       "series": [],
       "publishOrder": 16,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b16-rest-api-design-basics/"
     },
     {
@@ -184,7 +184,7 @@
       "slug": "b17-api-versioning-strategies",
       "series": [],
       "publishOrder": 17,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b17-api-versioning-strategies/"
     },
     {
@@ -195,7 +195,7 @@
       "slug": "b18-pagination-offset-vs-cursor",
       "series": [],
       "publishOrder": 18,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b18-pagination-offset-vs-cursor/"
     },
     {
@@ -206,7 +206,7 @@
       "slug": "b19-idempotency-in-apis",
       "series": [],
       "publishOrder": 19,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b19-idempotency-in-apis/"
     },
     {
@@ -217,7 +217,7 @@
       "slug": "b20-rate-limiting-basics",
       "series": [],
       "publishOrder": 20,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b20-rate-limiting-basics/"
     },
     {
@@ -228,7 +228,7 @@
       "slug": "b21-authentication-vs-authorization",
       "series": [],
       "publishOrder": 21,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b21-authentication-vs-authorization/"
     },
     {
@@ -239,7 +239,7 @@
       "slug": "b22-sessions-vs-jwt",
       "series": [],
       "publishOrder": 22,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b22-sessions-vs-jwt/"
     },
     {
@@ -250,7 +250,7 @@
       "slug": "b23-oauth-2-0-and-openid-connect-basics",
       "series": [],
       "publishOrder": 23,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b23-oauth-2-0-and-openid-connect-basics/"
     },
     {
@@ -261,7 +261,7 @@
       "slug": "b24-cors-explained",
       "series": [],
       "publishOrder": 24,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b24-cors-explained/"
     },
     {
@@ -272,7 +272,7 @@
       "slug": "b25-polling-long-polling-sse-and-websockets",
       "series": [],
       "publishOrder": 25,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b25-polling-long-polling-sse-and-websockets/"
     },
     {
@@ -283,7 +283,7 @@
       "slug": "b26-rest-vs-graphql-vs-grpc",
       "series": [],
       "publishOrder": 26,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b26-rest-vs-graphql-vs-grpc/"
     },
     {
@@ -294,7 +294,7 @@
       "slug": "b27-webhooks-vs-polling",
       "series": [],
       "publishOrder": 27,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b27-webhooks-vs-polling/"
     },
     {
@@ -305,7 +305,7 @@
       "slug": "b28-api-error-handling-and-status-codes",
       "series": [],
       "publishOrder": 28,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b28-api-error-handling-and-status-codes/"
     },
     {
@@ -316,7 +316,7 @@
       "slug": "b29-load-balancer-basics-l4-vs-l7",
       "series": [],
       "publishOrder": 29,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b29-load-balancer-basics-l4-vs-l7/"
     },
     {
@@ -327,7 +327,7 @@
       "slug": "b30-load-balancing-algorithms",
       "series": [],
       "publishOrder": 30,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b30-load-balancing-algorithms/"
     },
     {
@@ -338,7 +338,7 @@
       "slug": "b31-reverse-proxy-vs-forward-proxy",
       "series": [],
       "publishOrder": 31,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b31-reverse-proxy-vs-forward-proxy/"
     },
     {
@@ -349,7 +349,7 @@
       "slug": "b32-api-gateway-basics",
       "series": [],
       "publishOrder": 32,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b32-api-gateway-basics/"
     },
     {
@@ -360,7 +360,7 @@
       "slug": "b33-cdn-basics",
       "series": [],
       "publishOrder": 33,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b33-cdn-basics/"
     },
     {
@@ -371,7 +371,7 @@
       "slug": "b34-health-checks-and-heartbeats",
       "series": [],
       "publishOrder": 34,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b34-health-checks-and-heartbeats/"
     },
     {
@@ -382,7 +382,7 @@
       "slug": "b35-sticky-sessions-and-session-affinity",
       "series": [],
       "publishOrder": 35,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b35-sticky-sessions-and-session-affinity/"
     },
     {
@@ -393,7 +393,7 @@
       "slug": "b36-service-discovery-basics",
       "series": [],
       "publishOrder": 36,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b36-service-discovery-basics/"
     },
     {
@@ -406,7 +406,7 @@
         "resilience"
       ],
       "publishOrder": 37,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b37-timeouts-why-every-call-needs-one/"
     },
     {
@@ -419,7 +419,7 @@
         "resilience"
       ],
       "publishOrder": 38,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b38-retries-and-exponential-backoff/"
     },
     {
@@ -432,7 +432,7 @@
         "caching"
       ],
       "publishOrder": 39,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b39-caching-101-why-and-where/"
     },
     {
@@ -445,7 +445,7 @@
         "caching"
       ],
       "publishOrder": 40,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b40-cache-aside-pattern/"
     },
     {
@@ -458,7 +458,7 @@
         "caching"
       ],
       "publishOrder": 41,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b41-write-through-vs-write-back-vs-write-around/"
     },
     {
@@ -471,7 +471,7 @@
         "caching"
       ],
       "publishOrder": 42,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b42-cache-eviction-policies-lru-lfu-fifo/"
     },
     {
@@ -484,7 +484,7 @@
         "caching"
       ],
       "publishOrder": 43,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b43-ttl-and-cache-invalidation/"
     },
     {
@@ -497,7 +497,7 @@
         "caching"
       ],
       "publishOrder": 44,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b44-browser-and-http-caching-headers/"
     },
     {
@@ -510,7 +510,7 @@
         "caching"
       ],
       "publishOrder": 45,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b45-redis-vs-memcached/"
     },
     {
@@ -523,7 +523,7 @@
         "caching"
       ],
       "publishOrder": 46,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b46-cache-stampede-thundering-herd-basics/"
     },
     {
@@ -534,7 +534,7 @@
       "slug": "b47-sql-vs-nosql",
       "series": [],
       "publishOrder": 47,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b47-sql-vs-nosql/"
     },
     {
@@ -545,7 +545,7 @@
       "slug": "b48-acid-properties",
       "series": [],
       "publishOrder": 48,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b48-acid-properties/"
     },
     {
@@ -556,7 +556,7 @@
       "slug": "b49-database-indexing-basics",
       "series": [],
       "publishOrder": 49,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b49-database-indexing-basics/"
     },
     {
@@ -567,7 +567,7 @@
       "slug": "b50-normalization-vs-denormalization",
       "series": [],
       "publishOrder": 50,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b50-normalization-vs-denormalization/"
     },
     {
@@ -578,7 +578,7 @@
       "slug": "b51-keys-and-schema-design-basics",
       "series": [],
       "publishOrder": 51,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b51-keys-and-schema-design-basics/"
     },
     {
@@ -589,7 +589,7 @@
       "slug": "b52-transactions-and-isolation-levels-an-introduction",
       "series": [],
       "publishOrder": 52,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b52-transactions-and-isolation-levels-an-introduction/"
     },
     {
@@ -600,7 +600,7 @@
       "slug": "b53-key-value-document-column-and-graph-stores",
       "series": [],
       "publishOrder": 53,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b53-key-value-document-column-and-graph-stores/"
     },
     {
@@ -613,7 +613,7 @@
         "data-and-replication"
       ],
       "publishOrder": 54,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b54-database-replication-basics/"
     },
     {
@@ -626,7 +626,7 @@
         "data-and-replication"
       ],
       "publishOrder": 55,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b55-leader-follower-replication/"
     },
     {
@@ -639,7 +639,7 @@
         "data-and-replication"
       ],
       "publishOrder": 56,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b56-database-sharding-basics/"
     },
     {
@@ -652,7 +652,7 @@
         "data-and-replication"
       ],
       "publishOrder": 57,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b57-choosing-a-shard-key/"
     },
     {
@@ -663,7 +663,7 @@
       "slug": "b58-connection-pooling",
       "series": [],
       "publishOrder": 58,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b58-connection-pooling/"
     },
     {
@@ -674,7 +674,7 @@
       "slug": "b59-database-migrations-done-safely",
       "series": [],
       "publishOrder": 59,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b59-database-migrations-done-safely/"
     },
     {
@@ -685,7 +685,7 @@
       "slug": "b60-backup-and-restore-fundamentals",
       "series": [],
       "publishOrder": 60,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b60-backup-and-restore-fundamentals/"
     },
     {
@@ -698,7 +698,7 @@
         "messaging"
       ],
       "publishOrder": 61,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b61-synchronous-vs-asynchronous-communication/"
     },
     {
@@ -711,7 +711,7 @@
         "messaging"
       ],
       "publishOrder": 62,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b62-message-queues-explained/"
     },
     {
@@ -724,7 +724,7 @@
         "messaging"
       ],
       "publishOrder": 63,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b63-pub-sub-pattern/"
     },
     {
@@ -737,7 +737,7 @@
         "messaging"
       ],
       "publishOrder": 64,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b64-producer-consumer-pattern/"
     },
     {
@@ -750,7 +750,7 @@
         "messaging"
       ],
       "publishOrder": 65,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b65-dead-letter-queues/"
     },
     {
@@ -763,7 +763,7 @@
         "messaging"
       ],
       "publishOrder": 66,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b66-event-driven-architecture-an-introduction/"
     },
     {
@@ -776,7 +776,7 @@
         "messaging"
       ],
       "publishOrder": 67,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b67-background-jobs-and-workers/"
     },
     {
@@ -789,7 +789,7 @@
         "messaging"
       ],
       "publishOrder": 68,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b68-batch-vs-stream-processing/"
     },
     {
@@ -800,7 +800,7 @@
       "slug": "b69-microservices-vs-monolith",
       "series": [],
       "publishOrder": 69,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b69-microservices-vs-monolith/"
     },
     {
@@ -811,7 +811,7 @@
       "slug": "b70-service-oriented-architecture-soa",
       "series": [],
       "publishOrder": 70,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b70-service-oriented-architecture-soa/"
     },
     {
@@ -822,7 +822,7 @@
       "slug": "b71-client-side-vs-server-side-rendering",
       "series": [],
       "publishOrder": 71,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b71-client-side-vs-server-side-rendering/"
     },
     {
@@ -833,7 +833,7 @@
       "slug": "b72-serverless-basics",
       "series": [],
       "publishOrder": 72,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b72-serverless-basics/"
     },
     {
@@ -844,7 +844,7 @@
       "slug": "b73-gang-of-four-patterns-every-architect-should-know",
       "series": [],
       "publishOrder": 73,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b73-gang-of-four-patterns-every-architect-should-know/"
     },
     {
@@ -855,7 +855,7 @@
       "slug": "b74-dependency-injection-and-inversion-of-control",
       "series": [],
       "publishOrder": 74,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b74-dependency-injection-and-inversion-of-control/"
     },
     {
@@ -866,7 +866,7 @@
       "slug": "b75-solid-principles-at-the-architecture-level",
       "series": [],
       "publishOrder": 75,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b75-solid-principles-at-the-architecture-level/"
     },
     {
@@ -877,7 +877,7 @@
       "slug": "b76-separation-of-concerns-and-modularity",
       "series": [],
       "publishOrder": 76,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b76-separation-of-concerns-and-modularity/"
     },
     {
@@ -888,7 +888,7 @@
       "slug": "b77-hexagonal-architecture-ports-and-adapters-an-introduction",
       "series": [],
       "publishOrder": 77,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b77-hexagonal-architecture-ports-and-adapters-an-introduction/"
     },
     {
@@ -899,7 +899,7 @@
       "slug": "b78-mvc-mvp-and-mvvm",
       "series": [],
       "publishOrder": 78,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b78-mvc-mvp-and-mvvm/"
     },
     {
@@ -910,7 +910,7 @@
       "slug": "b79-the-twelve-factor-app",
       "series": [],
       "publishOrder": 79,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b79-the-twelve-factor-app/"
     },
     {
@@ -921,7 +921,7 @@
       "slug": "b80-stateless-vs-stateful-services",
       "series": [],
       "publishOrder": 80,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b80-stateless-vs-stateful-services/"
     },
     {
@@ -932,7 +932,7 @@
       "slug": "b81-block-file-and-object-storage",
       "series": [],
       "publishOrder": 81,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b81-block-file-and-object-storage/"
     },
     {
@@ -943,7 +943,7 @@
       "slug": "b82-blob-storage-and-pre-signed-urls",
       "series": [],
       "publishOrder": 82,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b82-blob-storage-and-pre-signed-urls/"
     },
     {
@@ -954,7 +954,7 @@
       "slug": "b83-serialization-json-protobuf-avro",
       "series": [],
       "publishOrder": 83,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b83-serialization-json-protobuf-avro/"
     },
     {
@@ -965,7 +965,7 @@
       "slug": "b84-compression-basics",
       "series": [],
       "publishOrder": 84,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b84-compression-basics/"
     },
     {
@@ -976,7 +976,7 @@
       "slug": "b85-tls-handshake-explained",
       "series": [],
       "publishOrder": 85,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b85-tls-handshake-explained/"
     },
     {
@@ -987,7 +987,7 @@
       "slug": "b86-owasp-top-10-for-architects",
       "series": [],
       "publishOrder": 86,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b86-owasp-top-10-for-architects/"
     },
     {
@@ -998,7 +998,7 @@
       "slug": "b87-secrets-management-basics",
       "series": [],
       "publishOrder": 87,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b87-secrets-management-basics/"
     },
     {
@@ -1009,7 +1009,7 @@
       "slug": "b88-encryption-at-rest-vs-in-transit",
       "series": [],
       "publishOrder": 88,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b88-encryption-at-rest-vs-in-transit/"
     },
     {
@@ -1020,7 +1020,7 @@
       "slug": "b89-logging-best-practices",
       "series": [],
       "publishOrder": 89,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b89-logging-best-practices/"
     },
     {
@@ -1031,7 +1031,7 @@
       "slug": "b90-metrics-traces-and-logs-the-three-pillars",
       "series": [],
       "publishOrder": 90,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b90-metrics-traces-and-logs-the-three-pillars/"
     },
     {
@@ -1042,7 +1042,7 @@
       "slug": "b91-monitoring-vs-observability",
       "series": [],
       "publishOrder": 91,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b91-monitoring-vs-observability/"
     },
     {
@@ -1053,7 +1053,7 @@
       "slug": "b92-sli-slo-and-sla",
       "series": [],
       "publishOrder": 92,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b92-sli-slo-and-sla/"
     },
     {
@@ -1064,7 +1064,7 @@
       "slug": "b93-ci-cd-pipeline-basics",
       "series": [],
       "publishOrder": 93,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b93-ci-cd-pipeline-basics/"
     },
     {
@@ -1075,7 +1075,7 @@
       "slug": "b94-containers-and-docker-for-architects",
       "series": [],
       "publishOrder": 94,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b94-containers-and-docker-for-architects/"
     },
     {
@@ -1086,7 +1086,7 @@
       "slug": "b95-kubernetes-basics-for-architects",
       "series": [],
       "publishOrder": 95,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b95-kubernetes-basics-for-architects/"
     },
     {
@@ -1097,7 +1097,7 @@
       "slug": "b96-infrastructure-as-code-basics",
       "series": [],
       "publishOrder": 96,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b96-infrastructure-as-code-basics/"
     },
     {
@@ -1108,7 +1108,7 @@
       "slug": "b97-blue-green-and-rolling-deployments",
       "series": [],
       "publishOrder": 97,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b97-blue-green-and-rolling-deployments/"
     },
     {
@@ -1119,7 +1119,7 @@
       "slug": "b98-feature-flags",
       "series": [],
       "publishOrder": 98,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b98-feature-flags/"
     },
     {
@@ -1130,7 +1130,7 @@
       "slug": "b99-cloud-basics-regions-availability-zones-and-failure-domains",
       "series": [],
       "publishOrder": 99,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b99-cloud-basics-regions-availability-zones-and-failure-domains/"
     },
     {
@@ -1143,7 +1143,7 @@
         "case-studies"
       ],
       "publishOrder": 100,
-      "status": "draft",
+      "status": "published",
       "href": "/basic/b100-case-study-designing-a-url-shortener/"
     },
     {

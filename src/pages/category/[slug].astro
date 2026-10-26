@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import TopicList from "../../components/TopicList.astro";
+import { categoriesInOrder, tierLabels, type Tier } from "../../lib/catalog";
+import { baseUrl } from "../../lib/base";
+
+export function getStaticPaths() {
+  return categoriesInOrder().map((category) => ({
+    params: { slug: category.slug },
+    props: { category },
+  }));
+}
+
+const { category } = Astro.props;
+const base = baseUrl;
+const tiers: Tier[] = ["basic", "intermediate", "advanced"];
+---
+
+<BaseLayout title={category.name} description={`${category.name} essays across the Eidos library.`} activeCategory={category.name}>
+  <div class="panel">
+    <p class="eyebrow">Category</p>
+    <h1>{category.name}</h1>
+    <p class="lede">{category.topics.length} essays, grouped in the order they appear in the catalog.</p>
+    {
+      tiers.map((tier) => {
+        const topics = category.topics.filter((topic) => topic.tier === tier);
+        if (topics.length === 0) return null;
+        const meta = tierLabels[tier];
+        return (
+          <section class="category-block">
+            <h2>
+              <a href={`${base}${tier}/`}>{meta.label}</a>
+              <span class="chip">{topics.length}</span>
+            </h2>
+            <TopicList topics={topics} />
+          </section>
+        );
+      })
+    }
+  </div>
+</BaseLayout>

@@ -1,89 +1,66 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { catalog, tierLabels, type Tier } from "../lib/catalog";
-import { baseUrl } from "../lib/base";
-
-const tiers: Tier[] = ["basic", "intermediate", "advanced"];
-const base = baseUrl;
 ---
 
-<BaseLayout title="Eidos" description="Three hundred system design patterns — basic, intermediate, and advanced — for architects and senior engineers.">
-  <section class="hero container">
-    <p class="hero__eyebrow">Lead software architect portfolio</p>
-    <h1>Essential forms of system design</h1>
-    <p class="hero__lead">
-      <strong>Eidos</strong> (εἶδος — “essential form”) is a structured library of 300 essays. Read in tier order from newcomer to expert, or follow a cross-tier series on caching, data, resilience, messaging, or case studies.
-    </p>
-    <div class="hero__stats">
-      <span class="stat-pill"><strong>300</strong> topics</span>
-      <span class="stat-pill"><strong>3</strong> tiers · 100 each</span>
-      <span class="stat-pill"><strong>5</strong> curated series</span>
-      <span class="stat-pill">Target <strong>1,500–2,500</strong> words per post</span>
+<BaseLayout title="Eidos" description="Eidos — essential forms of system design, from foundations to planet-scale patterns.">
+  <section class="hero-stage" aria-label="Eidos">
+    <div class="hero-stage__canvas" aria-hidden="true">
+      <svg class="arch" viewBox="0 0 980 460">
+        <defs>
+          <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#7aa2ff" />
+            <stop offset="100%" stop-color="#6d4dff" />
+          </linearGradient>
+        </defs>
+        <path class="arch__flow" d="M150 90 H300 V210 H460" />
+        <path class="arch__flow arch__flow--slow" d="M150 210 H460" />
+        <path class="arch__flow arch__flow--slow" d="M150 330 H300 V210" />
+        <path class="arch__flow" d="M560 120 H700" />
+        <path class="arch__flow arch__flow--slow" d="M560 250 H700" />
+        <path class="arch__flow" d="M510 160 V360 H700" />
+        <path class="arch__flow arch__flow--slow" d="M800 140 V230" />
+        <g class="arch__node">
+          <rect x="40" y="58" width="110" height="64" rx="14" />
+          <text x="95" y="95">Client</text>
+        </g>
+        <g class="arch__node arch__node--delay">
+          <rect x="40" y="178" width="110" height="64" rx="14" />
+          <text x="95" y="215">Gateway</text>
+        </g>
+        <g class="arch__node">
+          <rect x="40" y="298" width="110" height="64" rx="14" />
+          <text x="95" y="335">Edge</text>
+        </g>
+        <g class="arch__node arch__node--delay">
+          <rect x="460" y="168" width="120" height="84" rx="16" />
+          <text x="520" y="206">Service</text>
+          <text x="520" y="228" class="arch__sub">stateless</text>
+        </g>
+        <g class="arch__node">
+          <rect x="700" y="78" width="120" height="64" rx="14" />
+          <text x="760" y="115">Cache</text>
+        </g>
+        <g class="arch__node arch__node--delay">
+          <rect x="700" y="218" width="120" height="64" rx="14" />
+          <text x="760" y="255">Database</text>
+        </g>
+        <g class="arch__node">
+          <rect x="700" y="338" width="120" height="64" rx="14" />
+          <text x="760" y="375">Queue</text>
+        </g>
+      </svg>
+      <div class="pattern-cycle">
+        <span>Cache-aside</span>
+        <span>Leader–follower</span>
+        <span>Pub / sub</span>
+        <span>Circuit breaker</span>
+        <span>Shard key</span>
+      </div>
     </div>
-  </section>
-
-  <section class="section container" id="tiers">
-    <div class="section__header">
-      <h2>Choose your tier</h2>
-      <p>Each tier builds on the previous one. Categories group related patterns inside each tier.</p>
+    <div class="hero-stage__copy">
+      <p class="eyebrow">Architecture design patterns</p>
+      <h1>Eidos</h1>
+      <p class="lede">Essential forms of system design. Three hundred essays, read by skill tier or by category.</p>
     </div>
-    <div class="tier-grid">
-      {
-        tiers.map((tier) => {
-          const meta = tierLabels[tier];
-          const count = catalog.topics.filter((t) => t.tier === tier).length;
-          return (
-            <a class="tier-card" href={`${base}${tier}/`}>
-              <span class={`tier-card__badge tier-card__badge--${tier}`}>{meta.code} · {meta.label}</span>
-              <h3>{meta.label} track</h3>
-              <p>{meta.blurb}</p>
-              <span class="tier-card__cta">{count} topics →</span>
-            </a>
-          );
-        })
-      }
-    </div>
-  </section>
-
-  <section class="section container" id="series">
-    <div class="section__header">
-      <h2>Cross-tier learning paths</h2>
-      <p>Follow one theme from fundamentals through production-scale patterns.</p>
-    </div>
-    <div class="series-scroll">
-      {
-        catalog.series.map((s) => (
-          <article class="series-card">
-            <h3>{s.title}</h3>
-            <p>{s.description}</p>
-            <p class="series-card__meta">{s.topicIds.length} parts · spans B / I / A</p>
-            <a href={`${base}series/${s.slug}/`}>View series →</a>
-          </article>
-        ))
-      }
-    </div>
-  </section>
-
-  <section class="section container">
-    <div class="section__header">
-      <h2>Start reading</h2>
-      <p>Begin at B01 for the full journey, or jump to a series that matches your current project.</p>
-    </div>
-    <ul class="topic-list">
-      {
-        catalog.topics.slice(0, 8).map((t) => (
-          <li>
-            <span class="topic-list__id">{t.id}</span>
-            <span class="topic-list__title">
-              <a href={`${base}${t.tier}/${t.slug}/`}>{t.title}</a>
-            </span>
-            <span class="topic-list__status">{t.status}</span>
-          </li>
-        ))
-      }
-    </ul>
-    <p style="margin-top: 1rem;">
-      <a href={`${base}basic/`}>Browse all Basic topics →</a>
-    </p>
   </section>
 </BaseLayout>

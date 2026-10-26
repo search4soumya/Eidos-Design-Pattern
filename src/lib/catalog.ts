@@ -55,6 +55,34 @@ export function topicsByCategory(tier: Tier): Map<string, TopicMeta[]> {
   return map;
 }
 
+export function categorySlug(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+export type CategoryGroup = {
+  name: string;
+  slug: string;
+  topics: TopicMeta[];
+};
+
+/** Categories in first-seen catalog order, spanning every tier. */
+export function categoriesInOrder(): CategoryGroup[] {
+  const map = new Map<string, TopicMeta[]>();
+  for (const topic of catalog.topics) {
+    const list = map.get(topic.category) ?? [];
+    list.push(topic);
+    map.set(topic.category, list);
+  }
+  return [...map.entries()].map(([name, topics]) => ({
+    name,
+    slug: categorySlug(name),
+    topics,
+  }));
+}
+
 export function seriesWithTopics(slug: string) {
   const series = catalog.series.find((s) => s.slug === slug);
   if (!series) return null;

@@ -18,14 +18,15 @@ const base = baseUrl;
 ---
 
 <BaseLayout title={`Series: ${data.title}`} description={data.description}>
-  <div class="container" style="padding: 2rem 0 3rem;">
+  <div class="panel">
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href={base}>Home</a> / Series / {data.title}
     </nav>
     <header class="article-header">
+      <p class="eyebrow">Learning path</p>
       <h1>{data.title}</h1>
-      <p style="color: var(--text-muted); max-width: 52ch; margin: 0;">{data.description}</p>
-      <div class="article-meta" style="margin-top: 1rem;">
+      <p class="lede">{data.description}</p>
+      <div class="article-meta">
         <span class="chip">{data.topics.length} articles</span>
         <span class="chip">Read in listed order</span>
       </div>

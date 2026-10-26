@@ -25,8 +25,13 @@ const next = catalog.topics.find((t) => t.publishOrder === entry.data.publishOrd
 const primarySeries = entry.data.series[0] ? seriesWithTopics(entry.data.series[0]) : null;
 ---
 
-<BaseLayout title={entry.data.title} description={`${entry.data.id} · ${tierMeta.label} · ${entry.data.category}`}>
-  <article class="container" style="padding: 2rem 0 3rem;">
+<BaseLayout
+  title={entry.data.title}
+  description={`${entry.data.id} · ${tierMeta.label} · ${entry.data.category}`}
+  activeTier={tier}
+  activeCategory={entry.data.category}
+>
+  <article class="panel essay">
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href={base}>Home</a> / <a href={`${base}${tier}/`}>{tierMeta.label}</a> / {entry.data.id}
     </nav>
@@ -36,7 +41,6 @@ const primarySeries = entry.data.series[0] ? seriesWithTopics(entry.data.series[
         <span class="chip">{entry.data.id}</span>
         <span class="chip">{tierMeta.label}</span>
         <span class="chip">{entry.data.category}</span>
-        <span class="chip">{entry.data.status}</span>
       </div>
       <h1>{entry.data.title}</h1>
       {
@@ -55,20 +59,18 @@ const primarySeries = entry.data.series[0] ? seriesWithTopics(entry.data.series[
     {
       primarySeries && (
         <aside class="series-track" aria-label="Series position">
-          <strong>Part of: {primarySeries.title}</strong>
-          <ol>
-            {primarySeries.topics.map((t) => (
-              <li>
-                {t.id === entry.data.id ? (
-                  <span>{t.id} — {t.title}</span>
-                ) : (
-                  <a href={`${base}${t.tier}/${t.slug}/`}>
-                    {t.id} — {t.title}
-                  </a>
-                )}
-              </li>
-            ))}
-          </ol>
+          <strong>Part of {primarySeries.title}</strong>
+          <div class="series-track__list">
+            {primarySeries.topics.map((t) =>
+              t.id === entry.data.id ? (
+                <span class="chip is-current">{t.id}</span>
+              ) : (
+                <a class="chip" href={`${base}${t.tier}/${t.slug}/`}>
+                  {t.id}
+                </a>
+              ),
+            )}
+          </div>
         </aside>
       )
     }
@@ -81,31 +83,16 @@ const primarySeries = entry.data.series[0] ? seriesWithTopics(entry.data.series[
 
       const nodes = document.querySelectorAll<HTMLElement>(".mermaid");
       if (nodes.length > 0) {
-        const light = window.matchMedia("(prefers-color-scheme: light)").matches;
         mermaid.initialize({
           startOnLoad: false,
           securityLevel: "strict",
-          theme: light ? "neutral" : "dark",
-        });
-        await mermaid.run({ nodes: [...nodes] });
-      }
-    </script>
-    <script>
-      import mermaid from "mermaid";
-
-      const nodes = document.querySelectorAll<HTMLElement>(".mermaid");
-      if (nodes.length > 0) {
-        const light = window.matchMedia("(prefers-color-scheme: light)").matches;
-        mermaid.initialize({
-          startOnLoad: false,
-          securityLevel: "strict",
-          theme: light ? "neutral" : "dark",
+          theme: "neutral",
         });
         await mermaid.run({ nodes: [...nodes] });
       }
     </script>
 
-    <nav class="article-meta" style="margin-top: 3rem; justify-content: space-between; width: 100%;">
+    <nav class="pager">
       {
         prev ? (
           <a href={`${base}${prev.tier}/${prev.slug}/`}>← {prev.id}</a>

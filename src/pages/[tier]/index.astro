@@ -19,16 +19,16 @@ const categories = [...byCategory.entries()];
 const base = baseUrl;
 ---
 
-<BaseLayout title={`${meta.label} (${meta.code})`} description={meta.blurb}>
-  <div class="container" style="padding: 2rem 0 3rem;">
+<BaseLayout title={`${meta.label} (${meta.code})`} description={meta.blurb} activeTier={tier}>
+  <div class="panel">
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href={base}>Home</a> / {meta.label}
     </nav>
     <header class="article-header">
-      <span class={`tier-card__badge tier-card__badge--${tier}`}>{meta.code} · {meta.label}</span>
-      <h1>{meta.label} tier</h1>
-      <p style="color: var(--text-muted); max-width: 52ch; margin: 0;">{meta.blurb}</p>
-      <div class="article-meta" style="margin-top: 1rem;">
+      <p class="eyebrow">Skill Tier</p>
+      <h1>{meta.label}</h1>
+      <p class="lede">{meta.blurb}</p>
+      <div class="article-meta">
         <span class="chip">{catalog.topics.filter((t) => t.tier === tier).length} topics</span>
         <span class="chip">{categories.length} categories</span>
       </div>
@@ -37,7 +37,7 @@ const base = baseUrl;
     {
       categories.map(([category, topics]) => (
         <section class="category-block" id={category.toLowerCase().replace(/\s+/g, "-")}>
-          <h3>{category}</h3>
+          <h2>{category}</h2>
           <TopicList topics={topics} />
         </section>
       ))

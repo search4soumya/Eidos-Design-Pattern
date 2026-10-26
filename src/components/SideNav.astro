@@ -1,0 +1,64 @@
+---
+import { categoriesInOrder, tierLabels, type Tier } from "../lib/catalog";
+import { baseUrl } from "../lib/base";
+
+interface Props {
+  activeTier?: Tier;
+  activeCategory?: string;
+}
+
+const { activeTier, activeCategory } = Astro.props;
+const base = baseUrl;
+const tiers: Tier[] = ["basic", "intermediate", "advanced"];
+const categories = categoriesInOrder();
+
+function tierHref(tier: Tier) {
+  return `${base}${tier}/`;
+}
+
+function isTierActive(tier: Tier) {
+  if (activeTier === tier) return true;
+  return Astro.url.pathname.includes(`/${tier}/`) || Astro.url.pathname.endsWith(`/${tier}`);
+}
+---
+
+<aside class="sidenav" aria-label="Library">
+  <div class="sidenav__group">
+    <p class="sidenav__label">Skill Tier</p>
+    <nav>
+      {
+        tiers.map((tier) => {
+          const meta = tierLabels[tier];
+          const active = isTierActive(tier);
+          return (
+            <a class:list={["sidenav__link", { "is-active": active }]} href={tierHref(tier)} aria-current={active ? "page" : undefined}>
+              <span class={`sidenav__mark sidenav__mark--${tier}`}>{meta.code}</span>
+              {meta.label}
+            </a>
+          );
+        })
+      }
+    </nav>
+  </div>
+
+  <div class="sidenav__group">
+    <p class="sidenav__label">Category</p>
+    <nav>
+      {
+        categories.map((category) => {
+          const active = activeCategory === category.name;
+          return (
+            <a
+              class:list={["sidenav__link", { "is-active": active }]}
+              href={`${base}category/${category.slug}/`}
+              aria-current={active ? "page" : undefined}
+            >
+              <span class="sidenav__count">{category.topics.length}</span>
+              {category.name}
+            </a>
+          );
+        })
+      }
+    </nav>
+  </div>
+</aside>

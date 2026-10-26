@@ -18,7 +18,7 @@ const base = baseUrl;
         <span class="topic-list__title">
           <a href={`${base}${t.tier}/${t.slug}/`}>{t.title}</a>
         </span>
-        <span class="topic-list__status">{t.status}</span>
+        {t.status === "draft" && <span class="topic-list__status">Draft</span>}
       </li>
     ))
   }
