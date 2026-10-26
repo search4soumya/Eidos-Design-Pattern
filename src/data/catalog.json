@@ -1154,7 +1154,7 @@
       "slug": "i01-consistent-hashing",
       "series": [],
       "publishOrder": 101,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i01-consistent-hashing/"
     },
     {
@@ -1165,7 +1165,7 @@
       "slug": "i02-quorum-reads-and-writes",
       "series": [],
       "publishOrder": 102,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i02-quorum-reads-and-writes/"
     },
     {
@@ -1176,7 +1176,7 @@
       "slug": "i03-leader-election",
       "series": [],
       "publishOrder": 103,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i03-leader-election/"
     },
     {
@@ -1187,7 +1187,7 @@
       "slug": "i04-gossip-protocols",
       "series": [],
       "publishOrder": 104,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i04-gossip-protocols/"
     },
     {
@@ -1198,7 +1198,7 @@
       "slug": "i05-vector-clocks-and-logical-time",
       "series": [],
       "publishOrder": 105,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i05-vector-clocks-and-logical-time/"
     },
     {
@@ -1209,7 +1209,7 @@
       "slug": "i06-distributed-locks-redis-vs-zookeeper",
       "series": [],
       "publishOrder": 106,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i06-distributed-locks-redis-vs-zookeeper/"
     },
     {
@@ -1220,7 +1220,7 @@
       "slug": "i07-two-phase-commit-vs-saga",
       "series": [],
       "publishOrder": 107,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i07-two-phase-commit-vs-saga/"
     },
     {
@@ -1231,7 +1231,7 @@
       "slug": "i08-saga-pattern-orchestration-vs-choreography",
       "series": [],
       "publishOrder": 108,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i08-saga-pattern-orchestration-vs-choreography/"
     },
     {
@@ -1242,7 +1242,7 @@
       "slug": "i09-idempotent-consumers-and-the-exactly-once-myth",
       "series": [],
       "publishOrder": 109,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i09-idempotent-consumers-and-the-exactly-once-myth/"
     },
     {
@@ -1253,7 +1253,7 @@
       "slug": "i10-bloom-filters",
       "series": [],
       "publishOrder": 110,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i10-bloom-filters/"
     },
     {
@@ -1264,7 +1264,7 @@
       "slug": "i11-failure-detection-in-distributed-systems",
       "series": [],
       "publishOrder": 111,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i11-failure-detection-in-distributed-systems/"
     },
     {
@@ -1275,7 +1275,7 @@
       "slug": "i12-pacelc-theorem-beyond-cap",
       "series": [],
       "publishOrder": 112,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i12-pacelc-theorem-beyond-cap/"
     },
     {
@@ -1286,7 +1286,7 @@
       "slug": "i13-database-per-service",
       "series": [],
       "publishOrder": 113,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i13-database-per-service/"
     },
     {
@@ -1297,7 +1297,7 @@
       "slug": "i14-api-gateway-vs-backend-for-frontend-bff",
       "series": [],
       "publishOrder": 114,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i14-api-gateway-vs-backend-for-frontend-bff/"
     },
     {
@@ -1308,7 +1308,7 @@
       "slug": "i15-service-mesh-istio-and-linkerd",
       "series": [],
       "publishOrder": 115,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i15-service-mesh-istio-and-linkerd/"
     },
     {
@@ -1319,7 +1319,7 @@
       "slug": "i16-sidecar-pattern",
       "series": [],
       "publishOrder": 116,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i16-sidecar-pattern/"
     },
     {
@@ -1332,7 +1332,7 @@
         "resilience"
       ],
       "publishOrder": 117,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i17-circuit-breaker/"
     },
     {
@@ -1345,7 +1345,7 @@
         "resilience"
       ],
       "publishOrder": 118,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i18-bulkhead-pattern/"
     },
     {
@@ -1358,7 +1358,7 @@
         "resilience"
       ],
       "publishOrder": 119,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i19-the-resilience-stack-retry-timeout-fallback/"
     },
     {
@@ -1369,7 +1369,7 @@
       "slug": "i20-strangler-fig-pattern",
       "series": [],
       "publishOrder": 120,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i20-strangler-fig-pattern/"
     },
     {
@@ -1380,7 +1380,7 @@
       "slug": "i21-anti-corruption-layer",
       "series": [],
       "publishOrder": 121,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i21-anti-corruption-layer/"
     },
     {
@@ -1391,7 +1391,7 @@
       "slug": "i22-domain-driven-design-bounded-contexts",
       "series": [],
       "publishOrder": 122,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i22-domain-driven-design-bounded-contexts/"
     },
     {
@@ -1402,7 +1402,7 @@
       "slug": "i23-aggregates-and-entities-in-ddd",
       "series": [],
       "publishOrder": 123,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i23-aggregates-and-entities-in-ddd/"
     },
     {
@@ -1413,7 +1413,7 @@
       "slug": "i24-event-storming-workshops",
       "series": [],
       "publishOrder": 124,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i24-event-storming-workshops/"
     },
     {
@@ -1424,7 +1424,7 @@
       "slug": "i25-microservice-decomposition-strategies",
       "series": [],
       "publishOrder": 125,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i25-microservice-decomposition-strategies/"
     },
     {
@@ -1435,7 +1435,7 @@
       "slug": "i26-sync-vs-async-inter-service-communication-trade-offs",
       "series": [],
       "publishOrder": 126,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i26-sync-vs-async-inter-service-communication-trade-offs/"
     },
     {
@@ -1446,7 +1446,7 @@
       "slug": "i27-the-distributed-monolith-anti-pattern",
       "series": [],
       "publishOrder": 127,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i27-the-distributed-monolith-anti-pattern/"
     },
     {
@@ -1457,7 +1457,7 @@
       "slug": "i28-shared-libraries-vs-shared-services",
       "series": [],
       "publishOrder": 128,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i28-shared-libraries-vs-shared-services/"
     },
     {
@@ -1470,7 +1470,7 @@
         "data-and-replication"
       ],
       "publishOrder": 129,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i29-cqrs/"
     },
     {
@@ -1483,7 +1483,7 @@
         "data-and-replication"
       ],
       "publishOrder": 130,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i30-event-sourcing/"
     },
     {
@@ -1496,7 +1496,7 @@
         "data-and-replication"
       ],
       "publishOrder": 131,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i31-transactional-outbox-pattern/"
     },
     {
@@ -1509,7 +1509,7 @@
         "data-and-replication"
       ],
       "publishOrder": 132,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i32-change-data-capture-with-debezium/"
     },
     {
@@ -1522,7 +1522,7 @@
         "data-and-replication"
       ],
       "publishOrder": 133,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i33-materialized-views/"
     },
     {
@@ -1535,7 +1535,7 @@
         "data-and-replication"
       ],
       "publishOrder": 134,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i34-read-replicas-and-replication-lag/"
     },
     {
@@ -1548,7 +1548,7 @@
         "data-and-replication"
       ],
       "publishOrder": 135,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i35-multi-leader-replication-and-conflict-resolution/"
     },
     {
@@ -1561,7 +1561,7 @@
         "data-and-replication"
       ],
       "publishOrder": 136,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i36-sharding-strategies-range-hash-directory/"
     },
     {
@@ -1574,7 +1574,7 @@
         "data-and-replication"
       ],
       "publishOrder": 137,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i37-resharding-without-downtime/"
     },
     {
@@ -1587,7 +1587,7 @@
         "data-and-replication"
       ],
       "publishOrder": 138,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i38-hot-keys-and-hot-partitions/"
     },
     {
@@ -1600,7 +1600,7 @@
         "data-and-replication"
       ],
       "publishOrder": 139,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i39-polyglot-persistence/"
     },
     {
@@ -1611,7 +1611,7 @@
       "slug": "i40-time-series-databases",
       "series": [],
       "publishOrder": 140,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i40-time-series-databases/"
     },
     {
@@ -1622,7 +1622,7 @@
       "slug": "i41-search-systems-inverted-index-and-elasticsearch",
       "series": [],
       "publishOrder": 141,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i41-search-systems-inverted-index-and-elasticsearch/"
     },
     {
@@ -1633,7 +1633,7 @@
       "slug": "i42-graph-databases-in-practice",
       "series": [],
       "publishOrder": 142,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i42-graph-databases-in-practice/"
     },
     {
@@ -1644,7 +1644,7 @@
       "slug": "i43-data-lakes-vs-warehouses-vs-lakehouses",
       "series": [],
       "publishOrder": 143,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i43-data-lakes-vs-warehouses-vs-lakehouses/"
     },
     {
@@ -1655,7 +1655,7 @@
       "slug": "i44-isolation-levels-in-depth-mvcc",
       "series": [],
       "publishOrder": 144,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i44-isolation-levels-in-depth-mvcc/"
     },
     {
@@ -1666,7 +1666,7 @@
       "slug": "i45-optimistic-vs-pessimistic-locking",
       "series": [],
       "publishOrder": 145,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i45-optimistic-vs-pessimistic-locking/"
     },
     {
@@ -1677,7 +1677,7 @@
       "slug": "i46-schema-evolution-and-backward-compatibility",
       "series": [],
       "publishOrder": 146,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i46-schema-evolution-and-backward-compatibility/"
     },
     {
@@ -1688,7 +1688,7 @@
       "slug": "i47-zero-downtime-migrations-expand-and-contract",
       "series": [],
       "publishOrder": 147,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i47-zero-downtime-migrations-expand-and-contract/"
     },
     {
@@ -1699,7 +1699,7 @@
       "slug": "i48-soft-deletes-tombstones-and-retention",
       "series": [],
       "publishOrder": 148,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i48-soft-deletes-tombstones-and-retention/"
     },
     {
@@ -1712,7 +1712,7 @@
         "messaging"
       ],
       "publishOrder": 149,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i49-kafka-architecture/"
     },
     {
@@ -1725,7 +1725,7 @@
         "messaging"
       ],
       "publishOrder": 150,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i50-partitioning-and-ordering-in-kafka/"
     },
     {
@@ -1738,7 +1738,7 @@
         "messaging"
       ],
       "publishOrder": 151,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i51-consumer-groups-and-rebalancing/"
     },
     {
@@ -1751,7 +1751,7 @@
         "messaging"
       ],
       "publishOrder": 152,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i52-rabbitmq-vs-kafka-vs-sqs/"
     },
     {
@@ -1764,7 +1764,7 @@
         "messaging"
       ],
       "publishOrder": 153,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i53-delivery-semantics-at-least-once-at-most-once-exactly-once/"
     },
     {
@@ -1777,7 +1777,7 @@
         "messaging"
       ],
       "publishOrder": 154,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i54-backpressure/"
     },
     {
@@ -1790,7 +1790,7 @@
         "messaging"
       ],
       "publishOrder": 155,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i55-stream-processing-with-flink-and-kafka-streams/"
     },
     {
@@ -1803,7 +1803,7 @@
         "messaging"
       ],
       "publishOrder": 156,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i56-lambda-vs-kappa-architecture/"
     },
     {
@@ -1816,7 +1816,7 @@
         "messaging"
       ],
       "publishOrder": 157,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i57-schema-registries-and-event-contracts/"
     },
     {
@@ -1829,7 +1829,7 @@
         "messaging"
       ],
       "publishOrder": 158,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i58-priority-queues-and-delayed-messages/"
     },
     {
@@ -1842,7 +1842,7 @@
         "caching"
       ],
       "publishOrder": 159,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i59-distributed-caching-patterns/"
     },
     {
@@ -1855,7 +1855,7 @@
         "caching"
       ],
       "publishOrder": 160,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i60-cache-invalidation-strategies-at-scale/"
     },
     {
@@ -1868,7 +1868,7 @@
         "caching"
       ],
       "publishOrder": 161,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i61-multi-layer-caching-cdn-app-database/"
     },
     {
@@ -1881,7 +1881,7 @@
         "caching"
       ],
       "publishOrder": 162,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i62-request-coalescing/"
     },
     {
@@ -1892,7 +1892,7 @@
       "slug": "i63-connection-management-and-keep-alive",
       "series": [],
       "publishOrder": 163,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i63-connection-management-and-keep-alive/"
     },
     {
@@ -1903,7 +1903,7 @@
       "slug": "i64-http-2-and-http-3-quic",
       "series": [],
       "publishOrder": 164,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i64-http-2-and-http-3-quic/"
     },
     {
@@ -1914,7 +1914,7 @@
       "slug": "i65-performance-profiling-and-bottleneck-hunting",
       "series": [],
       "publishOrder": 165,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i65-performance-profiling-and-bottleneck-hunting/"
     },
     {
@@ -1925,7 +1925,7 @@
       "slug": "i66-load-testing-and-capacity-planning",
       "series": [],
       "publishOrder": 166,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i66-load-testing-and-capacity-planning/"
     },
     {
@@ -1936,7 +1936,7 @@
       "slug": "i67-autoscaling-strategies",
       "series": [],
       "publishOrder": 167,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i67-autoscaling-strategies/"
     },
     {
@@ -1947,7 +1947,7 @@
       "slug": "i68-queue-based-load-leveling",
       "series": [],
       "publishOrder": 168,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i68-queue-based-load-leveling/"
     },
     {
@@ -1958,7 +1958,7 @@
       "slug": "i69-chaos-engineering",
       "series": [],
       "publishOrder": 169,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i69-chaos-engineering/"
     },
     {
@@ -1969,7 +1969,7 @@
       "slug": "i70-disaster-recovery-rpo-rto-and-strategies",
       "series": [],
       "publishOrder": 170,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i70-disaster-recovery-rpo-rto-and-strategies/"
     },
     {
@@ -1980,7 +1980,7 @@
       "slug": "i71-multi-az-vs-multi-region-deployment",
       "series": [],
       "publishOrder": 171,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i71-multi-az-vs-multi-region-deployment/"
     },
     {
@@ -1991,7 +1991,7 @@
       "slug": "i72-graceful-degradation",
       "series": [],
       "publishOrder": 172,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i72-graceful-degradation/"
     },
     {
@@ -2002,7 +2002,7 @@
       "slug": "i73-canary-releases-and-progressive-delivery",
       "series": [],
       "publishOrder": 173,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i73-canary-releases-and-progressive-delivery/"
     },
     {
@@ -2013,7 +2013,7 @@
       "slug": "i74-distributed-tracing-with-opentelemetry",
       "series": [],
       "publishOrder": 174,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i74-distributed-tracing-with-opentelemetry/"
     },
     {
@@ -2024,7 +2024,7 @@
       "slug": "i75-alerting-without-fatigue-slo-based-alerts",
       "series": [],
       "publishOrder": 175,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i75-alerting-without-fatigue-slo-based-alerts/"
     },
     {
@@ -2035,7 +2035,7 @@
       "slug": "i76-error-budgets",
       "series": [],
       "publishOrder": 176,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i76-error-budgets/"
     },
     {
@@ -2046,7 +2046,7 @@
       "slug": "i77-incident-management-and-blameless-postmortems",
       "series": [],
       "publishOrder": 177,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i77-incident-management-and-blameless-postmortems/"
     },
     {
@@ -2057,7 +2057,7 @@
       "slug": "i78-gitops",
       "series": [],
       "publishOrder": 178,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i78-gitops/"
     },
     {
@@ -2068,7 +2068,7 @@
       "slug": "i79-kubernetes-deployment-patterns",
       "series": [],
       "publishOrder": 179,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i79-kubernetes-deployment-patterns/"
     },
     {
@@ -2079,7 +2079,7 @@
       "slug": "i80-config-and-secrets-management-at-scale",
       "series": [],
       "publishOrder": 180,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i80-config-and-secrets-management-at-scale/"
     },
     {
@@ -2090,7 +2090,7 @@
       "slug": "i81-zero-trust-architecture",
       "series": [],
       "publishOrder": 181,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i81-zero-trust-architecture/"
     },
     {
@@ -2101,7 +2101,7 @@
       "slug": "i82-mtls-and-service-identity",
       "series": [],
       "publishOrder": 182,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i82-mtls-and-service-identity/"
     },
     {
@@ -2112,7 +2112,7 @@
       "slug": "i83-api-security-oauth-scopes-and-token-introspection",
       "series": [],
       "publishOrder": 183,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i83-api-security-oauth-scopes-and-token-introspection/"
     },
     {
@@ -2123,7 +2123,7 @@
       "slug": "i84-multi-tenancy-models",
       "series": [],
       "publishOrder": 184,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i84-multi-tenancy-models/"
     },
     {
@@ -2134,7 +2134,7 @@
       "slug": "i85-rate-limiting-algorithms-token-bucket-leaky-bucket-sliding-window",
       "series": [],
       "publishOrder": 185,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i85-rate-limiting-algorithms-token-bucket-leaky-bucket-sliding-window/"
     },
     {
@@ -2145,7 +2145,7 @@
       "slug": "i86-api-design-for-evolvability",
       "series": [],
       "publishOrder": 186,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i86-api-design-for-evolvability/"
     },
     {
@@ -2156,7 +2156,7 @@
       "slug": "i87-graphql-federation",
       "series": [],
       "publishOrder": 187,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i87-graphql-federation/"
     },
     {
@@ -2167,7 +2167,7 @@
       "slug": "i88-designing-reliable-webhooks",
       "series": [],
       "publishOrder": 188,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i88-designing-reliable-webhooks/"
     },
     {
@@ -2178,7 +2178,7 @@
       "slug": "i89-idempotency-keys-in-payments",
       "series": [],
       "publishOrder": 189,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i89-idempotency-keys-in-payments/"
     },
     {
@@ -2189,7 +2189,7 @@
       "slug": "i90-audit-logging-architecture",
       "series": [],
       "publishOrder": 190,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i90-audit-logging-architecture/"
     },
     {
@@ -2202,7 +2202,7 @@
         "case-studies"
       ],
       "publishOrder": 191,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i91-design-a-rate-limiter/"
     },
     {
@@ -2215,7 +2215,7 @@
         "case-studies"
       ],
       "publishOrder": 192,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i92-design-a-notification-system/"
     },
     {
@@ -2228,7 +2228,7 @@
         "case-studies"
       ],
       "publishOrder": 193,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i93-design-a-news-feed/"
     },
     {
@@ -2241,7 +2241,7 @@
         "case-studies"
       ],
       "publishOrder": 194,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i94-design-a-chat-system/"
     },
     {
@@ -2254,7 +2254,7 @@
         "case-studies"
       ],
       "publishOrder": 195,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i95-design-a-distributed-cache/"
     },
     {
@@ -2267,7 +2267,7 @@
         "case-studies"
       ],
       "publishOrder": 196,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i96-design-a-job-scheduler/"
     },
     {
@@ -2280,7 +2280,7 @@
         "case-studies"
       ],
       "publishOrder": 197,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i97-design-a-file-storage-service-dropbox-style/"
     },
     {
@@ -2293,7 +2293,7 @@
         "case-studies"
       ],
       "publishOrder": 198,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i98-design-search-autocomplete/"
     },
     {
@@ -2306,7 +2306,7 @@
         "case-studies"
       ],
       "publishOrder": 199,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i99-design-a-video-streaming-service/"
     },
     {
@@ -2319,7 +2319,7 @@
         "case-studies"
       ],
       "publishOrder": 200,
-      "status": "draft",
+      "status": "published",
       "href": "/intermediate/i100-design-an-e-commerce-checkout-and-inventory-system/"
     },
     {

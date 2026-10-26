@@ -2,6 +2,7 @@
 import { getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { catalog, tierLabels, seriesWithTopics, type Tier } from "../../lib/catalog";
+import { baseUrl } from "../../lib/base";
 
 export async function getStaticPaths() {
   const entries = await getCollection("topics");
@@ -14,7 +15,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const meta = catalog.topics.find((t) => t.id === entry.data.id);
-const base = import.meta.env.BASE_URL;
+const base = baseUrl;
 const tier = entry.data.tier as Tier;
 const tierMeta = tierLabels[tier];
 
@@ -75,6 +76,34 @@ const primarySeries = entry.data.series[0] ? seriesWithTopics(entry.data.series[
     <div class="prose">
       <Content />
     </div>
+    <script>
+      import mermaid from "mermaid";
+
+      const nodes = document.querySelectorAll<HTMLElement>(".mermaid");
+      if (nodes.length > 0) {
+        const light = window.matchMedia("(prefers-color-scheme: light)").matches;
+        mermaid.initialize({
+          startOnLoad: false,
+          securityLevel: "strict",
+          theme: light ? "neutral" : "dark",
+        });
+        await mermaid.run({ nodes: [...nodes] });
+      }
+    </script>
+    <script>
+      import mermaid from "mermaid";
+
+      const nodes = document.querySelectorAll<HTMLElement>(".mermaid");
+      if (nodes.length > 0) {
+        const light = window.matchMedia("(prefers-color-scheme: light)").matches;
+        mermaid.initialize({
+          startOnLoad: false,
+          securityLevel: "strict",
+          theme: light ? "neutral" : "dark",
+        });
+        await mermaid.run({ nodes: [...nodes] });
+      }
+    </script>
 
     <nav class="article-meta" style="margin-top: 3rem; justify-content: space-between; width: 100%;">
       {

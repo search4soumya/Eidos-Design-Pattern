@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import TopicList from "../../components/TopicList.astro";
 import { catalog, tierLabels, topicsByCategory, type Tier } from "../../lib/catalog";
+import { baseUrl } from "../../lib/base";
 
 export function getStaticPaths() {
   return (["basic", "intermediate", "advanced"] as Tier[]).map((tier) => ({ params: { tier } }));
@@ -9,13 +10,13 @@ export function getStaticPaths() {
 
 const tier = Astro.params.tier as Tier;
 if (!tierLabels[tier]) {
-  return Astro.redirect(`${import.meta.env.BASE_URL}`);
+  return Astro.redirect(baseUrl);
 }
 
 const meta = tierLabels[tier];
 const byCategory = topicsByCategory(tier);
 const categories = [...byCategory.entries()];
-const base = import.meta.env.BASE_URL;
+const base = baseUrl;
 ---
 
 <BaseLayout title={`${meta.label} (${meta.code})`} description={meta.blurb}>

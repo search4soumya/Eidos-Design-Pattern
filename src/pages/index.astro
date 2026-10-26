@@ -1,9 +1,10 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { catalog, tierLabels, type Tier } from "../lib/catalog";
+import { baseUrl } from "../lib/base";
 
 const tiers: Tier[] = ["basic", "intermediate", "advanced"];
-const base = import.meta.env.BASE_URL;
+const base = baseUrl;
 ---
 
 <BaseLayout title="Eidos" description="Three hundred system design patterns — basic, intermediate, and advanced — for architects and senior engineers.">

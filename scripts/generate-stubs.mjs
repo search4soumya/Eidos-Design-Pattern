@@ -29,6 +29,13 @@ if (sorted.length !== 300) {
   console.warn(`Expected 300 topics, found ${sorted.length}`);
 }
 
+function statusFromMdx(tier, slug) {
+  const filePath = path.join(contentDir, tier, `${slug}.mdx`);
+  if (!fs.existsSync(filePath)) return "draft";
+  const match = fs.readFileSync(filePath, "utf8").match(/^status:\s*(\w+)/m);
+  return match?.[1] === "published" ? "published" : "draft";
+}
+
 const catalog = sorted.map((t, index) => {
   const slug = topicSlug(t.id, t.title);
   const series = seriesByTopicId.get(t.id) ?? [];
@@ -40,7 +47,7 @@ const catalog = sorted.map((t, index) => {
     slug,
     series,
     publishOrder: index + 1,
-    status: "draft",
+    status: statusFromMdx(t.tier, slug),
     href: `/${t.tier}/${slug}/`,
   };
 });
