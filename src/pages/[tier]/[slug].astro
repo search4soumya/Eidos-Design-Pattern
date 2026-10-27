@@ -81,15 +81,30 @@ const primarySeries = entry.data.series[0] ? seriesWithTopics(entry.data.series[
     <script>
       import mermaid from "mermaid";
 
-      const nodes = document.querySelectorAll<HTMLElement>(".mermaid");
-      if (nodes.length > 0) {
+      const nodes = [...document.querySelectorAll<HTMLElement>(".mermaid")];
+      for (const node of nodes) {
+        if (!node.dataset.source) node.dataset.source = node.textContent ?? "";
+      }
+
+      async function renderDiagrams() {
+        if (nodes.length === 0) return;
+        const dark = document.documentElement.dataset.theme === "midnight";
         mermaid.initialize({
           startOnLoad: false,
           securityLevel: "strict",
-          theme: "neutral",
+          theme: dark ? "dark" : "neutral",
         });
-        await mermaid.run({ nodes: [...nodes] });
+        for (const node of nodes) {
+          node.removeAttribute("data-processed");
+          node.textContent = node.dataset.source ?? "";
+        }
+        await mermaid.run({ nodes });
       }
+
+      await renderDiagrams();
+      document.addEventListener("eidos-theme", () => {
+        void renderDiagrams();
+      });
     </script>
 
     <nav class="pager">

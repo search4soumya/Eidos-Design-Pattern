@@ -38,6 +38,14 @@ const pills = [
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script is:inline>
+      (function () {
+        var allowed = ["blueprint", "midnight", "paper", "forest"];
+        var saved = localStorage.getItem("eidos-theme");
+        var theme = allowed.indexOf(saved) >= 0 ? saved : "blueprint";
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
@@ -55,6 +63,15 @@ const pills = [
             <a href={`${base}about/`} aria-current={path.includes("/about") ? "page" : undefined}>About me</a>
             <a href={`${base}#contact`}>Contact</a>
           </nav>
+          <label class="theme-picker">
+            Theme
+            <select id="theme-select" aria-label="Theme">
+              <option value="blueprint">Blueprint</option>
+              <option value="midnight">Midnight</option>
+              <option value="paper">Paper</option>
+              <option value="forest">Forest</option>
+            </select>
+          </label>
         </div>
       </header>
 
@@ -110,3 +127,17 @@ const pills = [
     </div>
   </body>
 </html>
+
+<script>
+  const themeSelect = document.querySelector<HTMLSelectElement>("#theme-select");
+  const allowed = ["blueprint", "midnight", "paper", "forest"];
+  if (themeSelect) {
+    const current = document.documentElement.dataset.theme;
+    themeSelect.value = current && allowed.includes(current) ? current : "blueprint";
+    themeSelect.addEventListener("change", () => {
+      document.documentElement.dataset.theme = themeSelect.value;
+      localStorage.setItem("eidos-theme", themeSelect.value);
+      document.dispatchEvent(new CustomEvent("eidos-theme"));
+    });
+  }
+</script>
