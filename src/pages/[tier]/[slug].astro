@@ -88,7 +88,7 @@ const primarySeries = entry.data.series[0] ? seriesWithTopics(entry.data.series[
 
       async function renderDiagrams() {
         if (nodes.length === 0) return;
-        const dark = document.documentElement.dataset.theme === "midnight";
+        const dark = document.documentElement.dataset.theme === "midnight" || document.documentElement.dataset.theme === "emerald";
         mermaid.initialize({
           startOnLoad: false,
           securityLevel: "strict",

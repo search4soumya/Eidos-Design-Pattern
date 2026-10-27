@@ -1,13 +1,51 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { baseUrl } from "../lib/base";
+
+const base = baseUrl;
 ---
 
-<BaseLayout title="About me" description="Soumya Ranjan Panda, software architect.">
-  <div class="panel">
-    <p class="eyebrow">About me</p>
-    <h1>Soumya Ranjan Panda</h1>
-    <p class="lede">
-      Software architect. Eidos is my library of system design essays, from foundations through production-scale patterns.
-    </p>
-  </div>
+<BaseLayout
+  title="About me"
+  description="Soumya Ranjan Panda, software architect. Notes on distributed systems, Kubernetes, and software architecture."
+>
+  <section class="about-hero panel">
+    <div class="about-hero__copy">
+      <p class="about-tagline">Software Architect</p>
+      <h1>Soumya Ranjan <span>Panda</span></h1>
+      <p class="lede">
+        Crafting scalable distributed systems and elegant software architectures. Passionate about building resilient microservices, orchestrating containers, and designing patterns that stand the test of time.
+      </p>
+      <div class="about-cta">
+        <a class="about-btn about-btn--primary" href={base}>
+          Explore my work
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+        <a class="about-btn about-btn--secondary" href="#contact">Get in touch</a>
+      </div>
+    </div>
+    <div class="about-hero__visual">
+      <div class="profile-photo-container">
+        <div class="profile-photo-ring" aria-hidden="true"></div>
+        <div class="profile-photo-ring profile-photo-ring-2" aria-hidden="true"></div>
+        <img class="profile-photo" src={`${base}portrait.jpg`} width="260" height="260" alt="Soumya Ranjan Panda" />
+      </div>
+    </div>
+  </section>
+
+  <section class="about-block panel" id="who-i-am">
+    <p class="eyebrow">Who I am</p>
+    <h2>About me</h2>
+    <div class="about-text">
+      <p>
+        With over a decade of experience in software engineering, I specialize in designing and implementing large-scale distributed systems that power enterprise applications. My journey has taken me through the evolution of software architecture, from monolithic applications to microservices, from bare-metal servers to cloud-native Kubernetes deployments.
+      </p>
+      <p>
+        I believe that great architecture is not just about technology choices, but about understanding business domains, anticipating change, and creating systems that are as elegant as they are robust. Every pattern I implement, every service I design, is crafted with maintainability, scalability, and developer experience in mind.
+      </p>
+      <p>
+        When I'm not architecting systems, I share my knowledge through technical writing and mentoring. This space is my digital garden, a collection of insights, patterns, and lessons learned from years of building software that matters.
+      </p>
+    </div>
+  </section>
 </BaseLayout>

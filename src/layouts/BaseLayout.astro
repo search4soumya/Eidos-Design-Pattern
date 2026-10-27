@@ -40,7 +40,7 @@ const pills = [
     <meta charset="UTF-8" />
     <script is:inline>
       (function () {
-        var allowed = ["blueprint", "midnight", "paper", "forest"];
+        var allowed = ["blueprint", "midnight", "paper", "forest", "emerald"];
         var saved = localStorage.getItem("eidos-theme");
         var theme = allowed.indexOf(saved) >= 0 ? saved : "blueprint";
         document.documentElement.setAttribute("data-theme", theme);
@@ -48,6 +48,12 @@ const pills = [
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=Playfair+Display:wght@600;700&family=Source+Code+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
     <title>{fullTitle}</title>
   </head>
@@ -56,7 +62,7 @@ const pills = [
       <header class="topbar">
         <div class="topbar__inner">
           <a class="brand" href={base}>
-            <span class="brand__mark" aria-hidden="true">E</span>
+            <img class="brand__photo" src={`${base}portrait.jpg`} width="32" height="32" alt="" />
             <span class="brand__title">Eidos</span>
           </a>
           <nav class="topnav" aria-label="Primary">
@@ -70,6 +76,7 @@ const pills = [
               <option value="midnight">Midnight</option>
               <option value="paper">Paper</option>
               <option value="forest">Forest</option>
+              <option value="emerald">Emerald</option>
             </select>
           </label>
         </div>
@@ -130,7 +137,7 @@ const pills = [
 
 <script>
   const themeSelect = document.querySelector<HTMLSelectElement>("#theme-select");
-  const allowed = ["blueprint", "midnight", "paper", "forest"];
+  const allowed = ["blueprint", "midnight", "paper", "forest", "emerald"];
   if (themeSelect) {
     const current = document.documentElement.dataset.theme;
     themeSelect.value = current && allowed.includes(current) ? current : "blueprint";
