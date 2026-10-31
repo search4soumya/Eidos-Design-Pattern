@@ -40,6 +40,8 @@ html[data-theme="blueprint"] {
   --node-stroke: #d5def0;
   --radius: 16px;
   --font: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --content-font: "Cavolini", cursive;
+  --section-topic: #2f6bff;
   --mono: "Cascadia Code", "SF Mono", Consolas, monospace;
   --sidenav: 272px;
 }
@@ -83,6 +85,7 @@ html[data-theme="midnight"] {
   --hero-a: rgba(142, 182, 255, 0.16);
   --hero-b: rgba(196, 181, 253, 0.14);
   --node-stroke: #3a4d6b;
+  --section-topic: #ffffff;
 }
 
 html[data-theme="paper"] {
@@ -124,6 +127,7 @@ html[data-theme="paper"] {
   --hero-a: rgba(196, 106, 50, 0.12);
   --hero-b: rgba(138, 61, 47, 0.1);
   --node-stroke: #e4d5c3;
+  --section-topic: #7a4a1e;
 }
 
 html[data-theme="forest"] {
@@ -165,6 +169,7 @@ html[data-theme="forest"] {
   --hero-a: rgba(31, 122, 77, 0.1);
   --hero-b: rgba(15, 107, 98, 0.1);
   --node-stroke: #d5e4dc;
+  --section-topic: #1f7a4d;
 }
 
 html[data-theme="emerald"] {
@@ -206,6 +211,7 @@ html[data-theme="emerald"] {
   --hero-a: rgba(16, 185, 129, 0.15);
   --hero-b: rgba(245, 158, 11, 0.1);
   --node-stroke: rgba(16, 185, 129, 0.35);
+  --section-topic: #22c55e;
   --font: "Crimson Pro", Georgia, "Times New Roman", serif;
   --mono: "Source Code Pro", Consolas, monospace;
 }
@@ -851,7 +857,8 @@ a.chip {
 
 .toc__link {
   display: inline-block;
-  color: var(--navy);
+  color: var(--section-topic);
+  font-family: var(--content-font);
   font-size: 0.92rem;
   font-weight: 600;
   line-height: 1.35;
@@ -859,18 +866,22 @@ a.chip {
 }
 
 .toc__link:hover {
-  color: var(--blue);
+  filter: brightness(1.12);
   text-decoration: underline;
 }
 
 .toc__link--sub {
-  font-size: 0.86rem;
-  font-weight: 500;
-  color: var(--text-muted);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--section-topic);
 }
 
 .toc__link--sub:hover {
-  color: var(--navy);
+  filter: brightness(1.12);
+}
+
+.workspace__main :is(.prose, .toc, .about-text) {
+  font-family: var(--content-font);
 }
 
 .essay .prose {
@@ -888,15 +899,25 @@ a.chip {
 .prose h2 {
   margin: 1.6rem 0 0.6rem;
   font-size: 1.35rem;
+  color: var(--section-topic);
 }
 
 .prose h3 {
   margin: 1.2rem 0 0.4rem;
   font-size: 1.08rem;
+  color: var(--section-topic);
+}
+
+html[data-theme="emerald"] .workspace__main .prose :is(h2, h3) {
+  font-family: var(--content-font);
 }
 
 .prose p {
   margin: 0.7rem 0;
+}
+
+.prose :is(code, pre, kbd) {
+  font-family: var(--mono);
 }
 
 .prose .mermaid {
