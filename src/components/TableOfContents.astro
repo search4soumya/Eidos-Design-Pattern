@@ -1,0 +1,39 @@
+---
+import type { MarkdownHeading } from "astro";
+import { buildToc } from "../lib/toc";
+
+interface Props {
+  headings: MarkdownHeading[];
+}
+
+const { headings } = Astro.props;
+const sections = buildToc(headings);
+---
+
+{
+  sections.length > 0 && (
+    <nav class="toc" aria-label="On this page">
+      <p class="toc__title">On this page</p>
+      <ol class="toc__list">
+        {sections.map((section) => (
+          <li class="toc__item">
+            <a class="toc__link" href={`#${section.slug}`}>
+              {section.text}
+            </a>
+            {section.children.length > 0 && (
+              <ol class="toc__sublist">
+                {section.children.map((child) => (
+                  <li class="toc__item">
+                    <a class="toc__link toc__link--sub" href={`#${child.slug}`}>
+                      {child.text}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
+  )
+}
